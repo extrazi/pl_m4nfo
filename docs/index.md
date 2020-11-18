@@ -1,158 +1,197 @@
-<!--{{pl/Development/NewGRF/inne strony| pl = pl/m4nfo/Extrazi/database |en=ttdpatch.de/grfspecs/m4nfoManual/menu }}--><!--
---><!--{{other languages | pl = User:Extrazi/database  }}--><!--
---><!----><!--{{-}}--><!----><!--<H2>--><!--<div style="text-align:center; font-size:1.5em; font-weight:bold; background-color: #E7EBFF"> <small>-->[http://docs.openttd.org/source/index.html docs.openttd.org/source]<!--</small> </div>--><!--<H2></H2>-->
-<!--== ==-->
-: <p></p>
-<!-- ---- -->
-<!--<div style="text-align:--><!--center--><!--; font-size:1.2em; background-color: #E7EBFF; border: 1px solid #c7c8fe">'''.GRF'''</div>-->
-<!--== .GRF ==-->
-** [[database/formatGRF | Format pliku GRF ]]
-** [[database/GRFcodec | GRFcodec ]] 
-** <span title=R&D> [http://www.ttdpatch.de/grfspecs/ grfspecs ] </span>
-=== .NFX - Kodowanie m4NFO <span title="przewinięcie na spód strony">[[database#spod|<small><sub>▼</sub></small>]]</span> ===
-#     [[database/m4NFOmanual  | '''m4NFO Manual''' ]]
-<!-- . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . -->
-##    [[database/installation |  '''Instalacja''' ]]
-###   [[database/basic        | Basic software ]]
-###   [[database/download     |  Pobieranie ]]
-###   [[database/instal |   Instalowanie ]] 
-###   -
-<!-- . . . . . . . . . . . . . . . . . instruktaż . . . . . . . . . . . . . . . . . -->
-##    [[database/instrukcja | '''Instruktaż obsługi''' ]]  
-###   [[database/basiConcepts | Koncepcje ]]  
-####  [[database/basiConcepts#grf-files | Pliki GRF ]] 
-####  [[database/basiConcepts#newgrf-files | pliki newGRF ]] 
-####  [[database/basiConcepts#m4nfo-language-structure | Struktura języka ]] 
-####  [[database/basiConcepts#features | Cechy ]] 
-####  [[database/basiConcepts#structuring | Strukturyzacja plików źródłowych ]] 
-###   Słownictwo i notacja
-####  [[database/dataTypes | Typy danych ]] 
-####  [[database/functionBlocks |  Bloki funkcyjne ]] 
-####  Pojęcie grafiki
-##### [[database/realSprites | Real sprites ]] 
-##### {{#ifexist: database/recolourSprites | [[database/recolourSprites | Recolour sprites ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/RecolourSprites.html Recolour sprites] }}
-##### {{#ifexist: database/spriteGrouping/Pl | [[database/spriteGrouping  | Sprite grouping ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/SpriteGrouping.html Sprite grouping] }}
-##### {{#ifexist: database/spriteLayout | [[database/spriteLayout | Sprite layout ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/SpriteLayout.html Sprite layout] }}
-####  [[database/conceptFunctions | Pojęcie funkcji ]] 
-##### [[database/conceptFunctions#propertyfunctions | Funkcje właściwości ]] 
-##### [[database/conceptFunctions#layoutfunctions | Funkcje układu ]] 
-##### [[database/conceptFunctions#performancefunctions | Funkcje wydajności ]] 
-##### [[database/conceptFunctions#auxiliaryfunctions | Funkcje pomocnicze ]] 
-##### [[database/conceptFunctions#globalfunctions |Funkcje globalne ]] <!-- [http://www.ttdpatch.de/grfspecs/m4nfoManual/ConceptFunctions.html#GlobalFunctions Global functions] -->
-##### Funkcje ogólne
-<!-- . . . . . . . . . . . . . . . . . Ogólne  . . . . . . . . . . . . . . . . . -->
-##    '''Ogólnie''' 
-###   [[database/initialisation | newGRF initialisation ]] <!-- [http://www.ttdpatch.de/grfspecs/m4nfoManual/Initialisation.html newGRF initialisation] --> 
-###   [[database/flowOfControl | <span title="Flow of control">Przepływ sterowania</span> & <br /> obsługa parametrów ]]  
-###   {{#ifexist: database/errorHandling | [[database/errorHandling | Error handling ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/ErrorHandling.html Error handling] }}
-###   [[database/handlingCallbacks | Obsługa callbacks ]] 
-###   [[database/textHandling | Obsługa tekstu ]] 
-###   [[database/soundHandling | Obsługa dźwięku ]] 
-###   {{#ifexist: database/recolouringFunctions | [[database/recolouringFunctions | Recolouring ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/RecolouringFunctions.html Recolouring]  }}
-###   {{#ifexist: database/templating | [[database/templating | Templating ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/Templating.html Templating] }}
-###   [[database/globalFunctions | Funkcje globalne ]] 
-###   [[database/generalFunctions | Funkcje ogólne ]] 
-###   [[database/auxFunctions | Funkcje pomocnicze ]]  
-###   [[database/m4nfoInternalFunctions | Funkcje <span title=internal >'wewnętrzne'</span> m4nfo ]]  
-###   {{#ifexist: database/m4nfoInternalErrors | [[database/m4nfoInternalErrors | m4nfo internal error messages ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/m4nfoInternalErrors.html m4nfo internal error messages] }} 
-<!-- . . . . . . . . . . . . . . . . . . Koleje . . . . . . . . . . . . . . . . -->
-##    {{#ifexist: database/trains | [[database/trains | '''Trains''' ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/Trains.html '''Trains''' ] }}
-###   {{#ifexist: database/trainProperties | [[database/trainProperties | Train properties ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/TrainProperties.html Train properties ] }}
-####  {{#ifexist: database/priceCost | [[database/priceCost | New price and cost scheme ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/PriceCost.html New price and cost scheme ] }} 
-###   {{#ifexist: database/trainFunctions | [[database/trainFunctions | Train functions ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/TrainFunctions.html Train functions ] }}
-###   {{#ifexist: database/trainCallbacks | [[database/trainCallbacks | Train callbacks ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/TrainCallbacks.html Train callbacks ] }} 
-<!-- . . . . . . . . . . . . . . . . . . Pojazdy drogowe . . . . . . . . . . . . . . . . -->
-##    [http://www.ttdpatch.de/grfspecs/m4nfoManual/rvs.html '''Road vehicles''' ] 
-###   [http://www.ttdpatch.de/grfspecs/m4nfoManual/rvsProperties.html Road vehicle properties ] 
-###   [http://www.ttdpatch.de/grfspecs/m4nfoManual/rvsFunctions.html Road vehicle functions ] 
-###   [http://www.ttdpatch.de/grfspecs/m4nfoManual/rvsCallbacks.html Road vehicle callbacks ] 
-<!-- . . . . . . . . . . . . . . . . . . Statki  . . . . . . . . . . . . . . . . -->
-##    {{#ifexist: database/ships | [[database/ships | '''Ships''' ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/Ships.html '''Ships''' ] }}
-###   {{#ifexist: database/shipProperties | [[database/shipProperties | Ship properties ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipProperties.html Ship properties ] }} 
-###   {{#ifexist: database/shipFunctions| [[database/shipFunctions | Ship functions ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipFunctions.html Ship functions ] }} 
-###   {{#ifexist: database/shipCallbacks/Pl | [[database/shipCallbacks | Ship callbacks ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipCallbacks.html Ship callbacks ] }} 
-<!-- . . . . . . . . . . . . . . . . . . Stacje  . . . . . . . . . . . . . . . . -->
-##    [[database/stations | '''Stacje''' ]]
-###   [[database/stationProperties | Właściwości stacji ]] 
-###   [[database/stationFunctions | Funkcje stacji ]]
-###   [[database/stationCallbacks | Callbacks stacji ]]  
-<!-- . . . . . . . . . . . . . . . . . Kanały . . . . . . . . . . . . . . . . . -->
-##    {{#ifexist: database/canalsl | [[database/canals | '''Canals/rivers''' ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/Canals.html '''Canals/rivers''' ] }}
-###   {{#ifexist: database/canalProperties | [[database/canalProperties | Canal/river properties ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/CanalProperties.html Canal/river properties ] }}
-###   {{#ifexist: database/canalFunctions | [[database/canalFunctions | Canal/river functions ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/CanalFunctions.html Canal/river functions ] }} 
-<!-- . . . . . . . . . . . . . . . . . Mosty . . . . . . . . . . . . . . . . . -->
-##    {{#ifexist: database/bridges | [[database/bridges | '''Bridges''' ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/Bridges.html '''Bridges''' ] }}
-###   {{#ifexist: database/bridgeProperties | [[database/bridgeProperties | '''Bridges''' ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/BridgeProperties.html Bridge properties ] }}
-###   {{#ifexist: database/bridgeFunctions | [[database/bridgeFunctions | Bridge functions ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/BridgeFunctions.html Bridge functions ] }} 
-<!-- . . . . . . . . . . . . . . . . . Domy . . . . . . . . . . . . . . . . . -->
-##    {{#ifexist: database/houses | [[database/houses | '''Houses''' ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/Houses.html '''Houses''' ] }}
-###   {{#ifexist: database/houseProperties | [[database/houseProperties | House properties ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/HouseProperties.html House properties ] }}
-###   {{#ifexist: database/houseFunctions | [[database/houseFunctions | House functions ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/HouseFunctions.html House functions ] }}
-###   {{#ifexist: database/houseCallbacks | [[database/houseCallbacks | House callbacks ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/HouseCallbacks.html House callbacks ] }} 
-<!-- . . . . . . . . . . . . . . . . . . kafle btanży . . . . . . . . . . . . . . . . -->
-##    {{#ifexist: database/industrytiles | [[database/industrytiles | '''Industry tiles''' ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/Industrytiles.html '''Industry tiles''' ] }}
-###   {{#ifexist: database/industrytileProperties | [[database/industrytileProperties | Industry tile properties ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustrytileProperties.html Industry tile properties ] }}
-###   {{#ifexist: database/idustrytileFunctions | [[database/idustrytileFunctions | Industry tile functions ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustrytileFunctions.html Industry tile functions ] }}
-###   {{#ifexist: database/industrytileCallbacks | [[database/industrytileCallbacks | Industry tile callbacks ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustrytileCallbacks.html Industry tile callbacks ] }} 
-<!-- . . . . . . . . . . . . . . . . . branże . . . . . . . . . . . . . . . . . -->
-##    {{#ifexist: database/industries | [[database/industries | '''Industries''' ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/Industries.html '''Industries''' ] }}
-###   {{#ifexist: database/industryProperties | [[database/industryProperties | Industry properties ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustryProperties.html Industry properties ] }}
-###   {{#ifexist: database/industryFunctions | [[database/industryFunctions | Industry functions ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustryFunctions.html Industry functions ] }}
-###   {{#ifexist: database/industryCallbacks | [[database/industryCallbacks | Industry callbacks ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustryCallbacks.html Industry callbacks ] }}
-###   {{#ifexist: database/industryTypes | [[database/industryTypes | Industry types ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustryTypes.html Industry types ] }} 
-<!-- . . . . . . . . . . . . . . . . . Ładunki. . . . . . . . . . . . . . . . . -->
-##    {{#ifexist: database/cargoes/Pl | [[database/cargoes | '''Cargoes''' ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/Cargoes.html '''Cargoes''' ] }}
-###   {{#ifexist: database/cargoProperties | [[database/cargoProperties | Cargo properties ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/CargoProperties.html Cargo properties ] }}
-###   {{#ifexist: database/cargoFunctions | [[database/cargoFunctions | Cargo functions ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/CargoFunctions.html Cargo functions ] }}
-###   {{#ifexist: database/cargoCallbacks | [[database/cargoCallbacks | Cargo callbacks ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/CargoCallbacks.html Cargo callbacks ] }}
-###   {{#ifexist: database/cargoTypes | [[database/cargoTypes | Cargo types/classes ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/CargoTypes.html Cargo types/classes ] }} 
-<!-- . . . . . . . . . . . . . . . . . Obiekty . . . . . . . . . . . . . . . . . -->
-##    {{#ifexist: database/objects | [[database/objects | '''Objects''' ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/Objects.html '''Objects''' ] }}
-###   {{#ifexist: database/objectProperties | [[database/objectProperties | Object properties ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/ObjectProperties.html Object properties ] }}
-###   {{#ifexist: database/objectFunctions | [[database/objectFunctions | Object functions ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/ObjectFunctions.html Object functions ] }}
-###   {{#ifexist: database/objectCallbacks | [[database/objectCallbacks | Object callbacks ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/ObjectCallbacks.html Object callbacks ] }} 
-<!-- . . . . . . . . . . . . . . . . . Typy kolei. . . . . . . . . . . . . . . . . -->
-##    [[database/railTypes | '''Railtypes''' ]]
-###   {{#ifexist: database/railTypeProperties | [[database/railTypeProperties | Railtype properties ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/RailtypeProperties.html Railtype properties] }}
-###   [[database/railTypeFunctions | Railtype functions ]]
-###   {{#ifexist: database/railTypeScheme | [[database/railTypeScheme | Standardized railtype scheme ]] |  [http://www.ttdpatch.de/grfspecs/m4nfoManual/RailtypeScheme.html Standardized railtype scheme] }} 
-<!-- . . . . . . . . . . . . . . . . Miejscowości . . . . . . . . . . . . . . . . . . -->
-##    {{#ifexist: database/towns | [[database/towns | '''Towns''' ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/Towns.html '''Towns'''] }}
-###   {{#ifexist: database/townFunctions | [[database/townFunctions | Town functions ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/TownFunctions.html Town functions] }}
-<!-- . . . . . . . . . . . . . . . . Indeks . . . . . . . . . . . . . . . . . . -->
-##    '''Index'''
-###   [[database/indexGeneral | Ogólne ]] 
-###   {{#ifexist: database/indexTrains | [[database/indexTrains | Trains ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexTrains.html Trains ] }}
-###   [http://www.ttdpatch.de/grfspecs/m4nfoManual/Indexrvs.html Road vehicles ] 
-###   {{#ifexist: database/indexShips | [[database/indexShips | Ships ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexShips.html Ships ] }}
-###   [[database/indexStations | Stacje ]] 
-###   {{#ifexist: database/indexHouses | [[database/indexHouses | Houses ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexHouses.html Houses ] }}
-###   {{#ifexist: database/indexCanals | [[database/indexCanals | Canals/rivers ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexCanals.html Canals/rivers ] }}
-###   {{#ifexist: user:extrazi/database/indexObjects | [[database/indexObjects | Objects ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexObjects.html Objects ] }}
-###   {{#ifexist: database/indexIndustryTiles | [[database/indexIndustryTiles | Industry tiles ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexIndustrytiles.html Industry tiles ] }}
-###   {{#ifexist: database/indexIndustries | [[database/indexIndustries | Industries ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexIndustries.html Industries ] }}
-###   {{#ifexist: database/indexCargoes | [[database/indexCargoes | Cargoes ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexCargoes.html Cargoes ] }}
-###   [[database/indexRailTypes | Typy <span title=Rail>torów</span> ]]<!-- [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexRailtypes.html Rail types ]-->
-###   {{#ifexist: database/indexTowns | [[database/indexTowns | Towns ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexTowns.html Towns ] }} <br><!--
---><!--#:-->     __________________________________________________<!--__________-->
-##<!--***--->    '''Raport techniczny'''
-###   [[database/tR general | Ogólny ]] 
-###   {{#ifexist: database/tR_trains | [[database/tR trains | Trains ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_trains.html Trains] }}
-###   [http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_rvs.html Road vehicles] 
-###   {{#ifexist: database/tR_ships | [[database/tR ships | Ships ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_ships.html Ships] }}
-###   [[database/tR stations | Stacje ]]
-###   {{#ifexist: database/tR_objects | [[database/tR objects | Objects ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_objects.html Objects] }}
-###   {{#ifexist: database/tR_cargoes | [[database/tR cargoes | Cargoes ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_cargoes.html Cargoes] }} <br><!--
---><!--<hr>--><!--#:--> __________________________________________________<!--__________-->
-##***    '''Tutorial'''
-###   [http://www.ttdpatch.de/grfspecs/m4nfoManual/BridgeTut.html Bridge tutorial]
-###   [[database/callbacksTut |  Callback tutorial ]]
-###   [[database/infoVersion32Tut | Kompilowanie newgrfs z 32 bpp i/lub dodatkowym zoomem ]] 
-###   [http://www.ttdpatch.de/grfspecs/m4nfoManual/stackTut.html Composing vehicles from multiple sprites ] 
-###   [[database/animObjectsTut | Animacja obiektu ]]
-###   [http://www.ttdpatch.de/grfspecs/m4nfoManual/ParamTut.html Parameter usage ] 
-###   [[database/stationsTut | Tutorial stacji ]]
-###   [http://www.ttdpatch.de/grfspecs/m4nfoManual/ASLTut.html Using advanced sprite layouts ] 
+## Witamy w GitHub Pages
 
-<span id='spod' title="przewinięcie na top strony" style=float:right>[[database#top|<big>▲</big>]]</span> <!--<font color=white> ♪ 	 ♫ </font>-->
+Możesz użyć [edytora na GitHub](https://github.com/extrazi/pl_m4nfo/edit/gh-pages/index.md) , aby utrzymywać i przeglądać zawartość swojej witryny w plikach Markdown.
+
+Za każdym razem, gdy zdecydujesz się na to repozytorium, GitHub Pages będzie uruchamiać [Jekyll](https://jekyllrb.com/) , aby odbudować strony w Twojej witrynie na podstawie zawartości plików Markdown.
+
+### Markdown
+
+Markdown to lekka i łatwa w użyciu składnia do stylizacji pisania. Zawiera konwencje dla
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+Aby uzyskać więcej informacji, zobacz [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Twoja witryna Pages będzie używać układu i stylów z motywu Jekyll, który wybrałeś w [ustawieniach repozytorium] (https://github.com/extrazi/pl_m4nfo/settings). Nazwa tego motywu jest zapisywana w pliku konfiguracyjnym Jekyll `_config.yml` .
+
+### Wsparcie lub Kontakt
+
+Masz problem ze stronami? Sprawdź naszą [dokumentację](https://docs.github.com/categories/github-pages-basics/) lub [kontakt z pomocą techniczną](https://github.com/contact), a pomożemy Ci to uporządkować na zewnątrz .
+
+---
+I. : database
+--- 
+
+[docs.openttd.org/source](http://docs.openttd.org/source/index.html)
+
+: 
+
+## .GRF 
+**[Format pliku GRF ](database/formatGRF)**
+**[GRFcodec ]](database/GRFcodec)**
+**[grfspecs](http://www.ttdpatch.de/grfspecs/ )**
+### .NFX - Kodowanie m4NFO <span title="przewinięcie na spód strony">[<small><sub>▼</sub></small>](index#spod)</span> ===
+A.		[**m4NFO Manual** ](database/m4NFOmanual 
+<!-- . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . -->
+ I.		[**Instalacja**](database/installation)
+   1.	[Basic software](database/basic)
+   2.	[Pobieranie](database/download)
+   3.	[Instalowanie](database/instal) 
+   4.	-
+<!-- . . . . . . . . . . . . . . . . . instruktaż . . . . . . . . . . . . . . . . . -->
+ II.	[**Instruktaż obsługi**](database/instrukcja)
+   1.	[Koncepcje](database/basiConcepts ) 
+	1.	[Pliki GRF](database/basiConcepts#grf-files) 
+	2.	[pliki newGRF](database/basiConcepts#newgrf-files)
+	3.	[Struktura języka]](database/basiConcepts#m4nfo-language-structure) 
+	4.	[Cechy](database/basiConcepts#features) 
+	5.	[Strukturyzacja plików źródłowych](database/basiConcepts#structuring) 
+  2.	Słownictwo i notacja
+	1.	[Typy danych](database/dataTypes) 
+	2.	[Bloki funkcyjne](database/functionBlocks) 
+	3.	Pojęcie grafiki
+	 1.	[Real sprites](database/realSprites) 
+	 2.	[Recolour sprites](http://www.ttdpatch.de/grfspecs/m4nfoManual/RecolourSprites.html) 
+	 3.	[Sprite grouping](http://www.ttdpatch.de/grfspecs/m4nfoManual/SpriteGrouping.html)
+	 4.	[Sprite layout](http://www.ttdpatch.de/grfspecs/m4nfoManual/SpriteLayout.html) 
+	4.	[Pojęcie funkcji](database/conceptFunctions) 
+	 1.	[Funkcje właściwości](database/conceptFunctions#propertyfunctions) 
+	 2.	[Funkcje układu](database/conceptFunctions#layoutfunctions) 
+	 3.	[Funkcje wydajności](database/conceptFunctions#performancefunctions) 
+	 4.	[Funkcje pomocnicze](database/conceptFunctions#auxiliaryfunctions) 
+	 5.	[Funkcje globalne](database/conceptFunctions#globalfunctions) 
+	 6.	Funkcje ogólne
+<!-- . . . . . . . . . . . . . . . . . Ogólne  . . . . . . . . . . . . . . . . . -->
+ III.	**Ogólnie** 
+	1.	[newGRF initialisation](database/initialisation)  
+	2.	[<span title="Flow of control">Przepływ sterowania</span> & <br /> obsługa parametrów](database/flowOfControl)  
+	3.	[Error handling](http://www.ttdpatch.de/grfspecs/m4nfoManual/ErrorHandling.html) 
+	4.	[[database/handlingCallbacks | Obsługa callbacks ]] 
+	5.	[[database/textHandling | Obsługa tekstu ]] 
+	6.	[[database/soundHandling | Obsługa dźwięku ]] 
+	7.	{{#ifexist: database/recolouringFunctions | [[database/recolouringFunctions | Recolouring ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/RecolouringFunctions.html Recolouring]  }}
+	8.	{{#ifexist: database/templating | [[database/templating | Templating ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/Templating.html Templating] }}
+	9.	[[database/globalFunctions | Funkcje globalne ]] 
+	10.	[[database/generalFunctions | Funkcje ogólne ]] 
+	11.	[[database/auxFunctions | Funkcje pomocnicze ]]  
+	12.	[[database/m4nfoInternalFunctions | Funkcje <span title=internal >'wewnętrzne'</span> m4nfo ]]  
+	13.	{{#ifexist: database/m4nfoInternalErrors | [[database/m4nfoInternalErrors | m4nfo internal error messages ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/m4nfoInternalErrors.html m4nfo internal error messages] }} 
+<!-- . . . . . . . . . . . . . . . . . . Koleje . . . . . . . . . . . . . . . . -->
+ IV.	[**Trains**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Trains.html) 
+	1.	[Train properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/TrainProperties.html) 
+	 1.	[New price and cost scheme](http://www.ttdpatch.de/grfspecs/m4nfoManual/PriceCost.html) 
+	 2.	[Train functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/TrainFunctions.html) 
+	 3.	[Train callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/TrainCallbacks.html)  
+<!-- . . . . . . . . . . . . . . . . . . Pojazdy drogowe . . . . . . . . . . . . . . . . -->
+ V.		[**Road vehicles**](http://www.ttdpatch.de/grfspecs/m4nfoManual/rvs.html) 
+	1.	[Road vehicle properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/rvsProperties.html) 
+	2.	[Road vehicle functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/rvsFunctions.html) 
+	3.	[Road vehicle callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/rvsCallbacks.html) 
+<!-- . . . . . . . . . . . . . . . . . . Statki  . . . . . . . . . . . . . . . . -->
+ VI.   [**Ships](http://www.ttdpatch.de/grfspecs/m4nfoManual/Ships.html) 
+	1.	[Ship properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipProperties.html)  
+	2.	[Ship functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipFunctions.html) 
+	3.	[Ship callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipCallbacks.html) 
+<!-- . . . . . . . . . . . . . . . . . . Stacje  . . . . . . . . . . . . . . . . -->
+ VII. 	[**Stacje**](database/stations) 
+	1.	[Właściwości stacji](database/stationProperties) 
+	2.	[Funkcje stacji](database/stationFunctions)
+	3.	[Callbacks stacji](database/stationCallbacks)  
+<!-- . . . . . . . . . . . . . . . . . Kanały . . . . . . . . . . . . . . . . . -->
+ VIII.	[**Canals/rivers**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Canals.html)
+	 1.	[Canal/river properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/CanalProperties.html) 
+	 2.	[Canal/river functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/CanalFunctions.html)  
+<!-- . . . . . . . . . . . . . . . . . Mosty . . . . . . . . . . . . . . . . . -->
+ IX.	[**Bridges**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Bridges.html) 
+	1.	[Bridge properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/BridgeProperties.html) 
+	2.	[Bridge functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/BridgeFunctions.html)  
+<!-- . . . . . . . . . . . . . . . . . Domy . . . . . . . . . . . . . . . . . -->
+ X.		[**Houses**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Houses.html) 
+	1.	[House properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/HouseProperties.html) 
+	2.	[House functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/HouseFunctions.html) 
+	3.	[House callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/HouseCallbacks.html)  
+<!-- . . . . . . . . . . . . . . . . . . kafle btanży . . . . . . . . . . . . . . . . -->
+ XI.	[**Industry tiles**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Industrytiles.html) 
+	1.	[Industry tile properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustrytileProperties.html) 
+	2.	[Industry tile functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustrytileFunctions.html) 
+	3.	[Industry tile callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustrytileCallbacks.html) 
+<!-- . . . . . . . . . . . . . . . . . branże . . . . . . . . . . . . . . . . . -->
+ XII.	[**Industries**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Industries.html) 
+	1.	[Industry properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustryProperties.html) 
+	2.	[Industry functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustryFunctions.html) 
+	3.	[Industry callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustryCallbacks.html) 
+	4.	[Industry types](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustryTypes.html)  
+<!-- . . . . . . . . . . . . . . . . . Ładunki. . . . . . . . . . . . . . . . . -->
+ XIII.	[**Cargoes**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Cargoes.html) 
+	1.	[Cargo properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/CargoProperties.html) 
+	2.	[Cargo functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/CargoFunctions.html) 
+	3.	[Cargo callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/CargoCallbacks.html)_
+	4.	[Cargo types/classes](http://www.ttdpatch.de/grfspecs/m4nfoManual/CargoTypes.html) 
+<!-- . . . . . . . . . . . . . . . . . Obiekty . . . . . . . . . . . . . . . . . -->
+ XIV.	[**Objects**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Objects.html) 
+	1.	[Object properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/ObjectProperties.html) 
+	2.	[Object functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/ObjectFunctions.html) 
+	3.	[Object callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/ObjectCallbacks.html) 
+<!-- . . . . . . . . . . . . . . . . . Typy kolei. . . . . . . . . . . . . . . . . -->
+ XV.	[**Railtypes**](database/railTypes) 
+	1.	[Railtype properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/RailtypeProperties.html) 
+	2.	[Railtype functions](database/railTypeFunctions)
+	3.	Standardized railtype scheme](http://www.ttdpatch.de/grfspecs/m4nfoManual/RailtypeScheme.html)  
+<!-- . . . . . . . . . . . . . . . . Miejscowości . . . . . . . . . . . . . . . . . . -->
+ XVI.	[**Towns**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Towns.html) 
+	1.	[Town functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/TownFunctions.html) 
+<!-- . . . . . . . . . . . . . . . . Indeks . . . . . . . . . . . . . . . . . . -->
+	XVII.	**Index**
+	1.	[Ogólne](database/indexGeneral ) 
+	2.	[Trains](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexTrains.html) 
+	3.	[Road vehicles](http://www.ttdpatch.de/grfspecs/m4nfoManual/Indexrvs.html) 
+	4.	[Ships](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexShips.html) 
+	5.	[Stacje](database/indexStations) 
+	6.	[Houses](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexHouses.html) 
+	7.	[Canals/rivers](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexCanals.html) 
+	8.	[Objects](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexObjects.html) 
+	9.	[Industry tiles](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexIndustrytiles.html) 
+	10.	[Industries](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexIndustries.html) 
+	11.	[Cargoes](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexCargoes.html) 
+	12.	[Typy <span title=Rail>torów</span>](database/indexRailTypes)
+	13.	[Towns](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexTowns.html) <br><!--
+--><!--#:-->     __________________________________________________
+	XVIII.	<!--***--->    **Raport techniczny**
+	1.	[Ogólny](database/tR general) 
+	2.	[Trains](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_trains.html) 
+	3.	[Road vehicles](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_rvs.html) 
+	4.	[Ships](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_ships.html) 
+	5.	[Stacje](database/tR stations) 
+	6.	[Objects](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_objects.html) 
+	7.	[Cargoes](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_cargoes.html) <br><!--
+--> __________________________________________________
+	XIX.	***    **Tutorial**
+	1.	[Bridge tutorial](http://www.ttdpatch.de/grfspecs/m4nfoManual/BridgeTut.html) 
+	2.	[Callback tutorial](database/callbacksTut) 
+	3.	[Kompilowanie newgrfs z 32 bpp i/lub dodatkowym zoomem](database/infoVersion32Tut) 
+	4.	[Composing vehicles from multiple sprites](http://www.ttdpatch.de/grfspecs/m4nfoManual/stackTut.html) 
+	5.	[Animacja obiektu](database/animObjectsTut) 
+	6.	[Parameter usage](http://www.ttdpatch.de/grfspecs/m4nfoManual/ParamTut.html) 
+	7.	[Tutorial stacji](database/stationsTut) 
+	8.	[Using advanced sprite layouts](http://www.ttdpatch.de/grfspecs/m4nfoManual/ASLTut.html) 
+
+<!--<span id='spod' title="przewinięcie na top strony" style=float:right>[[database#top|<big>▲</big>]]</span>--> <!--<font color=white> ♪ 	 ♫ </font>-->
 <!-- __NEWSECTIONLINK__ -->
