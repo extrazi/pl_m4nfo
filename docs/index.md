@@ -4,7 +4,7 @@
 <!--== ==-->
 : <p></p>
 <!-- ---- -->
-<div style="text-align:<!--center-->; font-size:1.2em; background-color: #E7EBFF; border: 1px solid #c7c8fe">'''.GRF'''</div>
+<!--<div style="text-align:--><!--center--><!--; font-size:1.2em; background-color: #E7EBFF; border: 1px solid #c7c8fe">'''.GRF'''</div>-->
 <!--== .GRF ==-->
 ** [[database/formatGRF | Format pliku GRF ]]
 ** [[database/GRFcodec | GRFcodec ]] 
