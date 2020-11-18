@@ -14,7 +14,7 @@ A.		[**m4NFO Manual** ](database/m4NFOmanual) <br>
    1.	[Basic software](database/basic)
    2.	[Pobieranie](database/download)
    3.	[Instalowanie](database/instal) 
-   4.	- <br>
+   4.	• <br>
 <!-- . . . . . . . . . . . . . . . . . instruktaż . . . . . . . . . . . . . . . . . -->
  II.	[**Instruktaż obsługi**](database/instrukcja)
    1.	[Koncepcje](database/basiConcepts ) <br>
@@ -152,5 +152,5 @@ A.		[**m4NFO Manual** ](database/m4NFOmanual) <br>
 	7.	[Tutorial stacji](database/stationsTut) <br>
 	8.	[Using advanced sprite layouts](http://www.ttdpatch.de/grfspecs/m4nfoManual/ASLTut.html) 
 
-<!--:--><!--<span id='spod' title="przewinięcie na top strony" style=float:right>[[index#top|<big>▲</big>]]</span>--> <!--<font color=white> ♪ 	 ♫ </font>-->
+<!--:--><span id="spod" title="przewinięcie na top strony" style=float:right>[<big>▲</big>](index#top)</span>--> <!--<font color=white> ♪ 	 ♫ </font>-->
 <!-- __NEWSECTIONLINK__ -->
