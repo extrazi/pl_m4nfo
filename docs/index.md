@@ -1,10 +1,10 @@
 ---
-I. : database
+∆. : database
 --- 
 # [docs.openttd.org/source](http://docs.openttd.org/source/index.html)
  
 ## .GRF 
-**[Format pliku GRF ](https://github.com/extrazi/pl_m4nfo/wiki/formatGRF)**
+**[Format pliku GRF ](https://github.com/extrazi/pl_m4nfo/wiki/formatGRF)** <br>
 **[GRFcodec](database/GRFcodec)**
 **[grfspecs](http://www.ttdpatch.de/grfspecs/ )**
 ### .NFX - Kodowanie m4NFO <span title="przewinięcie na spód strony">[<small><sub>▼</sub></small>](index#spod)</span> 
