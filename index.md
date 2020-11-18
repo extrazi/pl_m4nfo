@@ -1,12 +1,12 @@
-## Welcome to GitHub Pages
+## Witamy w GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/extrazi/pl_m4nfo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Możesz użyć [edytora na GitHub](https://github.com/extrazi/pl_m4nfo/edit/gh-pages/index.md) , aby utrzymywać i przeglądać zawartość swojej witryny w plikach Markdown.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Za każdym razem, gdy zdecydujesz się na to repozytorium, GitHub Pages będzie uruchamiać [Jekyll](https://jekyllrb.com/) , aby odbudować strony w Twojej witrynie na podstawie zawartości plików Markdown.
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Markdown to lekka i łatwa w użyciu składnia do stylizacji pisania. Zawiera konwencje dla
 
 ```markdown
 Syntax highlighted code block
@@ -26,12 +26,13 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Aby uzyskać więcej informacji, zobacz [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/extrazi/pl_m4nfo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Twoja witryna Pages będzie używać układu i stylów z motywu Jekyll, który wybrałeś w [ustawieniach repozytorium] (https://github.com/extrazi/pl_m4nfo/settings). Nazwa tego motywu jest zapisywana w pliku konfiguracyjnym Jekyll `_config.yml` .
 
-### Support or Contact
+### Wsparcie lub Kontakt
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Masz problem ze stronami? Sprawdź naszą [dokumentację](https://docs.github.com/categories/github-pages-basics/) lub [kontakt z pomocą techniczną](https://github.com/contact), a pomożemy Ci to uporządkować na zewnątrz .
+ 
