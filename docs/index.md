@@ -1,9 +1,8 @@
-
 ---
 I. : database
 --- 
 
-[docs.openttd.org/source](http://docs.openttd.org/source/index.html)
+# [docs.openttd.org/source](http://docs.openttd.org/source/index.html)
 
 : 
 
@@ -67,15 +66,15 @@ A.		[**m4NFO Manual** ](database/m4NFOmanual) <br>
  V.		[**Road vehicles**](http://www.ttdpatch.de/grfspecs/m4nfoManual/rvs.html) <br>
 	1.	[Road vehicle properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/rvsProperties.html) <br>
 	2.	[Road vehicle functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/rvsFunctions.html) <br>
-	3.	[Road vehicle callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/rvsCallbacks.html) 
+	3.	[Road vehicle callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/rvsCallbacks.html) <br>
 <!-- . . . . . . . . . . . . . . . . . . Statki  . . . . . . . . . . . . . . . . -->
- VI.	[**Ships**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Ships.html) 
+ VI.	[**Ships**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Ships.html) <br>
 	1.	[Ship properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipProperties.html)  
-	2.	[Ship functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipFunctions.html) 
-	3.	[Ship callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipCallbacks.html) 
+	2.	[Ship functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipFunctions.html) <br>
+	3.	[Ship callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipCallbacks.html) <br>
 <!-- . . . . . . . . . . . . . . . . . . Stacje  . . . . . . . . . . . . . . . . -->
  VII. 	[**Stacje**](database/stations) <br>
-	1.	[Właściwości stacji](database/stationProperties) 
+	1.	[Właściwości stacji](database/stationProperties) <br>
 	2.	[Funkcje stacji](database/stationFunctions) <br>
 	3.	[Callbacks stacji](database/stationCallbacks)  
 <!-- . . . . . . . . . . . . . . . . . Kanały . . . . . . . . . . . . . . . . . -->
@@ -146,7 +145,7 @@ A.		[**m4NFO Manual** ](database/m4NFOmanual) <br>
 	6.	[Objects](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_objects.html) <br>
 	7.	[Cargoes](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_cargoes.html) <br><!--
 --> __________________________________________________
-	XIX.	***    **Tutorial** <br>
+	XIX.	<!--***-->    **Tutorial** <br>
 	1.	[Bridge tutorial](http://www.ttdpatch.de/grfspecs/m4nfoManual/BridgeTut.html) <br>
 	2.	[Callback tutorial](database/callbacksTut) <br>
 	3.	[Kompilowanie newgrfs z 32 bpp i/lub dodatkowym zoomem](database/infoVersion32Tut) <br>
