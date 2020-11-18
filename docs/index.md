@@ -55,7 +55,7 @@ A.		[**m4NFO Manual** ](database/m4NFOmanual) <br>
 	10.	[Funkcje ogólne](database/generalFunctions) <br>
 	11.	[Funkcje pomocnicze](database/auxFunctions) <br>
 	12.	[Funkcje <span title=internal >'wewnętrzne'</span> m4nfo](database/m4nfoInternalFunctions) <br>
-	13.	[m4nfo internal error messages](http://www.ttdpatch.de/grfspecs/m4nfoManual/m4nfoInternalErrors.html) 
+	13.	[m4nfo internal error messages](http://www.ttdpatch.de/grfspecs/m4nfoManual/m4nfoInternalErrors.html) <br>
 <!-- . . . . . . . . . . . . . . . . . . Koleje . . . . . . . . . . . . . . . . -->
  IV.	[**Trains**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Trains.html) <br>
 	1.	[Train properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/TrainProperties.html) <br>
