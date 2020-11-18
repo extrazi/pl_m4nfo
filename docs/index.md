@@ -7,6 +7,7 @@
 - **[Format pliku GRF ](https://github.com/extrazi/pl_m4nfo/wiki/formatGRF)** <br>
 - **[GRFcodec](database/GRFcodec)** <br>
 - **[grfspecs](http://www.ttdpatch.de/grfspecs/ )**
+
 ### .NFX - Kodowanie m4NFO <span title="przewinięcie na spód strony">[<small><sub>▼</sub></small>](index#spod)</span> 
 A.		[**m4NFO Manual** ](database/m4NFOmanual) <br>
 <!-- . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . -->
@@ -152,5 +153,5 @@ A.		[**m4NFO Manual** ](database/m4NFOmanual) <br>
 	7.	[Tutorial stacji](database/stationsTut) <br>
 	8.	[Using advanced sprite layouts](http://www.ttdpatch.de/grfspecs/m4nfoManual/ASLTut.html) 
 
-<!--:--><span id="spod" title="przewinięcie na top strony" style=float:right>[<big>▲</big>](index#top)</span>--> <!--<font color=white> ♪ 	 ♫ </font>-->
+<!--:--><!--<span id="spod" title="przewinięcie na top strony" style="float:right">-->[<big>▲</big>](index#top)<!--</span>--> <!--<font color=white> ♪ 	 ♫ </font>-->
 <!-- __NEWSECTIONLINK__ -->
