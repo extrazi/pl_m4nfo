@@ -1,6 +1,6 @@
 <!--{{pl/Development/NewGRF/inne strony| pl = pl/m4nfo/Extrazi/database |en=ttdpatch.de/grfspecs/m4nfoManual/menu }}--><!--
 --><!--{{other languages | pl = User:Extrazi/database  }}--><!--
---><!----><!--{{-}}--><!----><!--<H2>--><div style="text-align:center; font-size:1.5em; font-weight:bold; background-color: #E7EBFF"> <small>[http://docs.openttd.org/source/index.html docs.openttd.org/source]</small> </div><!--<H2></H2>-->
+--><!----><!--{{-}}--><!----><!--<H2>--><!--<div style="text-align:center; font-size:1.5em; font-weight:bold; background-color: #E7EBFF"> <small>-->[http://docs.openttd.org/source/index.html docs.openttd.org/source]<!--</small> </div>--><!--<H2></H2>-->
 <!--== ==-->
 : <p></p>
 <!-- ---- -->
