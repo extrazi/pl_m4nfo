@@ -48,20 +48,20 @@ I. : database
 **[Format pliku GRF ](database/formatGRF)**
 **[GRFcodec ]](database/GRFcodec)**
 **[grfspecs](http://www.ttdpatch.de/grfspecs/ )**
-### .NFX - Kodowanie m4NFO <span title="przewinięcie na spód strony">[<small><sub>▼</sub></small>](index#spod)</span> ===
-A.		[**m4NFO Manual** ](database/m4NFOmanual 
+### .NFX - Kodowanie m4NFO <span title="przewinięcie na spód strony">[<small><sub>▼</sub></small>](index#spod)</span> 
+A.		[**m4NFO Manual** ](database/m4NFOmanual) 
 <!-- . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . -->
  I.		[**Instalacja**](database/installation)
    1.	[Basic software](database/basic)
    2.	[Pobieranie](database/download)
    3.	[Instalowanie](database/instal) 
-   4.	-
+   4.	- <br>
 <!-- . . . . . . . . . . . . . . . . . instruktaż . . . . . . . . . . . . . . . . . -->
  II.	[**Instruktaż obsługi**](database/instrukcja)
    1.	[Koncepcje](database/basiConcepts ) 
 	1.	[Pliki GRF](database/basiConcepts#grf-files) 
 	2.	[pliki newGRF](database/basiConcepts#newgrf-files)
-	3.	[Struktura języka]](database/basiConcepts#m4nfo-language-structure) 
+	3.	[Struktura języka](database/basiConcepts#m4nfo-language-structure) 
 	4.	[Cechy](database/basiConcepts#features) 
 	5.	[Strukturyzacja plików źródłowych](database/basiConcepts#structuring) 
   2.	Słownictwo i notacja
@@ -84,16 +84,16 @@ A.		[**m4NFO Manual** ](database/m4NFOmanual
 	1.	[newGRF initialisation](database/initialisation)  
 	2.	[<span title="Flow of control">Przepływ sterowania</span> & <br /> obsługa parametrów](database/flowOfControl)  
 	3.	[Error handling](http://www.ttdpatch.de/grfspecs/m4nfoManual/ErrorHandling.html) 
-	4.	[[database/handlingCallbacks | Obsługa callbacks ]] 
-	5.	[[database/textHandling | Obsługa tekstu ]] 
-	6.	[[database/soundHandling | Obsługa dźwięku ]] 
-	7.	{{#ifexist: database/recolouringFunctions | [[database/recolouringFunctions | Recolouring ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/RecolouringFunctions.html Recolouring]  }}
-	8.	{{#ifexist: database/templating | [[database/templating | Templating ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/Templating.html Templating] }}
-	9.	[[database/globalFunctions | Funkcje globalne ]] 
-	10.	[[database/generalFunctions | Funkcje ogólne ]] 
-	11.	[[database/auxFunctions | Funkcje pomocnicze ]]  
-	12.	[[database/m4nfoInternalFunctions | Funkcje <span title=internal >'wewnętrzne'</span> m4nfo ]]  
-	13.	{{#ifexist: database/m4nfoInternalErrors | [[database/m4nfoInternalErrors | m4nfo internal error messages ]] | [http://www.ttdpatch.de/grfspecs/m4nfoManual/m4nfoInternalErrors.html m4nfo internal error messages] }} 
+	4.	[Obsługa callbacks](database/handlingCallbacks) 
+	5.	[Obsługa tekstu](database/textHandling ) 
+	6.	[Obsługa dźwięku](database/soundHandling) 
+	7.	[Recolouring](http://www.ttdpatch.de/grfspecs/m4nfoManual/RecolouringFunctions.html) 
+	8.	[Templating](http://www.ttdpatch.de/grfspecs/m4nfoManual/Templating.html) 
+	9.	[Funkcje globalne](database/globalFunctions) 
+	10.	[Funkcje ogólne](database/generalFunctions) 
+	11.	[Funkcje pomocnicze](database/auxFunctions) 
+	12.	[Funkcje <span title=internal >'wewnętrzne'</span> m4nfo](database/m4nfoInternalFunctions) 
+	13.	[m4nfo internal error messages](http://www.ttdpatch.de/grfspecs/m4nfoManual/m4nfoInternalErrors.html) 
 <!-- . . . . . . . . . . . . . . . . . . Koleje . . . . . . . . . . . . . . . . -->
  IV.	[**Trains**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Trains.html) 
 	1.	[Train properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/TrainProperties.html) 
@@ -106,7 +106,7 @@ A.		[**m4NFO Manual** ](database/m4NFOmanual
 	2.	[Road vehicle functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/rvsFunctions.html) 
 	3.	[Road vehicle callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/rvsCallbacks.html) 
 <!-- . . . . . . . . . . . . . . . . . . Statki  . . . . . . . . . . . . . . . . -->
- VI.   [**Ships](http://www.ttdpatch.de/grfspecs/m4nfoManual/Ships.html) 
+ VI.	[**Ships](http://www.ttdpatch.de/grfspecs/m4nfoManual/Ships.html) 
 	1.	[Ship properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipProperties.html)  
 	2.	[Ship functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipFunctions.html) 
 	3.	[Ship callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipCallbacks.html) 
