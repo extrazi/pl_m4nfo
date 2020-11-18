@@ -1,11 +1,8 @@
 ---
 I. : database
 --- 
-
 # [docs.openttd.org/source](http://docs.openttd.org/source/index.html)
-
-: 
-
+ 
 ## .GRF 
 **[Format pliku GRF ](database/formatGRF)**
 **[GRFcodec](database/GRFcodec)**
@@ -155,5 +152,5 @@ A.		[**m4NFO Manual** ](database/m4NFOmanual) <br>
 	7.	[Tutorial stacji](database/stationsTut) <br>
 	8.	[Using advanced sprite layouts](http://www.ttdpatch.de/grfspecs/m4nfoManual/ASLTut.html) 
 
-<!--<span id='spod' title="przewinięcie na top strony" style=float:right>[[database#top|<big>▲</big>]]</span>--> <!--<font color=white> ♪ 	 ♫ </font>-->
+<!--:--><!--<span id='spod' title="przewinięcie na top strony" style=float:right>[[index#top|<big>▲</big>]]</span>--> <!--<font color=white> ♪ 	 ♫ </font>-->
 <!-- __NEWSECTIONLINK__ -->
