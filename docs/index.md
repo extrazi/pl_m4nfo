@@ -11,19 +11,19 @@
 ### .NFX - Kodowanie m4NFO <span title="przewinięcie na spód strony">[<small><sub>▼</sub></small>](index#▲)</span> 
 A.			[**m4NFO Manual** ](database/m4NFOmanual) <br>
 <!-- . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . -->
- I.			[**Instalacja**](database/installation)
-	1.		[Basic software](database/basic)
-	2.		[Pobieranie](database/download)
-	3.		[Instalowanie](database/instal) 
+ I.			[**Instalacja**](database/installation) <br>
+	1.		[Basic software](database/basic) <br>
+	2.		[Pobieranie](database/download) <br>
+	3.		[Instalowanie](database/instal) <br>
 	4.		• <br>
 <!-- . . . . . . . . . . . . . . . . . instruktaż . . . . . . . . . . . . -->
- II.	[**Instruktaż obsługi**](database/instrukcja)
+ II.	[**Instruktaż obsługi**](database/instrukcja) <br>
 	1.	[Koncepcje](database/basiConcepts ) <br>
 	 1.	[Pliki GRF](database/basiConcepts#grf-files) <br>
 	 2.	[pliki newGRF](database/basiConcepts#newgrf-files) <br>
 	 3.	[Struktura języka](database/basiConcepts#m4nfo-language-structure) <br>
 	 4.	[Cechy](database/basiConcepts#features) <br>
-	 5.	[Strukturyzacja plików źródłowych](database/basiConcepts#structuring) 
+	 5.	[Strukturyzacja plików źródłowych](database/basiConcepts#structuring) <br>
 	2.	Słownictwo i notacja <br>
 	 1.	[Typy danych](database/dataTypes) <br>
 	 2.	[Bloki funkcyjne](database/functionBlocks) <br>
@@ -153,5 +153,5 @@ A.			[**m4NFO Manual** ](database/m4NFOmanual) <br>
 	7.	[Tutorial stacji](database/stationsTut) <br>
 	8.	[Using advanced sprite layouts](http://www.ttdpatch.de/grfspecs/m4nfoManual/ASLTut.html) 
 
-<!--:-->####[<span id="spod" title="przewinięcie na top strony" style="float:right"><big>▲</big></span>](<!--index-->#top) <!--<font color=white> ♪ 	 ♫ </font>-->
+<!--:-->###[<span id="spod" title="przewinięcie na top strony" style="float:right"><big>▲</big></span>](<!--index-->#top) <!--<font color=white> ♪ 	 ♫ </font>-->
 <!-- __NEWSECTIONLINK__ -->
