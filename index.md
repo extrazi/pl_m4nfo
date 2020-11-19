@@ -30,7 +30,7 @@ Aby uzyskać więcej informacji, zobacz [GitHub Flavored Markdown](https://guide
 
 ### Jekyll Themes
 
-Twoja witryna Pages będzie używać układu i stylów z motywu Jekyll, który wybrałeś w [ustawieniach repozytorium] (https://github.com/extrazi/pl_m4nfo/settings). Nazwa tego motywu jest zapisywana w pliku konfiguracyjnym Jekyll `_config.yml` .
+Twoja witryna Pages będzie używać układu i stylów z motywu Jekyll, który wybrałeś w [ustawieniach repozytorium](https://github.com/extrazi/pl_m4nfo/settings). Nazwa tego motywu jest zapisywana w pliku konfiguracyjnym Jekyll `_config.yml` .
 
 ### Wsparcie lub Kontakt
 
