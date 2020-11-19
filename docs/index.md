@@ -19,7 +19,7 @@ A.		[**m4NFO Manual** ](database/m4NFOmanual) <br>
 <!-- . . . . . . . . . . . . . . . . . instruktaż . . . . . . . . . . . . -->
  II.	[**Instruktaż obsługi**](database/instrukcja) <br>
 	1.	[Koncepcje](database/basiConcepts ) <br>
- 
+
 		1.	[Pliki GRF](database/basiConcepts#grf-files) <br>
 		2.	[pliki newGRF](database/basiConcepts#newgrf-files) <br>
 		3.	[Struktura języka](database/basiConcepts#m4nfo-language-structure) <br>
