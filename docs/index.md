@@ -8,7 +8,7 @@
 - **[GRFcodec](database/GRFcodec)** <br>
 - **[grfspecs](http://www.ttdpatch.de/grfspecs/ )**
 
-### .NFX - Kodowanie m4NFO <span title="przewinięcie na spód strony">[<small><sub>▼</sub></small>](index#▲)</span> 
+### .NFX - Kodowanie m4NFO <span title="przewinięcie na spód strony">[<small><sub>▼</sub></small>](index#spod<!--▲-->)</span> 
 A.			[**m4NFO Manual** ](database/m4NFOmanual) <br>
 <!-- . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . -->
  I.			[**Instalacja**](database/installation) <br>
@@ -153,5 +153,5 @@ A.			[**m4NFO Manual** ](database/m4NFOmanual) <br>
 	7.	[Tutorial stacji](database/stationsTut) <br>
 	8.	[Using advanced sprite layouts](http://www.ttdpatch.de/grfspecs/m4nfoManual/ASLTut.html) 
 
-<!--:-->###[<span id="spod" title="przewinięcie na top strony" style="float:right"><big>▲</big></span>](<!--index-->#top) <!--<font color=white> ♪ 	 ♫ </font>-->
-<!-- __NEWSECTIONLINK__ -->
+###[<span id="spod" title="przewinięcie na top strony" style="float:right"><big>▲</big></span>](index#top) <!--<font color=white> ♪ 	 ♫ </font>-->
+<!--:--><!-- __NEWSECTIONLINK__ -->
