@@ -127,7 +127,7 @@ A.		[**m4NFO Manual** ](database/m4NFOmanual) <br>
 	V.		[Stacje](database/indexStations) <br>
 	VI.		[Houses](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexHouses.html) <br>
 	VII.	[Canals/rivers](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexCanals.html) <br>
-	VUII.	[Objects](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexObjects.html) <br>
+	VIII.	[Objects](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexObjects.html) <br>
 	IX.		[Industry tiles](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexIndustrytiles.html) <br>
 	X.		[Industries](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexIndustries.html) <br>
 	XI.		[Cargoes](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexCargoes.html) <br>
