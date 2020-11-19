@@ -8,7 +8,7 @@
 - **[GRFcodec](wiki/GRFcodec)** <br>
 - **[grfspecs](http://www.ttdpatch.de/grfspecs/ )**
 
-### .NFX - Kodowanie m4NFO <span title="przewinięcie na spód strony">[<small><sub>▼</sub></small>](index#spod<)</span> 
+### .NFX - Kodowanie m4NFO <span title="przewinięcie na spód strony">[<small><sub>▼</sub></small>](index.md#spod)</span> 
 A.		[**m4NFO Manual** ](database/m4NFOmanual) <br>
 <!-- . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . -->
  I.		[**Instalacja**](database/installation) <br>
@@ -19,20 +19,26 @@ A.		[**m4NFO Manual** ](database/m4NFOmanual) <br>
 <!-- . . . . . . . . . . . . . . . . . instruktaż . . . . . . . . . . . . -->
  II.	[**Instruktaż obsługi**](database/instrukcja) <br>
 	1.	[Koncepcje](database/basiConcepts ) <br>
+ 
 		1.	[Pliki GRF](database/basiConcepts#grf-files) <br>
 		2.	[pliki newGRF](database/basiConcepts#newgrf-files) <br>
 		3.	[Struktura języka](database/basiConcepts#m4nfo-language-structure) <br>
 		4.	[Cechy](database/basiConcepts#features) <br>
 		5.	[Strukturyzacja plików źródłowych](database/basiConcepts#structuring) <br>
+ 
 	2.	Słownictwo i notacja <br>
+ 
 		1.	[Typy danych](database/dataTypes) <br>
 		2.	[Bloki funkcyjne](database/functionBlocks) <br>
 		3.	Pojęcie grafiki <br>
+ 
 			1.	[Real sprites](database/realSprites) <br>
 			2.	[Recolour sprites](http://www.ttdpatch.de/grfspecs/m4nfoManual/RecolourSprites.html) <br>
 			3.	[Sprite grouping](http://www.ttdpatch.de/grfspecs/m4nfoManual/SpriteGrouping.html) <br>
 			4.	[Sprite layout](http://www.ttdpatch.de/grfspecs/m4nfoManual/SpriteLayout.html) <br>
+ 
 		4.	[Pojęcie funkcji](database/conceptFunctions) <br>
+ 
 			1.	[Funkcje właściwości](database/conceptFunctions#propertyfunctions) <br>
 			2.	[Funkcje układu](database/conceptFunctions#layoutfunctions) <br>
 			3.	[Funkcje wydajności](database/conceptFunctions#performancefunctions) <br>
@@ -57,6 +63,7 @@ A.		[**m4NFO Manual** ](database/m4NFOmanual) <br>
 <!-- . . . . . . . . . . . . . . . . . Koleje . . . . . . . . . . . . . . -->
  IV.	[**Trains**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Trains.html) <br>
 	1.	[Train properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/TrainProperties.html) <br>
+ 
 		1.	[New price and cost scheme](http://www.ttdpatch.de/grfspecs/m4nfoManual/PriceCost.html) <br>
 	2.	[Train functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/TrainFunctions.html) <br>
 	3.	[Train callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/TrainCallbacks.html)  
