@@ -56,23 +56,23 @@ Przystąpienie do wykonywania Uprawnień Licencyjnych oznacza akceptację i zgod
 
 ## Paragraf 3 – Warunki Licencji.
 
-Wykonywanie Uprawnień Licencyjnych przez Licencjodawcę jest wyraźnie uzależnione od przestrzegania następujących warunków.
+Wykonywanie Uprawnień Licencyjnych przez Licencjodawcę jest wyraźnie uzależnione od przestrzegania następujących warunków.</br>
 	[id]: "s3a"
-	a. Uznanie autorstwa.
+	a. Uznanie autorstwa. 
 		[id]: "s3a1"
 		1.  W przypadku, gdy Licencjobiorca Dzieli się Utworem Licencjonowanym (również w zmodyfikowanej formie), jest obowiązany:
 			[id]: "s3a1A"
-			A. zachować następujące elementy, jeśli są one wskazane przez Licencjodawcę w Utworze Licencjonowanym:
-				[id]: "s3a1Ai" 
-				I. identyfikację twórcy Utworu Licencjonowanego oraz jakichkolwiek innych osób, wskazanych do uzyskania atrybucji, w rozsądny sposób, oznaczony przez Licencjodawcę (włącznie z podaniem wskazanego pseudonimu);
-				II. informacji o prawach autorskich;
-				III. oznaczenie niniejszej Licencji Publicznej;
-				IV. oznaczenie wyłączenia gwarancji;
-				V. URI lub hiperłącze do Utworu Licencjonowanego, w rozsądnym zakresie wyznaczonym przez możliwości techniczne;
-			B. oznaczyć czy Licencjobiorca wprowadził modyfikacje w Utworze Licencjonowanym, oraz zachować oznaczenia poprzednich modyfikacji; oraz
-			C. oznaczyć Utwór Licencjonowany jako dostępny na niniejszej Licencji Publicznej, a także załączyć tekst, adres URI lub hiperłącze do niniejszej Licencji Publicznej.
-		2. Warunków określonych w Paragrafie [3(a)(1)](#s3a1) Licencjobiorca może dochować w każdy rozsądny sposób, stosownie do nośnika, środka przekazu i kontekstu, w jakim Licencjobiorca Dzieli się Utworem Licencjonowanym. Na przykład, rozsądnym dochowaniem wyżej określonych warunków może być załączenie adresu URI lub hiperłącza do źródła zawierającego wymagane informacje.
-		3. Jeśli zażąda tego Licencjodawca, Licencjobiorca obowiązany jest usunąć wszelkie informacje określone w Paragrafie [3(a)(1)(A)](#s3a1A), w uzasadnionym zakresie wyznaczonym przez możliwości techniczne.
+			A. zachować następujące elementy, jeśli są one wskazane przez Licencjodawcę w Utworze Licencjonowanym: 
+				[id]: "s3a1Ai" <br>
+				I. identyfikację twórcy Utworu Licencjonowanego oraz jakichkolwiek innych osób, wskazanych do uzyskania atrybucji, w rozsądny sposób, oznaczony przez Licencjodawcę (włącznie z podaniem wskazanego pseudonimu); <br>
+				II. informacji o prawach autorskich; <br>
+				III. oznaczenie niniejszej Licencji Publicznej; <br>
+				IV. oznaczenie wyłączenia gwarancji; <br>
+				V. URI lub hiperłącze do Utworu Licencjonowanego, w rozsądnym zakresie wyznaczonym przez możliwości techniczne; <br>
+			B. oznaczyć czy Licencjobiorca wprowadził modyfikacje w Utworze Licencjonowanym, oraz zachować oznaczenia poprzednich modyfikacji; oraz <br>
+			C. oznaczyć Utwór Licencjonowany jako dostępny na niniejszej Licencji Publicznej, a także załączyć tekst, adres URI lub hiperłącze do niniejszej Licencji Publicznej. <br>
+		2. Warunków określonych w Paragrafie [3(a)(1)](#s3a1) Licencjobiorca może dochować w każdy rozsądny sposób, stosownie do nośnika, środka przekazu i kontekstu, w jakim Licencjobiorca Dzieli się Utworem Licencjonowanym. Na przykład, rozsądnym dochowaniem wyżej określonych warunków może być załączenie adresu URI lub hiperłącza do źródła zawierającego wymagane informacje. <br>
+		3. Jeśli zażąda tego Licencjodawca, Licencjobiorca obowiązany jest usunąć wszelkie informacje określone w Paragrafie [3(a)(1)(A)](#s3a1A), w uzasadnionym zakresie wyznaczonym przez możliwości techniczne.<br>
 		4. Jeśli Licencjobiorca Dzieli się stworzonymi przez siebie Utworami Zależnymi, Licencja Twórcy Utworu Zależnego nie może ograniczać użytkowników Utworu Zależnego w dochowaniu warunków niniejszej Licencji Publicznej.
 
 ## Paragraf 4 – Prawa Sui Generis do Baz Danych.
