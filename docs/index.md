@@ -5,7 +5,7 @@
  ![ottd](github-openttd.gif "OpenTTD")
 ## .GRF 
 - **[Format pliku GRF ](https://github.com/extrazi/pl_m4nfo/wiki/formatGRF)** <br>
-- **[GRFcodec](wiki/GRFcodec)** <br>
+- **[GRFcodec](https://github.com/extrazi/pl_m4nfo/wiki/GRFcodec)** <br>
 - **[grfspecs](http://www.ttdpatch.de/grfspecs/ )**
 
 ### .NFX - Kodowanie m4NFO <span title="przewinięcie na spód strony">[<small><sub>▼</sub></small>](index.md#spod)</span> 
