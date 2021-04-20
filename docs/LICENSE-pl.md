@@ -1,4 +1,4 @@
- cc-by-4.0 [English](https://creativecommons.org/licenses/by/4.0/legalcode)<br><br>
+ CC-BY-4.0 [English](https://creativecommons.org/licenses/by/4.0/legalcode)<br><br>
 Uznanie autorstwa 4.0 Międzynarodowa
 
 Oficjalne tłumaczenia .
