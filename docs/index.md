@@ -2,7 +2,7 @@
 ∆. : database
 --- 
 # [docs.openttd.org/source](http://docs.openttd.org/source/index.html)
-[![ottd]( /github-openttd.gif)](https://github.com/OpenTTD/OpenTTD/discussions)
+[![ottd](github-openttd.gif)](https://github.com/OpenTTD/OpenTTD/discussions)
 ## .GRF 
 - **[Format pliku GRF ](https://github.com/extrazi/pl_m4nfo/wiki/formatGRF)** <br>
 - **[GRFcodec](https://github.com/extrazi/pl_m4nfo/wiki/GRFcodec)** <br>
