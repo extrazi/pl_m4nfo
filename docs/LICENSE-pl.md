@@ -1,10 +1,10 @@
 ---
-modified: 2021-04-20T17:42:57+02:00
+modified: 2021-04-22T15:37:16+02:00
 ---
 
 # CC-BY-4.0
 
-[English](https://creativecommons.org/licenses/by/4.0/legalcode) & Polish: <br><br>
+[English](https://creativecommons.org/licenses/by/4.0/legalcode) &  Polish: <br><br>
 Uznanie autorstwa 4.0 Międzynarodowa
 
 Oficjalne tłumaczenia .
