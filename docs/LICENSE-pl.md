@@ -1,5 +1,5 @@
 ---
-modified: 2021-04-23T20:01:11+02:00
+modified: 2021-04-23T20:04:16+02:00
 ---
 
 # CC-BY-4.0
@@ -63,11 +63,11 @@ Przystąpienie do wykonywania Uprawnień Licencyjnych oznacza akceptację i zgod
 ## Paragraf 3 – Warunki Licencji.
 
 Wykonywanie Uprawnień Licencyjnych przez Licencjodawcę jest wyraźnie uzależnione od przestrzegania następujących warunków.</br>
-	[id]: "s3a"
+[id]: "s3a"
 	a. Uznanie autorstwa. 
-		[id]:"s3a1"
+[id]:"s3a1"
 		1.  W przypadku, gdy Licencjobiorca Dzieli się Utworem Licencjonowanym (również w zmodyfikowanej formie), jest obowiązany:
-			[id]: "s3a1A"
+[id]: "s3a1A"
 			A. zachować następujące elementy, jeśli są one wskazane przez Licencjodawcę w Utworze Licencjonowanym: 
 				[id]: "s3a1Ai" <br>
 				I. identyfikację twórcy Utworu Licencjonowanego oraz jakichkolwiek innych osób, wskazanych do uzyskania atrybucji, w rozsądny sposób, oznaczony przez Licencjodawcę (włącznie z podaniem wskazanego pseudonimu); <br>
