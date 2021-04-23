@@ -1,5 +1,5 @@
 ---
-modified: 2021-04-23T20:06:30+02:00
+modified: 2021-04-23T20:11:52+02:00
 ---
 
 # CC-BY-4.0
@@ -64,8 +64,10 @@ Przystąpienie do wykonywania Uprawnień Licencyjnych oznacza akceptację i zgod
 
 Wykonywanie Uprawnień Licencyjnych przez Licencjodawcę jest wyraźnie uzależnione od przestrzegania następujących warunków.</br>
 [id]: "s3a"
+<br>
 	a. Uznanie autorstwa. <br>
 [id]:"s3a1"
+<br>
 		1.  W przypadku, gdy Licencjobiorca Dzieli się Utworem Licencjonowanym (również w zmodyfikowanej formie), jest obowiązany: <br>
 [id]: "s3a1A"
 			A. zachować następujące elementy, jeśli są one wskazane przez Licencjodawcę w Utworze Licencjonowanym: 
