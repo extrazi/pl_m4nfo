@@ -1,5 +1,5 @@
 ---
-modified: 2021-04-23T20:11:52+02:00
+modified: 2021-04-24T02:46:40+02:00
 ---
 
 # CC-BY-4.0
@@ -41,19 +41,19 @@ Przystąpienie do wykonywania Uprawnień Licencyjnych oznacza akceptację i zgod
 ## Paragraf 2 – Zakres.
 
 	a. **Udzielenie licencji.**
-		[id]: "s2a1"
+		<a id="s2a1"></a>  
 		1. Zgodnie z postanowieniami niniejszej Licencji Publicznej, Licencjodawca udziela niniejszym Licencjobiorcy, nieodpłatnej, nieobejmującej prawa do udzielania sublicencji, niewyłącznej, nieodwołalnej licencji na korzystanie z Utworu na terytorium całego świata w odniesieniu Utworu Licencjonowanego Uprawnień Licencyjnych do:
 			A. zwielokrotniania i Dzielenia się Utworem Licencjonowanym w całości lub części; a także
 			B. tworzenia, zwielokrotniania i Dzielenia się Utworami Zależnymi.
 		2. <u>Wyjątki i Ograniczenia.</u> W razie wątpliwości, w przypadku, gdy korzystanie przez Licencjobiorcę odbywa się w ramach Wyjątków i Ograniczeń, niniejsza Licencja Publiczna nie ma zastosowania, a Licencjobiorca nie jest zobowiązany do przestrzegania jej warunków.
 		3. <u>Czas trwania.</u> Czas trwania niniejszej Licencji Publicznej określony jest w Paragrafie [6(a)](#s6a).
-		[id]: "s2a4"
+		<a id="s2a4"></a>  
 		4. <u>Środki przekazu i formaty; zezwolenie na modyfikacje techniczne.</u> Licencjodawca upoważnia Licencjobiorcę do wykonywania Uprawnień Licencyjnych za pośrednictwem wszystkich znanych lub mających powstać w przyszłości środków przekazu oraz we wszystkich znanych lub mających powstać w przyszłości formatach, a także do dokonywania w tym celu koniecznych modyfikacji technicznych. Licencjodawca zrzeka się i/lub zobowiązuje do niewykonywania prawa do zabronienia Licencjobiorcy dokonywania modyfikacji technicznych koniecznych dla wykonywania Uprawnień Licencyjnych, włącznie z modyfikacjami technicznymi koniecznymi do obejścia Skutecznych Zabezpieczeń Technicznych. Dla celów niniejszej Licencji Publicznej, proste dokonanie modyfikacji objętych niniejszym Paragrafem [2(a)(4)](#s2a4) nie prowadzi do powstania Utworu Zależnego.
 		5. <u>Dalsi odbiorcy.</u>
 			A. <u>Oferta Licencjodawcy – Utwór Licencjonowany.</u> Każdy odbiorca Utworu Licencjonowanego automatycznie otrzymuje ofertę Licencjodawcy przystąpienia do wykonywania Uprawnień Licencyjnych zgodnie z warunkami niniejszej Licencji Publicznej.
 			B. <u>Żadnych ograniczeń dla dalszych odbiorców.</u> Licencjobiorca nie może oferować ani nakładać dodatkowych lub zmienionych warunków wykorzystania Utworu Licencjonowanego, ani stosować jakichkolwiek Skutecznych Zabezpieczeń Technicznych, jeśli działania te ograniczają wykonywanie Uprawnień Licencyjnych przez jakiegokolwiek odbiorcę Utworu Licencjonowanego.
 		6. <u>Brak upoważnienia.</u> Żaden element niniejszej Licencji Publicznej nie stanowi zezwolenia, ani nie może być interpretowany jako zezwolenie na sugerowanie lub stwierdzanie, że Licencjobiorca lub wykorzystanie przez Licencjobiorcę Utworu Licencjonowanego są powiązane, sponsorowane, upoważnione lub oficjalnie uznane przez Licencjodawcę lub inne podmioty wskazane w celu uznania autorstwa, zgodnie z postanowieniem Paragrafu [3(a)(1)(A)(i)](#s3a1Ai).
-	[id]: "s2b"
+	<a id="s2b"></a>  
 	b. **Inne prawa.**
 
 		1. Autorskie prawa osobiste, takie jak prawo do nienaruszalności formy i treści utworu, ani prawo do kontroli komercyjnego wykorzystania wizerunku, prawo do prywatności, lub inne podobne prawa osobiste nie są objęte niniejszą Licencją Publiczną. Jednakże, w najszerszym możliwym zakresie, lub w zakresie ograniczonym, pozwalającym na wykonywanie przez Licencjobiorcę Uprawnień Licencyjnych (jednak nie w żaden inny sposób), Licencjodawca zrzeka się lub zobowiązuje do niewykonywania powyższych przysługujących Mu praw.
@@ -62,24 +62,22 @@ Przystąpienie do wykonywania Uprawnień Licencyjnych oznacza akceptację i zgod
 
 ## Paragraf 3 – Warunki Licencji.
 
-Wykonywanie Uprawnień Licencyjnych przez Licencjodawcę jest wyraźnie uzależnione od przestrzegania następujących warunków.</br>
-[id]: "s3a"
-<br>
-	a. Uznanie autorstwa. <br>
-[id]:"s3a1"
-<br>
-		1.  W przypadku, gdy Licencjobiorca Dzieli się Utworem Licencjonowanym (również w zmodyfikowanej formie), jest obowiązany: <br>
-[id]: "s3a1A"
+Wykonywanie Uprawnień Licencyjnych przez Licencjodawcę jest wyraźnie uzależnione od przestrzegania następujących warunków.  
+<a name="s3a"></a> 
+	a. Uznanie autorstwa.  
+<a name="s3a1"></a>  
+		1.  W przypadku, gdy Licencjobiorca Dzieli się Utworem Licencjonowanym (również w zmodyfikowanej formie), jest obowiązany:  
+<a name="s3a1A"></a>  
 			A. zachować następujące elementy, jeśli są one wskazane przez Licencjodawcę w Utworze Licencjonowanym: 
-				[id]: "s3a1Ai" <br>
-				I. identyfikację twórcy Utworu Licencjonowanego oraz jakichkolwiek innych osób, wskazanych do uzyskania atrybucji, w rozsądny sposób, oznaczony przez Licencjodawcę (włącznie z podaniem wskazanego pseudonimu); <br>
-				II. informacji o prawach autorskich; <br>
-				III. oznaczenie niniejszej Licencji Publicznej; <br>
-				IV. oznaczenie wyłączenia gwarancji; <br>
-				V. URI lub hiperłącze do Utworu Licencjonowanego, w rozsądnym zakresie wyznaczonym przez możliwości techniczne; <br>
-			B. oznaczyć czy Licencjobiorca wprowadził modyfikacje w Utworze Licencjonowanym, oraz zachować oznaczenia poprzednich modyfikacji; oraz <br>
-			C. oznaczyć Utwór Licencjonowany jako dostępny na niniejszej Licencji Publicznej, a także załączyć tekst, adres URI lub hiperłącze do niniejszej Licencji Publicznej. <br>
-		2. Warunków określonych w Paragrafie [3(a)(1)](#s3a1) Licencjobiorca może dochować w każdy rozsądny sposób, stosownie do nośnika, środka przekazu i kontekstu, w jakim Licencjobiorca Dzieli się Utworem Licencjonowanym. Na przykład, rozsądnym dochowaniem wyżej określonych warunków może być załączenie adresu URI lub hiperłącza do źródła zawierającego wymagane informacje. <br>
+				<a name="s3a1Ai"></a>  
+				I. identyfikację twórcy Utworu Licencjonowanego oraz jakichkolwiek innych osób, wskazanych do uzyskania atrybucji, w rozsądny sposób, oznaczony przez Licencjodawcę (włącznie z podaniem wskazanego pseudonimu);  
+				II. informacji o prawach autorskich;  
+				III. oznaczenie niniejszej Licencji Publicznej;  
+				IV. oznaczenie wyłączenia gwarancji;  
+				V. URI lub hiperłącze do Utworu Licencjonowanego, w rozsądnym zakresie wyznaczonym przez możliwości techniczne;  
+			B. oznaczyć czy Licencjobiorca wprowadził modyfikacje w Utworze Licencjonowanym, oraz zachować oznaczenia poprzednich modyfikacji; oraz  
+			C. oznaczyć Utwór Licencjonowany jako dostępny na niniejszej Licencji Publicznej, a także załączyć tekst, adres URI lub hiperłącze do niniejszej Licencji Publicznej.  
+		2. Warunków określonych w Paragrafie [3(a)(1)](#s3a1) Licencjobiorca może dochować w każdy rozsądny sposób, stosownie do nośnika, środka przekazu i kontekstu, w jakim Licencjobiorca Dzieli się Utworem Licencjonowanym. Na przykład, rozsądnym dochowaniem wyżej określonych warunków może być załączenie adresu URI lub hiperłącza do źródła zawierającego wymagane informacje.  
 		3. Jeśli zażąda tego Licencjodawca, Licencjobiorca obowiązany jest usunąć wszelkie informacje określone w Paragrafie [3(a)(1)(A)](#s3a1A), w uzasadnionym zakresie wyznaczonym przez możliwości techniczne.<br>
 		4. Jeśli Licencjobiorca Dzieli się stworzonymi przez siebie Utworami Zależnymi, Licencja Twórcy Utworu Zależnego nie może ograniczać użytkowników Utworu Zależnego w dochowaniu warunków niniejszej Licencji Publicznej.
 
@@ -99,9 +97,9 @@ W razie wątpliwości, niniejszy Paragraf 4 uzupełnia, lecz nie zastępuje obow
 	c. Powyższe wyłączenie gwarancji i ograniczenie odpowiedzialności będzie interpretowane w sposób zapewniający wyłączenie i zrzeczenie się odpowiedzialności w zakresie możliwie najszerszym.
 
 ## Paragraf 6 – Termin i Wygaśnięcie.
-	[id]: "s6a"
+	<a id="s6a"></a>  
 	a. Niniejsza Licencja Publiczna jest udzielona na czas trwania licencjonowanych Praw Autorskich i Praw Podobnych do Praw Autorskich. Jednakże, jeśli Licencjobiorca naruszy postanowienia niniejszej Licencji Publicznej, prawa Licencjobiorcy wynikające z niniejszej Licencji Publicznej wygasają automatycznie.
-	[id]: "s6b"
+	<a id="s6b"></a>  
 	b. Jeżeli prawo Licencjobiorcy do korzystania z Utworu Licencjonowanego wygasło na podstawie Paragrafu [6(a)](#s6a), zostaje ono przywrócone:
 
 		1. automatycznie z data usunięcia naruszenia, jeśli nastąpiło ono w ciągu 30 dni od odkrycia naruszenia przez Licencjobiorcę; lub
