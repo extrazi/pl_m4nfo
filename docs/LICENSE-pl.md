@@ -1,5 +1,5 @@
 ---
-modified: 2021-04-27T13:52:30+02:00
+modified: 2021-04-27T18:35:45+02:00
 ---
 
 # CC-BY-4.0
@@ -115,7 +115,7 @@ W razie wątpliwości, niniejszy Paragraf 4 uzupełnia, lecz nie zastępuje obow
 	2. w razie wyraźnego przywrócenia przez Licencjodawcę.
 	W razie wątpliwości, niniejszy Paragraf [6(b)](#s6b) nie ogranicza żadnych uprawnień Licencjodawcy przysługujących mu w razie naruszenia przez Licencjobiorcę niniejszej Licencji Publicznej. 
 - c. W razie wątpliwości, Licencjodawca może także oferować Utwór Licencjonowany na odrębnych warunkach, bądź przestać dystrybuować Utwór Licencjonowany w każdej chwili; nie prowadzi to jednak do wygaśnięcia niniejszej Licencji Publicznej. 
-- d. Paragrafy [|§Paragraf 1 – Definicje.](#1), [§Paragraf 5 – Wyłączenie Gwarancji i Ograniczenie Odpowiedzialności.](#5), [§Paragraf 6 – Termin i Wygaśnięcie.](#6), [§Paragraf 7 – Inne Warunki.](#7) i [§Paragraf 8 – Wykładnia.](#8) trwają również po wygaśnięciu niniejszej Licencji Publicznej. 
+- d. Paragrafy [§Paragraf 1 – Definicje.](#1), [§Paragraf 5 – Wyłączenie Gwarancji i Ograniczenie Odpowiedzialności.](#5), [§Paragraf 6 – Termin i Wygaśnięcie.](#6), [§Paragraf 7 – Inne Warunki.](#7) i [§Paragraf 8 – Wykładnia.](#8) trwają również po wygaśnięciu niniejszej Licencji Publicznej. 
 
 <a id="7"></a>
 ## Paragraf 7 – Inne Warunki.
