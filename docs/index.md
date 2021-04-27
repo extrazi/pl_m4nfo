@@ -71,7 +71,7 @@ A.		[**m4NFO Manual** ](https://github.com/extrazi/pl_m4nfo/wiki/m4NFOmanual)
 	II.		[Ship functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipFunctions.html)  
 	III.	[Ship callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipCallbacks.html) <br>
 <!-- . . . . . . . . . . . . . . . . . Stacje  . . . . . . . . . . . . . -->
- 7. [**Stacje**](stationshttps://github.com/extrazi/pl_m4nfo/wiki/)  
+ 7. [**Stacje**](https://github.com/extrazi/pl_m4nfo/wiki/stations)  
 	I.		[Właściwości stacji](https://github.com/extrazi/pl_m4nfo/wiki/stationProperties)  
 	II.		[Funkcje stacji](https://github.com/extrazi/pl_m4nfo/wiki/stationFunctions)  
 	III.	[Callbacks stacji](https://github.com/extrazi/pl_m4nfo/wiki/stationCallbacks)  
