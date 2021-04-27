@@ -1,5 +1,5 @@
 ---
-modified: 2021-04-27T13:52:30+02:00
+modified: 2021-04-27T18:15:38+02:00
 ---
 
 # CC-BY-4.0
@@ -126,4 +126,4 @@ Creative Commons nie jest stroną udostępnianych przez siebie Licencji Publiczn
 Z Creative Commons można skontaktować się pod adresem creativecommons.org.
 
 
-https://creativecommons.org/licenses/by/4.0/legalcode.pl
+# [ ] ***https://creativecommons.org/licenses/by/4.0/legalcode.pl***
