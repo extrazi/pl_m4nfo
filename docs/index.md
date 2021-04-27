@@ -71,7 +71,7 @@ A.		[**m4NFO Manual** ](https://github.com/extrazi/pl_m4nfo/wiki/m4NFOmanual)
 	II.		[Ship functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipFunctions.html)  
 	III.	[Ship callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/ShipCallbacks.html) <br>
 <!-- . . . . . . . . . . . . . . . . . Stacje  . . . . . . . . . . . . . -->
- 7. [**Stacje**](stations)  
+ 7. [**Stacje**](stationshttps://github.com/extrazi/pl_m4nfo/wiki/)  
 	I.		[Właściwości stacji](https://github.com/extrazi/pl_m4nfo/wiki/stationProperties)  
 	II.		[Funkcje stacji](https://github.com/extrazi/pl_m4nfo/wiki/stationFunctions)  
 	III.	[Callbacks stacji](https://github.com/extrazi/pl_m4nfo/wiki/stationCallbacks)  
@@ -111,7 +111,7 @@ A.		[**m4NFO Manual** ](https://github.com/extrazi/pl_m4nfo/wiki/m4NFOmanual)
 	II.		[Object functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/ObjectFunctions.html)  
 	III.	[Object callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/ObjectCallbacks.html)  
 <!-- . . . . . . . . . . . . . . . . . Typy kolei. . . . . . . . . . . . . . -->
- 15.	[**Railtypes**](railTypes)  
+ 15.	[**Railtypes**](https://github.com/extrazi/pl_m4nfo/wiki/railTypes)  
 	I.		[Railtype properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/RailtypeProperties.html)  
 	II.		[Railtype functions](https://github.com/extrazi/pl_m4nfo/wiki/railTypeFunctions)  
 	III.	[Standardized railtype scheme](http://www.ttdpatch.de/grfspecs/m4nfoManual/RailtypeScheme.html)  
@@ -120,7 +120,7 @@ A.		[**m4NFO Manual** ](https://github.com/extrazi/pl_m4nfo/wiki/m4NFOmanual)
 	I.		[Town functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/TownFunctions.html)  
 <!-- . . . . . . . . . . . . . . . . Indeks . . . . . . . . . . . . . . . . . -->
  17.	**Index** <br>
-	I.		[Ogólne](indexGeneral)  
+	I.		[Ogólne](https://github.com/extrazi/pl_m4nfo/wiki/indexGeneral)  
 	II.		[Trains](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexTrains.html)  
 	II.		[Road vehicles](http://www.ttdpatch.de/grfspecs/m4nfoManual/Indexrvs.html)  
 	IV.		[Ships](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexShips.html)  
@@ -135,11 +135,11 @@ A.		[**m4NFO Manual** ](https://github.com/extrazi/pl_m4nfo/wiki/m4NFOmanual)
 	XIII.	[Towns](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexTowns.html) <br><!--
 --><!--#:-->     __________________________________________________
  18.	**Raport techniczny**  
-	I.		[Ogólny](tR_general)  
+	I.		[Ogólny]https://github.com/extrazi/pl_m4nfo/wiki/tR_general)  
 	II.		[Trains](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_trains.html)  
 	III.	[Road vehicles](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_rvs.html)  
 	IV.		[Ships](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_ships.html)  
-	V.		[Stacje](tR_stations)  
+	V.		[Stacje]https://github.com/extrazi/pl_m4nfo/wiki/tR_stations)  
 	VI.		[Objects](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_objects.html)  
 	VII.	[Cargoes](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_cargoes.html) <br><!--
 --> __________________________________________________
