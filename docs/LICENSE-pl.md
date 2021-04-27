@@ -1,5 +1,5 @@
 ---
-modified: 2021-04-24T02:48:24+02:00
+modified: 2021-04-27T13:21:39+02:00
 ---
 
 # CC-BY-4.0
@@ -26,39 +26,40 @@ Przystąpienie do wykonywania Uprawnień Licencyjnych oznacza akceptację i zgod
 
 ## Paragraf 1 – Definicje.
 
-	a. **Utwór Zależny** oznacza materiał objęty Prawami Autorskimi i Prawami Podobnymi do Praw Autorskich, pochodzący od, lub opracowany na podstawie Utworu Licencjonowanego, w którym następuje tłumaczenie Utworu Licencjonowanego, jego zmiana, aranżacja, przetworzenie lub inna modyfikacja w taki sposób, że wymagane jest zezwolenie na podstawie Prawa Autorskiego i Praw Podobnych do Praw Autorskich należących do Licencjodawcy. Dla celów niniejszej Licencji Publicznej, jeśli Utwór Licencjonowany jest utworem muzycznym, wykonaniem lub nagraniem dźwiękowym, Utwór Zależny powstaje zawsze, gdy Utwór Licencjonowany zostaje zsynchronizowany w relacji czasowej z ruchomym obrazem.
-	b. **Licencja Twórcy Utworu Zależnego** oznacza licencję, którą Licencjobiorca stosuje do Praw Autorskich i Praw Podobnych do Praw Autorskich przysługujących mu w odniesieniu do Utworu Zależnego, zgodnie z warunkami niniejszej Licencji Publicznej.
-	c. **Prawa Autorskie i Prawa Podobne do Praw Autorskich** oznaczają prawo autorskie i/lub prawa ściśle związane z prawem autorskim, włącznie z, bez ograniczeń, wykonywaniem, nadawaniem, nagrywaniem dźwięku, oraz Prawami Sui Generis do Baz Danych, bez względu na to, w jaki sposób prawa te są nazywane i kategoryzowane. Dla celów niniejszej Licencji Publicznej, prawa wymienione w Paragrafie [2(b)(1)-(2)](#s2b) nie są Prawami Autorskimi i Prawami Podobnymi do Praw Autorskich.
-	d. **Skuteczne Zabezpieczenia Techniczne** oznaczają środki, które, w braku odpowiedniego zezwolenia, nie mogą być obchodzone na podstawie praw wykonujących zobowiązanie przyjęte na podstawie art. 11 Traktatu Światowej Organizacji Własności Intelektualnej o Prawie Autorskim z dn. 20 grudnia 1996, lub podobnych umów międzynarodowych.
-	e. **Wyjątki i Ograniczenia** oznaczają dozwolony użytek lub inne wyjątki lub ograniczenia Praw Autorskich i Praw Podobnych do Praw Autorskich, mające zastosowanie do korzystania z Utworu Licencjonowanego przez Licencjobiorcę.
-	f. **Utwór Licencjonowany** oznacza dzieło artystyczne lub literackie, bazę danych, lub inny materiał, do którego Licencjodawca zastosował niniejszą Licencję Publiczną.
-	g. **Uprawnienia Licencyjne** oznaczają uprawnienia przyznane Licencjobiorcy na warunkach niniejszej Licencji Publicznej, ograniczające się do wszystkich Praw Autorskich i Praw Podobnych do Praw Autorskich regulujących korzystanie z Utworu Licencjonowanego przez Licencjobiorcę, i które Licencjodawca jest upoważniony licencjonować.
-	h. **Licencjodawca** oznacza osobę(y) fizyczną(e) lub podmiot(y) udzielający(e) praw na warunkach niniejszej Licencji Publicznej.
-	i. **Dzielenie się** oznacza udostępniane publiczne utworu jakimikolwiek środkami, wymagające zgody na podstawie Uprawnień Licencyjnych, takie jak reprodukcja, publiczne wystawianie, publiczne wykonanie, rozprowadzanie, rozpowszechnianie, komunikowanie, importowanie oraz publiczne udostępnianie utworu w taki sposób, aby każdy mógł mieć do niego dostęp w miejscu i czasie przez siebie wybranym.
-	j. **Prawa Sui Generis do Baz Danych** oznaczają prawa inne niż prawo autorskie, wynikające z Dyrektywy Parlamentu Europejskiego i Rady Nr 96/9/WE z 11 marca 1996 r. o prawnej ochronie baz danych, z późniejszymi zmianami/lub zastępowanej nową, jak również inne prawa odpowiadające im istotnie, obowiązujące gdziekolwiek na świecie.
-	k. **Licencjobiorca** oznacza podmiot wykonujący Uprawnienia Licencyjne na warunkach niniejszej Licencji Publicznej.
+ a. **Utwór Zależny** oznacza materiał objęty Prawami Autorskimi i Prawami Podobnymi do Praw Autorskich, pochodzący od, lub opracowany na podstawie Utworu Licencjonowanego, w którym następuje tłumaczenie Utworu Licencjonowanego, jego zmiana, aranżacja, przetworzenie lub inna modyfikacja w taki sposób, że wymagane jest zezwolenie na podstawie Prawa Autorskiego i Praw Podobnych do Praw Autorskich należących do Licencjodawcy. Dla celów niniejszej Licencji Publicznej, jeśli Utwór Licencjonowany jest utworem muzycznym, wykonaniem lub nagraniem dźwiękowym, Utwór Zależny powstaje zawsze, gdy Utwór Licencjonowany zostaje zsynchronizowany w relacji czasowej z ruchomym obrazem. 
+ b. **Licencja Twórcy Utworu Zależnego** oznacza licencję, którą Licencjobiorca stosuje do Praw Autorskich i Praw Podobnych do Praw Autorskich przysługujących mu w odniesieniu do Utworu Zależnego, zgodnie z warunkami niniejszej Licencji Publicznej. 
+ c. **Prawa Autorskie i Prawa Podobne do Praw Autorskich** oznaczają prawo autorskie i/lub prawa ściśle związane z prawem autorskim, włącznie z, bez ograniczeń, wykonywaniem, nadawaniem, nagrywaniem dźwięku, oraz Prawami Sui Generis do Baz Danych, bez względu na to, w jaki sposób prawa te są nazywane i kategoryzowane. Dla celów niniejszej Licencji Publicznej, prawa wymienione w Paragrafie [2(b)(1)-(2)](#s2b) nie są Prawami Autorskimi i Prawami Podobnymi do Praw Autorskich. 
+ d. **Skuteczne Zabezpieczenia Techniczne** oznaczają środki, które, w braku odpowiedniego zezwolenia, nie mogą być obchodzone na podstawie praw wykonujących zobowiązanie przyjęte na podstawie art. 11 Traktatu Światowej Organizacji Własności Intelektualnej o Prawie Autorskim z dn. 20 grudnia 1996, lub podobnych umów międzynarodowych. 
+ e. **Wyjątki i Ograniczenia** oznaczają dozwolony użytek lub inne wyjątki lub ograniczenia Praw Autorskich i Praw Podobnych do Praw Autorskich, mające zastosowanie do korzystania z Utworu Licencjonowanego przez Licencjobiorcę.   
+
+ f. **Utwór Licencjonowany** oznacza dzieło artystyczne lub literackie, bazę danych, lub inny materiał, do którego Licencjodawca zastosował niniejszą Licencję Publiczną. 
+ g. **Uprawnienia Licencyjne** oznaczają uprawnienia przyznane Licencjobiorcy na warunkach niniejszej Licencji Publicznej, ograniczające się do wszystkich Praw Autorskich i Praw Podobnych do Praw Autorskich regulujących korzystanie z Utworu Licencjonowanego przez Licencjobiorcę, i które Licencjodawca jest upoważniony licencjonować. 
+ h. **Licencjodawca** oznacza osobę(y) fizyczną(e) lub podmiot(y) udzielający(e) praw na warunkach niniejszej Licencji Publicznej. 
+ i. **Dzielenie się** oznacza udostępniane publiczne utworu jakimikolwiek środkami, wymagające zgody na podstawie Uprawnień Licencyjnych, takie jak reprodukcja, publiczne wystawianie, publiczne wykonanie, rozprowadzanie, rozpowszechnianie, komunikowanie, importowanie oraz publiczne udostępnianie utworu w taki sposób, aby każdy mógł mieć do niego dostęp w miejscu i czasie przez siebie wybranym. 
+ j. **Prawa Sui Generis do Baz Danych** oznaczają prawa inne niż prawo autorskie, wynikające z Dyrektywy Parlamentu Europejskiego i Rady Nr 96/9/WE z 11 marca 1996 r. o prawnej ochronie baz danych, z późniejszymi zmianami/lub zastępowanej nową, jak również inne prawa odpowiadające im istotnie, obowiązujące gdziekolwiek na świecie. 
+ k. **Licencjobiorca** oznacza podmiot wykonujący Uprawnienia Licencyjne na warunkach niniejszej Licencji Publicznej.  
 
 ## Paragraf 2 – Zakres.
 
-	a. **Udzielenie licencji.**
-		<a id="s2a1"></a>  
-		1. Zgodnie z postanowieniami niniejszej Licencji Publicznej, Licencjodawca udziela niniejszym Licencjobiorcy, nieodpłatnej, nieobejmującej prawa do udzielania sublicencji, niewyłącznej, nieodwołalnej licencji na korzystanie z Utworu na terytorium całego świata w odniesieniu Utworu Licencjonowanego Uprawnień Licencyjnych do:
-			A. zwielokrotniania i Dzielenia się Utworem Licencjonowanym w całości lub części; a także
-			B. tworzenia, zwielokrotniania i Dzielenia się Utworami Zależnymi.
-		2. <u>Wyjątki i Ograniczenia.</u> W razie wątpliwości, w przypadku, gdy korzystanie przez Licencjobiorcę odbywa się w ramach Wyjątków i Ograniczeń, niniejsza Licencja Publiczna nie ma zastosowania, a Licencjobiorca nie jest zobowiązany do przestrzegania jej warunków.
-		3. <u>Czas trwania.</u> Czas trwania niniejszej Licencji Publicznej określony jest w Paragrafie [6(a)](#s6a).
-		<a id="s2a4"></a>  
-		4. <u>Środki przekazu i formaty; zezwolenie na modyfikacje techniczne.</u> Licencjodawca upoważnia Licencjobiorcę do wykonywania Uprawnień Licencyjnych za pośrednictwem wszystkich znanych lub mających powstać w przyszłości środków przekazu oraz we wszystkich znanych lub mających powstać w przyszłości formatach, a także do dokonywania w tym celu koniecznych modyfikacji technicznych. Licencjodawca zrzeka się i/lub zobowiązuje do niewykonywania prawa do zabronienia Licencjobiorcy dokonywania modyfikacji technicznych koniecznych dla wykonywania Uprawnień Licencyjnych, włącznie z modyfikacjami technicznymi koniecznymi do obejścia Skutecznych Zabezpieczeń Technicznych. Dla celów niniejszej Licencji Publicznej, proste dokonanie modyfikacji objętych niniejszym Paragrafem [2(a)(4)](#s2a4) nie prowadzi do powstania Utworu Zależnego.
-		5. <u>Dalsi odbiorcy.</u>
-			A. <u>Oferta Licencjodawcy – Utwór Licencjonowany.</u> Każdy odbiorca Utworu Licencjonowanego automatycznie otrzymuje ofertę Licencjodawcy przystąpienia do wykonywania Uprawnień Licencyjnych zgodnie z warunkami niniejszej Licencji Publicznej.
-			B. <u>Żadnych ograniczeń dla dalszych odbiorców.</u> Licencjobiorca nie może oferować ani nakładać dodatkowych lub zmienionych warunków wykorzystania Utworu Licencjonowanego, ani stosować jakichkolwiek Skutecznych Zabezpieczeń Technicznych, jeśli działania te ograniczają wykonywanie Uprawnień Licencyjnych przez jakiegokolwiek odbiorcę Utworu Licencjonowanego.
-		6. <u>Brak upoważnienia.</u> Żaden element niniejszej Licencji Publicznej nie stanowi zezwolenia, ani nie może być interpretowany jako zezwolenie na sugerowanie lub stwierdzanie, że Licencjobiorca lub wykorzystanie przez Licencjobiorcę Utworu Licencjonowanego są powiązane, sponsorowane, upoważnione lub oficjalnie uznane przez Licencjodawcę lub inne podmioty wskazane w celu uznania autorstwa, zgodnie z postanowieniem Paragrafu [3(a)(1)(A)(i)](#s3a1Ai).
-	<a id="s2b"></a>  
-	b. **Inne prawa.**
+ a. **Udzielenie licencji.**  
+<a id="s2a1"></a>  
+		1. Zgodnie z postanowieniami niniejszej Licencji Publicznej, Licencjodawca udziela niniejszym Licencjobiorcy, nieodpłatnej, nieobejmującej prawa do udzielania sublicencji, niewyłącznej, nieodwołalnej licencji na korzystanie z Utworu na terytorium całego świata w odniesieniu Utworu Licencjonowanego Uprawnień Licencyjnych do: 
+   A. zwielokrotniania i Dzielenia się Utworem Licencjonowanym w całości lub części; a także  
+			B. tworzenia, zwielokrotniania i Dzielenia się Utworami Zależnymi.  
+		2. <u>Wyjątki i Ograniczenia.</u> W razie wątpliwości, w przypadku, gdy korzystanie przez Licencjobiorcę odbywa się w ramach Wyjątków i Ograniczeń, niniejsza Licencja Publiczna nie ma zastosowania, a Licencjobiorca nie jest zobowiązany do przestrzegania jej warunków. 
+  3. <u>Czas trwania.</u> Czas trwania niniejszej Licencji Publicznej określony jest w Paragrafie [6(a)](#s6a). 
+		<a id="s2a4"></a>   
+		4. <u>Środki przekazu i formaty; zezwolenie na modyfikacje techniczne.</u> Licencjodawca upoważnia Licencjobiorcę do wykonywania Uprawnień Licencyjnych za pośrednictwem wszystkich znanych lub mających powstać w przyszłości środków przekazu oraz we wszystkich znanych lub mających powstać w przyszłości formatach, a także do dokonywania w tym celu koniecznych modyfikacji technicznych. Licencjodawca zrzeka się i/lub zobowiązuje do niewykonywania prawa do zabronienia Licencjobiorcy dokonywania modyfikacji technicznych koniecznych dla wykonywania Uprawnień Licencyjnych, włącznie z modyfikacjami technicznymi koniecznymi do obejścia Skutecznych Zabezpieczeń Technicznych. Dla celów niniejszej Licencji Publicznej, proste dokonanie modyfikacji objętych niniejszym Paragrafem [2(a)(4)](#s2a4) nie prowadzi do powstania Utworu Zależnego. 
+		5. <u>Dalsi odbiorcy.</u> 
+			A. <u>Oferta Licencjodawcy – Utwór Licencjonowany.</u> Każdy odbiorca Utworu Licencjonowanego automatycznie otrzymuje ofertę Licencjodawcy przystąpienia do wykonywania Uprawnień Licencyjnych zgodnie z warunkami niniejszej Licencji Publicznej. 
+			B. <u>Żadnych ograniczeń dla dalszych odbiorców.</u> Licencjobiorca nie może oferować ani nakładać dodatkowych lub zmienionych warunków wykorzystania Utworu Licencjonowanego, ani stosować jakichkolwiek Skutecznych Zabezpieczeń Technicznych, jeśli działania te ograniczają wykonywanie Uprawnień Licencyjnych przez jakiegokolwiek odbiorcę Utworu Licencjonowanego. 
+		6. <u>Brak upoważnienia.</u> Żaden element niniejszej Licencji Publicznej nie stanowi zezwolenia, ani nie może być interpretowany jako zezwolenie na sugerowanie lub stwierdzanie, że Licencjobiorca lub wykorzystanie przez Licencjobiorcę Utworu Licencjonowanego są powiązane, sponsorowane, upoważnione lub oficjalnie uznane przez Licencjodawcę lub inne podmioty wskazane w celu uznania autorstwa, zgodnie z postanowieniem Paragrafu [3(a)(1)(A)(i)](#s3a1Ai). 
+	<a id="s2b"></a>   
+	b. **Inne prawa.** 
 
-		1. Autorskie prawa osobiste, takie jak prawo do nienaruszalności formy i treści utworu, ani prawo do kontroli komercyjnego wykorzystania wizerunku, prawo do prywatności, lub inne podobne prawa osobiste nie są objęte niniejszą Licencją Publiczną. Jednakże, w najszerszym możliwym zakresie, lub w zakresie ograniczonym, pozwalającym na wykonywanie przez Licencjobiorcę Uprawnień Licencyjnych (jednak nie w żaden inny sposób), Licencjodawca zrzeka się lub zobowiązuje do niewykonywania powyższych przysługujących Mu praw.
-		2. Prawa patentowe i prawa do znaków towarowych nie są objęte niniejszą Licencją Publiczną.
-		3. W najszerszym możliwym zakresie, Licencjodawca zrzeka się wszelkich praw do wynagrodzenia od Licencjobiorcy za wykonywanie Uprawnień Licencyjnych, pobieranego bezpośrednio bądź za pośrednictwem organizacji zbiorowego zarządzania, na podstawie jakiegokolwiek, dobrowolnego lub zbywalnego, ustawowego lub obowiązkowego, systemu licencyjnego. W pozostałych przypadkach, Licencjodawca wyraźnie zastrzega prawo do pobierania wynagrodzenia.
+		1. Autorskie prawa osobiste, takie jak prawo do nienaruszalności formy i treści utworu, ani prawo do kontroli komercyjnego wykorzystania wizerunku, prawo do prywatności, lub inne podobne prawa osobiste nie są objęte niniejszą Licencją Publiczną. Jednakże, w najszerszym możliwym zakresie, lub w zakresie ograniczonym, pozwalającym na wykonywanie przez Licencjobiorcę Uprawnień Licencyjnych (jednak nie w żaden inny sposób), Licencjodawca zrzeka się lub zobowiązuje do niewykonywania powyższych przysługujących Mu praw. 
+		2. Prawa patentowe i prawa do znaków towarowych nie są objęte niniejszą Licencją Publiczną. 
+		3. W najszerszym możliwym zakresie, Licencjodawca zrzeka się wszelkich praw do wynagrodzenia od Licencjobiorcy za wykonywanie Uprawnień Licencyjnych, pobieranego bezpośrednio bądź za pośrednictwem organizacji zbiorowego zarządzania, na podstawie jakiegokolwiek, dobrowolnego lub zbywalnego, ustawowego lub obowiązkowego, systemu licencyjnego. W pozostałych przypadkach, Licencjodawca wyraźnie zastrzega prawo do pobierania wynagrodzenia. 
 
 ## Paragraf 3 – Warunki Licencji.
 
@@ -97,7 +98,7 @@ W razie wątpliwości, niniejszy Paragraf 4 uzupełnia, lecz nie zastępuje obow
 	c. Powyższe wyłączenie gwarancji i ograniczenie odpowiedzialności będzie interpretowane w sposób zapewniający wyłączenie i zrzeczenie się odpowiedzialności w zakresie możliwie najszerszym.
 
 ## Paragraf 6 – Termin i Wygaśnięcie.
-	<a id="s6a"></a>  
+ <a id="s6a"></a>  
 	a. Niniejsza Licencja Publiczna jest udzielona na czas trwania licencjonowanych Praw Autorskich i Praw Podobnych do Praw Autorskich. Jednakże, jeśli Licencjobiorca naruszy postanowienia niniejszej Licencji Publicznej, prawa Licencjobiorcy wynikające z niniejszej Licencji Publicznej wygasają automatycznie.
 	<a id="s6b"></a>  
 	b. Jeżeli prawo Licencjobiorcy do korzystania z Utworu Licencjonowanego wygasło na podstawie Paragrafu [6(a)](#s6a), zostaje ono przywrócone:
