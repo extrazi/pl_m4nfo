@@ -22,7 +22,7 @@ A.		[**m4NFO Manual** ](https://github.com/extrazi/pl_m4nfo/wiki/m4NFOmanual)
 		1.	[Pliki GRF](https://github.com/extrazi/pl_m4nfo/wiki/basiConcepts#grf-files)  
 		2.	[pliki newGRF](https://github.com/extrazi/pl_m4nfo/wiki/basiConcepts#newgrf-files)  
 		3.	[Struktura języka](https://github.com/extrazi/pl_m4nfo/wiki/basiConcepts#m4nfo-language-structure)  
-		4.	[Cechy](https://github.com/extrazi/pl_m4nfo/wiki/basiConcepts#features). 
+		4.	[Cechy](https://github.com/extrazi/pl_m4nfo/wiki/basiConcepts#features)   
 		5.	[Strukturyzacja plików źródłowych](https://github.com/extrazi/pl_m4nfo/wiki/basiConcepts#structuring)   
 	II.	Słownictwo i notacja  
 		1.	[Typy danych](https://github.com/extrazi/pl_m4nfo/wiki/dataTypes)  
@@ -32,7 +32,7 @@ A.		[**m4NFO Manual** ](https://github.com/extrazi/pl_m4nfo/wiki/m4NFOmanual)
 			II.		[Recolour sprites](http://www.ttdpatch.de/grfspecs/m4nfoManual/RecolourSprites.html)  
 			III.	[Sprite grouping](http://www.ttdpatch.de/grfspecs/m4nfoManual/SpriteGrouping.html)  
 			IV.		[Sprite layout](http://www.ttdpatch.de/grfspecs/m4nfoManual/SpriteLayout.html)  
-		4.	[Pojęcie funkcji](conceptFunctions)  
+		4.	[Pojęcie funkcji](https://github.com/extrazi/pl_m4nfo/wiki/conceptFunctions)  
 			I.		[Funkcje właściwości](https://github.com/extrazi/pl_m4nfo/wiki/conceptFunctions#propertyfunctions)  
 			II.		[Funkcje układu](https://github.com/extrazi/pl_m4nfo/wiki/conceptFunctions#layoutfunctions)  
 			III.	[Funkcje wydajności](https://github.com/extrazi/pl_m4nfo/wiki/conceptFunctions#performancefunctions)  
@@ -97,8 +97,7 @@ A.		[**m4NFO Manual** ](https://github.com/extrazi/pl_m4nfo/wiki/m4NFOmanual)
  12.	[**Industries**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Industries.html)  
 	I.		[Industry properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustryProperties.html)  
 	II.		[Industry functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustryFunctions.html)  
-	III.	[Industry callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustryCallbacks.html)  
-	IV.		[Industry types](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustryTypes.html)  
+	III.	[Industry callbacks](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndustryCallbacks)  
 <!-- . . . . . . . . . . . . . . . . . Ładunki. . . . . . . . . . . . . . . -->
  13.	[**Cargoes**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Cargoes.html)  
 	I.		[Cargo properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/CargoProperties.html)  
@@ -115,15 +114,18 @@ A.		[**m4NFO Manual** ](https://github.com/extrazi/pl_m4nfo/wiki/m4NFOmanual)
 	I.		[Railtype properties](http://www.ttdpatch.de/grfspecs/m4nfoManual/RailtypeProperties.html)  
 	II.		[Railtype functions](https://github.com/extrazi/pl_m4nfo/wiki/railTypeFunctions)  
 	III.	[Standardized railtype scheme](http://www.ttdpatch.de/grfspecs/m4nfoManual/RailtypeScheme.html)  
+<!-- . . . . . . . . . . . . . . . . . Typy dróg . . . . . . . . . . . . . . -->
+ 16.	[**Road/tramtypes**](http://ttdpatch.de/grfspecs/m4nfoManual/Roadtypes)  
+	I.		[Road/tramtypes properties](http://ttdpatch.de/grfspecs/m4nfoManual/RoadtypeProperties)  
 <!-- . . . . . . . . . . . . . . . . Miejscowości . . . . . . . . . . . . . . -->
- 16.	[**Towns**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Towns.html)  
+ 17.	[**Towns**](http://www.ttdpatch.de/grfspecs/m4nfoManual/Towns.html)  
 	I.		[Town functions](http://www.ttdpatch.de/grfspecs/m4nfoManual/TownFunctions.html)  
 <!-- . . . . . . . . . . . . . . . . Indeks . . . . . . . . . . . . . . . . . -->
- 17.	**Index** <br>
+ 18.	**Index** <br>
 	I.		[Ogólne](https://github.com/extrazi/pl_m4nfo/wiki/indexGeneral)  
 	II.		[Trains](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexTrains.html)  
 	II.		[Road vehicles](http://www.ttdpatch.de/grfspecs/m4nfoManual/Indexrvs.html)  
-	IV.		[Ships](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexShips.html)  
+	IV.		[Ships](http://www.ttdpatch.de/grfspecs/m4nfoManual/Indexships.html)  
 	V.		[Stacje](https://github.com/extrazi/pl_m4nfo/wiki/indexStations)  
 	VI.		[Houses](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexHouses.html)  
 	VII.	[Canals/rivers](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexCanals.html)  
@@ -134,16 +136,16 @@ A.		[**m4NFO Manual** ](https://github.com/extrazi/pl_m4nfo/wiki/m4NFOmanual)
 	XII.	[Typy <span title=Rail>torów</span>](https://github.com/extrazi/pl_m4nfo/wiki/indexRailTypes)  
 	XIII.	[Towns](http://www.ttdpatch.de/grfspecs/m4nfoManual/IndexTowns.html) <br><!--
 --><!--#:-->     __________________________________________________
- 18.	**Raport techniczny**  
-	I.		[Ogólny]https://github.com/extrazi/pl_m4nfo/wiki/tR_general)  
+ 19.	**Raport techniczny**  
+	I.		[Ogólny](https://github.com/extrazi/pl_m4nfo/wiki/tR_general)  
 	II.		[Trains](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_trains.html)  
 	III.	[Road vehicles](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_rvs.html)  
 	IV.		[Ships](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_ships.html)  
-	V.		[Stacje]https://github.com/extrazi/pl_m4nfo/wiki/tR_stations)  
+	V.		[Stacje](https://github.com/extrazi/pl_m4nfo/wiki/tR_stations)  
 	VI.		[Objects](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_objects.html)  
 	VII.	[Cargoes](http://www.ttdpatch.de/grfspecs/m4nfoManual/TR_cargoes.html) <br><!--
 --> __________________________________________________
- 19.	<!--***-->**Tutorial**  
+ 20.	<!--***-->**Tutorial**  
 	I.		[Bridge tutorial](http://www.ttdpatch.de/grfspecs/m4nfoManual/BridgeTut.html)  
 	II.		[Callback tutorial](https://github.com/extrazi/pl_m4nfo/wiki/callbacksTut)  
 	III.	[Kompilowanie newgrfs z 32 bpp i/lub dodatkowym zoomem](https://github.com/extrazi/pl_m4nfo/wiki/infoVersion32Tut)  
