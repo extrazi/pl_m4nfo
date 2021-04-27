@@ -1,5 +1,5 @@
 ---
-modified: 2021-04-27T13:21:39+02:00
+modified: 2021-04-27T13:52:30+02:00
 ---
 
 # CC-BY-4.0
@@ -53,19 +53,19 @@ Przystąpienie do wykonywania Uprawnień Licencyjnych oznacza akceptację i zgod
 		5. <u>Dalsi odbiorcy.</u> 
 			A. <u>Oferta Licencjodawcy – Utwór Licencjonowany.</u> Każdy odbiorca Utworu Licencjonowanego automatycznie otrzymuje ofertę Licencjodawcy przystąpienia do wykonywania Uprawnień Licencyjnych zgodnie z warunkami niniejszej Licencji Publicznej. 
 			B. <u>Żadnych ograniczeń dla dalszych odbiorców.</u> Licencjobiorca nie może oferować ani nakładać dodatkowych lub zmienionych warunków wykorzystania Utworu Licencjonowanego, ani stosować jakichkolwiek Skutecznych Zabezpieczeń Technicznych, jeśli działania te ograniczają wykonywanie Uprawnień Licencyjnych przez jakiegokolwiek odbiorcę Utworu Licencjonowanego. 
-		6. <u>Brak upoważnienia.</u> Żaden element niniejszej Licencji Publicznej nie stanowi zezwolenia, ani nie może być interpretowany jako zezwolenie na sugerowanie lub stwierdzanie, że Licencjobiorca lub wykorzystanie przez Licencjobiorcę Utworu Licencjonowanego są powiązane, sponsorowane, upoważnione lub oficjalnie uznane przez Licencjodawcę lub inne podmioty wskazane w celu uznania autorstwa, zgodnie z postanowieniem Paragrafu [3(a)(1)(A)(i)](#s3a1Ai). 
-	<a id="s2b"></a>   
+		6. <u>Brak upoważnienia.</u> Żaden element niniejszej Licencji Publicznej nie stanowi zezwolenia, ani nie może być interpretowany jako zezwolenie na sugerowanie lub stwierdzanie, że Licencjobiorca lub wykorzystanie przez Licencjobiorcę Utworu Licencjonowanego są powiązane, sponsorowane, upoważnione lub oficjalnie uznane przez Licencjodawcę lub inne podmioty wskazane w celu uznania autorstwa, zgodnie z postanowieniem Paragrafu [3(a)(1)(A)(i)](#s3a1Ai).  
+<a id="s2b"></a>   
 	b. **Inne prawa.** 
 
-		1. Autorskie prawa osobiste, takie jak prawo do nienaruszalności formy i treści utworu, ani prawo do kontroli komercyjnego wykorzystania wizerunku, prawo do prywatności, lub inne podobne prawa osobiste nie są objęte niniejszą Licencją Publiczną. Jednakże, w najszerszym możliwym zakresie, lub w zakresie ograniczonym, pozwalającym na wykonywanie przez Licencjobiorcę Uprawnień Licencyjnych (jednak nie w żaden inny sposób), Licencjodawca zrzeka się lub zobowiązuje do niewykonywania powyższych przysługujących Mu praw. 
+   1. Autorskie prawa osobiste, takie jak prawo do nienaruszalności formy i treści utworu, ani prawo do kontroli komercyjnego wykorzystania wizerunku, prawo do prywatności, lub inne podobne prawa osobiste nie są objęte niniejszą Licencją Publiczną. Jednakże, w najszerszym możliwym zakresie, lub w zakresie ograniczonym, pozwalającym na wykonywanie przez Licencjobiorcę Uprawnień Licencyjnych (jednak nie w żaden inny sposób), Licencjodawca zrzeka się lub zobowiązuje do niewykonywania powyższych przysługujących Mu praw. 
 		2. Prawa patentowe i prawa do znaków towarowych nie są objęte niniejszą Licencją Publiczną. 
 		3. W najszerszym możliwym zakresie, Licencjodawca zrzeka się wszelkich praw do wynagrodzenia od Licencjobiorcy za wykonywanie Uprawnień Licencyjnych, pobieranego bezpośrednio bądź za pośrednictwem organizacji zbiorowego zarządzania, na podstawie jakiegokolwiek, dobrowolnego lub zbywalnego, ustawowego lub obowiązkowego, systemu licencyjnego. W pozostałych przypadkach, Licencjodawca wyraźnie zastrzega prawo do pobierania wynagrodzenia. 
 
 ## Paragraf 3 – Warunki Licencji.
 
 Wykonywanie Uprawnień Licencyjnych przez Licencjodawcę jest wyraźnie uzależnione od przestrzegania następujących warunków.  
-<a name="s3a"></a> 
-	a. Uznanie autorstwa.  
+<a name="s3a"></a>  
+ a. Uznanie autorstwa.  
 <a name="s3a1"></a>  
 		1.  W przypadku, gdy Licencjobiorca Dzieli się Utworem Licencjonowanym (również w zmodyfikowanej formie), jest obowiązany:  
 <a name="s3a1A"></a>  
@@ -86,16 +86,16 @@ Wykonywanie Uprawnień Licencyjnych przez Licencjodawcę jest wyraźnie uzależn
 
 W przypadku, gdy Uprawnienia Licencyjne obejmują Prawa Sui Generis do Baz Danych, mające zastosowanie do określonego korzystania z Utworu Licencjonowanego przez Licencjobiorcę:
 
-	a. w razie wątpliwości, Paragraf [2(a)(1)](#s2a1) przyznaje Licencjobiorcy prawo do wyodrębniania, ponownego wykorzystania, zwielokrotniania oraz Dzielenia się całością lub istotną częścią zawartości bazy danych;
-	b. w przypadku, gdy Licencjobiorca zawiera całość lub istotną część bazy danych w bazie danych, do której Prawa Sui Generis do Baz Danych przysługują Licencjobiorcy, baza danych, do której Prawa Sui Generis do Baz Danych przysługują Licencjobiorcy, stanowi Utwór Zależny (jednakże nie dotyczy to jej samodzielnych części), oraz
-	c. W przypadku, gdy Licencjobiorca Dzieli się całością lub istotną częścią bazy danych, obowiązany jest przestrzegać warunków Paragrafu [3(a)](#s3a).
+ a. w razie wątpliwości, Paragraf [2(a)(1)](#s2a1) przyznaje Licencjobiorcy prawo do wyodrębniania, ponownego wykorzystania, zwielokrotniania oraz Dzielenia się całością lub istotną częścią zawartości bazy danych; 
+ b. w przypadku, gdy Licencjobiorca zawiera całość lub istotną część bazy danych w bazie danych, do której Prawa Sui Generis do Baz Danych przysługują Licencjobiorcy, baza danych, do której Prawa Sui Generis do Baz Danych przysługują Licencjobiorcy, stanowi Utwór Zależny (jednakże nie dotyczy to jej samodzielnych części), oraz 
+ c. W przypadku, gdy Licencjobiorca Dzieli się całością lub istotną częścią bazy danych, obowiązany jest przestrzegać warunków Paragrafu [3(a)](#s3a).
 W razie wątpliwości, niniejszy Paragraf 4 uzupełnia, lecz nie zastępuje obowiązków Licencjodawcy wynikających z niniejszej Licencji Publicznej, w przypadku, gdy Uprawnienia Licencyjne obejmują inne Prawa Autorskie i Prawa Podobne do Praw Autorskich.
 
 ## Paragraf 5 – Wyłączenie Gwarancji i Ograniczenie Odpowiedzialności.
 
-	a. **Jeżeli Licencjodawca oddzielnie nie postanowił inaczej, Licencjodawca, w możliwie najszerszym zakresie, oferuje Utwór Licencjonowany w takiej formie, w jakiej zapoznał się z nim Licencjobiorca i nie udziela żadnych zapewnień, ani jakiegokolwiek rodzaju gwarancji, dotyczących Utworu Licencjonowanego, ani wynikających z wyraźnego postanowienia, dorozumianych, ustawowych, ani jakichkolwiek innych. Obejmuje to, bez ograniczeń, rękojmię, zbywalność, przydatność do konkretnego celu, brak naruszeń praw innych osób, brak ukrytych lub innych wad, dokładność, występowanie lub niewystępowanie wad widocznych jak i ukrytych. W przypadku, gdy wyłączenie gwarancji nie jest dozwolone w całości lub w części, niniejsze wyłączenie może nie mieć zastosowania do Licencjobiorcy.**
-	b. **W najdalej idącym stopniu, w żadnym wypadku Licencjodawca nie odpowiada wobec Licencjobiorcy na żadnej podstawie prawnej (włączając w to, bez ograniczeń, niedochowanie należytej staranności) za bezpośrednie, specjalne , pośrednie, przypadkowe, następcze, karne, ani żadne inne straty, koszty, utracone korzyści, wydatki, ani szkody wynikające z zastosowania niniejszej Licencji Publicznej lub korzystania z Utworu Licencjonowanego, nawet w przypadku, gdy Licencjodawca był powiadomiony o możliwości poniesienia takich strat, kosztów, wydatków, lub szkód. W przypadku, gdy ograniczenie odpowiedzialności nie jest dozwolone w całości lub w części, takie ograniczenie nie ma zastosowania do Licencjobiorcy.**
-	c. Powyższe wyłączenie gwarancji i ograniczenie odpowiedzialności będzie interpretowane w sposób zapewniający wyłączenie i zrzeczenie się odpowiedzialności w zakresie możliwie najszerszym.
+ a. **Jeżeli Licencjodawca oddzielnie nie postanowił inaczej, Licencjodawca, w możliwie najszerszym zakresie, oferuje Utwór Licencjonowany w takiej formie, w jakiej zapoznał się z nim Licencjobiorca i nie udziela żadnych zapewnień, ani jakiegokolwiek rodzaju gwarancji, dotyczących Utworu Licencjonowanego, ani wynikających z wyraźnego postanowienia, dorozumianych, ustawowych, ani jakichkolwiek innych. Obejmuje to, bez ograniczeń, rękojmię, zbywalność, przydatność do konkretnego celu, brak naruszeń praw innych osób, brak ukrytych lub innych wad, dokładność, występowanie lub niewystępowanie wad widocznych jak i ukrytych. W przypadku, gdy wyłączenie gwarancji nie jest dozwolone w całości lub w części, niniejsze wyłączenie może nie mieć zastosowania do Licencjobiorcy.** 
+ b. **W najdalej idącym stopniu, w żadnym wypadku Licencjodawca nie odpowiada wobec Licencjobiorcy na żadnej podstawie prawnej (włączając w to, bez ograniczeń, niedochowanie należytej staranności) za bezpośrednie, specjalne , pośrednie, przypadkowe, następcze, karne, ani żadne inne straty, koszty, utracone korzyści, wydatki, ani szkody wynikające z zastosowania niniejszej Licencji Publicznej lub korzystania z Utworu Licencjonowanego, nawet w przypadku, gdy Licencjodawca był powiadomiony o możliwości poniesienia takich strat, kosztów, wydatków, lub szkód. W przypadku, gdy ograniczenie odpowiedzialności nie jest dozwolone w całości lub w części, takie ograniczenie nie ma zastosowania do Licencjobiorcy.** 
+ c. Powyższe wyłączenie gwarancji i ograniczenie odpowiedzialności będzie interpretowane w sposób zapewniający wyłączenie i zrzeczenie się odpowiedzialności w zakresie możliwie najszerszym.
 
 ## Paragraf 6 – Termin i Wygaśnięcie.
  <a id="s6a"></a>  
@@ -103,23 +103,23 @@ W razie wątpliwości, niniejszy Paragraf 4 uzupełnia, lecz nie zastępuje obow
 	<a id="s6b"></a>  
 	b. Jeżeli prawo Licencjobiorcy do korzystania z Utworu Licencjonowanego wygasło na podstawie Paragrafu [6(a)](#s6a), zostaje ono przywrócone:
 
-		1. automatycznie z data usunięcia naruszenia, jeśli nastąpiło ono w ciągu 30 dni od odkrycia naruszenia przez Licencjobiorcę; lub
-		2. w razie wyraźnego przywrócenia przez Licencjodawcę.
-	W razie wątpliwości, niniejszy Paragraf [6(b)](#s6b) nie ogranicza żadnych uprawnień Licencjodawcy przysługujących mu w razie naruszenia przez Licencjobiorcę niniejszej Licencji Publicznej.
-	c. W razie wątpliwości, Licencjodawca może także oferować Utwór Licencjonowany na odrębnych warunkach, bądź przestać dystrybuować Utwór Licencjonowany w każdej chwili; nie prowadzi to jednak do wygaśnięcia niniejszej Licencji Publicznej.
+1. automatycznie z data usunięcia naruszenia, jeśli nastąpiło ono w ciągu 30 dni od odkrycia naruszenia przez Licencjobiorcę; lub 
+	2. w razie wyraźnego przywrócenia przez Licencjodawcę.
+	W razie wątpliwości, niniejszy Paragraf [6(b)](#s6b) nie ogranicza żadnych uprawnień Licencjodawcy przysługujących mu w razie naruszenia przez Licencjobiorcę niniejszej Licencji Publicznej. 
+	c. W razie wątpliwości, Licencjodawca może także oferować Utwór Licencjonowany na odrębnych warunkach, bądź przestać dystrybuować Utwór Licencjonowany w każdej chwili; nie prowadzi to jednak do wygaśnięcia niniejszej Licencji Publicznej. 
 	d. Paragrafy [1](#Paragraf 1 – Definicje.), [5](#Paragraf 5 – Wyłączenie Gwarancji i Ograniczenie Odpowiedzialności.), [6](#Paragraf 6 – Termin i Wygaśnięcie.), [7](#Paragraf 7 – Inne Warunki.) i [8](#Paragraf 8 – Wykładnia.) trwają również po wygaśnięciu niniejszej Licencji Publicznej.
 
 ## Paragraf 7 – Inne Warunki.
 
-	a. Licencjodawca nie jest związany żadnymi dodatkowymi lub zmienionymi warunkami zakomunikowanymi przez Licencjobiorcę, chyba że dosłownie wyrazi na to swoją zgodę.
+ a. Licencjodawca nie jest związany żadnymi dodatkowymi lub zmienionymi warunkami zakomunikowanymi przez Licencjobiorcę, chyba że dosłownie wyrazi na to swoją zgodę.
 	b. Jakiekolwiek ustalenia, porozumienia, umowy odnoszące się do Utworu Licencjonowanego, nie wyrażone w niniejszej Licencji Publicznej, nie stanowią jej postanowień i są od niej niezależne.
 
 ## Paragraf 8 – Wykładnia.
 
-	a. W razie wątpliwości, niniejsza Licencja Publiczna nie zawęża, nie ogranicza, ani nie warunkuje jakiegokolwiek dozwolonego wykorzystania Utworu Licencjonowanego, mogącego odbywać się zgodnie z prawem bez zezwolenia wynikającego z niniejszej Licencji Publicznej, ani nie może być w ten sposób interpretowana.
-	b. Jeżeli jakiekolwiek postanowienie niniejszej Licencji Publicznej uważa się za nieskuteczne, będzie ono automatycznie, na ile to tylko możliwe, w jak najmniejszym, koniecznym stopniu przekształcone tak, aby stało się skuteczne. Jeżeli postanowienie takie nie może zostać przekształcone, zostanie ono unieważnione bez wpływu na skuteczność pozostałych postanowień niniejszej Licencji Publicznej.
-	c. Żadne postanowienie niniejszej Licencji Publicznej nie będzie uchylone, ani żadne naruszenie jej postanowień dozwolone, bez wyrażonej dosłownie zgody Licencjodawcy.
-	d. Niniejsza Licencja Publiczna nie stanowi, ani nie może być interpretowana jako ograniczenie lub zrzeczenie się jakichkolwiek przywilejów Licencjodawcy lub Licencjobiorcy, w tym immunitetów procesowych względem jakiejkolwiek władzy jurysdykcyjnej.
+ a. W razie wątpliwości, niniejsza Licencja Publiczna nie zawęża, nie ogranicza, ani nie warunkuje jakiegokolwiek dozwolonego wykorzystania Utworu Licencjonowanego, mogącego odbywać się zgodnie z prawem bez zezwolenia wynikającego z niniejszej Licencji Publicznej, ani nie może być w ten sposób interpretowana. 
+ b. Jeżeli jakiekolwiek postanowienie niniejszej Licencji Publicznej uważa się za nieskuteczne, będzie ono automatycznie, na ile to tylko możliwe, w jak najmniejszym, koniecznym stopniu przekształcone tak, aby stało się skuteczne. Jeżeli postanowienie takie nie może zostać przekształcone, zostanie ono unieważnione bez wpływu na skuteczność pozostałych postanowień niniejszej Licencji Publicznej. 
+ c. Żadne postanowienie niniejszej Licencji Publicznej nie będzie uchylone, ani żadne naruszenie jej postanowień dozwolone, bez wyrażonej dosłownie zgody Licencjodawcy. 
+ d. Niniejsza Licencja Publiczna nie stanowi, ani nie może być interpretowana jako ograniczenie lub zrzeczenie się jakichkolwiek przywilejów Licencjodawcy lub Licencjobiorcy, w tym immunitetów procesowych względem jakiejkolwiek władzy jurysdykcyjnej.
 
 Creative Commons nie jest stroną udostępnianych przez siebie Licencji Publicznych. Jednakże, Creative Commons może zastosować jedną ze swych Licencji Publicznych do publikowanego przez siebie materiału, i w tych przypadkach będzie występować jako Licencjodawca. Tekst Licencji Publicznych Creative Commons jest przekazany do domeny publicznej na podstawie [_CC0 Public Domain Dedication_](https://creativecommons.org/publicdomain/zero/1.0/legalcode.pl). Za wyjątkiem ograniczonych celów oznaczania materiału jako dostępnego na Licencji Publicznej Creative Commons lub innego użycia dozwolonego przez polityki Creative Commons udostępnione na creativecommons.org/policies , Creative Commons nie zezwala na korzystanie ze znaku towarowego „Creative Commons”, ani żadnego innego znaku towarowego, lub logo Creative Commons, bez uprzedniej pisemnej zgody, w tym, bez ograniczeń, w związku z jakimikolwiek nieautoryzowanymi modyfikacjami którejkolwiek z Licencji Publicznych Creative Commons, lub innych ustaleń, porozumień lub umów dotyczących wykorzystania licencjonowanego materiału. W razie wątpliwości, niniejszy akapit nie stanowi części Licencji Publicznych.
 
