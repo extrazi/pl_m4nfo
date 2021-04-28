@@ -1,5 +1,5 @@
 ---
-modified: 2021-04-27T18:35:45+02:00
+modified: 2021-04-28T13:24:34+02:00
 ---
 
 # CC-BY-4.0
@@ -129,7 +129,7 @@ W razie wątpliwości, niniejszy Paragraf 4 uzupełnia, lecz nie zastępuje obow
 - a. W razie wątpliwości, niniejsza Licencja Publiczna nie zawęża, nie ogranicza, ani nie warunkuje jakiegokolwiek dozwolonego wykorzystania Utworu Licencjonowanego, mogącego odbywać się zgodnie z prawem bez zezwolenia wynikającego z niniejszej Licencji Publicznej, ani nie może być w ten sposób interpretowana. 
 - b. Jeżeli jakiekolwiek postanowienie niniejszej Licencji Publicznej uważa się za nieskuteczne, będzie ono automatycznie, na ile to tylko możliwe, w jak najmniejszym, koniecznym stopniu przekształcone tak, aby stało się skuteczne. Jeżeli postanowienie takie nie może zostać przekształcone, zostanie ono unieważnione bez wpływu na skuteczność pozostałych postanowień niniejszej Licencji Publicznej. 
 - c. Żadne postanowienie niniejszej Licencji Publicznej nie będzie uchylone, ani żadne naruszenie jej postanowień dozwolone, bez wyrażonej dosłownie zgody Licencjodawcy. 
- d. Niniejsza Licencja Publiczna nie stanowi, ani nie może być interpretowana jako ograniczenie lub zrzeczenie się jakichkolwiek przywilejów Licencjodawcy lub Licencjobiorcy, w tym immunitetów procesowych względem jakiejkolwiek władzy jurysdykcyjnej.
+- d. Niniejsza Licencja Publiczna nie stanowi, ani nie może być interpretowana jako ograniczenie lub zrzeczenie się jakichkolwiek przywilejów Licencjodawcy lub Licencjobiorcy, w tym immunitetów procesowych względem jakiejkolwiek władzy jurysdykcyjnej.
 
 Creative Commons nie jest stroną udostępnianych przez siebie Licencji Publicznych. Jednakże, Creative Commons może zastosować jedną ze swych Licencji Publicznych do publikowanego przez siebie materiału, i w tych przypadkach będzie występować jako Licencjodawca. Tekst Licencji Publicznych Creative Commons jest przekazany do domeny publicznej na podstawie [_CC0 Public Domain Dedication_](https://creativecommons.org/publicdomain/zero/1.0/legalcode.pl). Za wyjątkiem ograniczonych celów oznaczania materiału jako dostępnego na Licencji Publicznej Creative Commons lub innego użycia dozwolonego przez polityki Creative Commons udostępnione na creativecommons.org/policies , Creative Commons nie zezwala na korzystanie ze znaku towarowego „Creative Commons”, ani żadnego innego znaku towarowego, lub logo Creative Commons, bez uprzedniej pisemnej zgody, w tym, bez ograniczeń, w związku z jakimikolwiek nieautoryzowanymi modyfikacjami którejkolwiek z Licencji Publicznych Creative Commons, lub innych ustaleń, porozumień lub umów dotyczących wykorzystania licencjonowanego materiału. W razie wątpliwości, niniejszy akapit nie stanowi części Licencji Publicznych.
 
