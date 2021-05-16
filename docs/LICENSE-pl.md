@@ -1,8 +1,8 @@
 ---
-modified: 2021-04-28T13:24:34+02:00
+modified: 2021-05-16T21:10:06+02:00
 ---
 
-# CC-BY-4.0
+# # [![CC-BY-4.0 License](https://img.shields.io/badge/license-CC_BY_4.0-green.svg)](https://creativecommons.org/licenses//by/4.0/legalcode.pl)
 
 <details markdown='1'><summary>Rozwiń / Zwiń</summary>
 
