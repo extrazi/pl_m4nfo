@@ -1,5 +1,5 @@
 ---
-modified: 2021-05-16T21:13:33+02:00
+modified: 2021-05-16T21:17:42+02:00
 ---
 
 # [![CC-BY-4.0 License](https://img.shields.io/badge/license-CC_BY_4.0-green.svg)](https://creativecommons.org/licenses//by/4.0/legalcode.pl)
@@ -133,4 +133,4 @@ W razie wątpliwości, niniejszy Paragraf 4 uzupełnia, lecz nie zastępuje obow
 
 Creative Commons nie jest stroną udostępnianych przez siebie Licencji Publicznych. Jednakże, Creative Commons może zastosować jedną ze swych Licencji Publicznych do publikowanego przez siebie materiału, i w tych przypadkach będzie występować jako Licencjodawca. Tekst Licencji Publicznych Creative Commons jest przekazany do domeny publicznej na podstawie [_CC0 Public Domain Dedication_](https://creativecommons.org/publicdomain/zero/1.0/legalcode.pl). Za wyjątkiem ograniczonych celów oznaczania materiału jako dostępnego na Licencji Publicznej Creative Commons lub innego użycia dozwolonego przez polityki Creative Commons udostępnione na creativecommons.org/policies , Creative Commons nie zezwala na korzystanie ze znaku towarowego „Creative Commons”, ani żadnego innego znaku towarowego, lub logo Creative Commons, bez uprzedniej pisemnej zgody, w tym, bez ograniczeń, w związku z jakimikolwiek nieautoryzowanymi modyfikacjami którejkolwiek z Licencji Publicznych Creative Commons, lub innych ustaleń, porozumień lub umów dotyczących wykorzystania licencjonowanego materiału. W razie wątpliwości, niniejszy akapit nie stanowi części Licencji Publicznych.
 
-Z Creative Commons można skontaktować się pod adresem creativecommons.org.
+Z Creative Commons można skontaktować się pod adresem  [creativecommons.org](https://creativecommons.org).
