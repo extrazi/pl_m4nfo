@@ -52,7 +52,7 @@ A.		[**m4NFO Manual** ](https://github.com/extrazi/pl_m4nfo/wiki/m4NFOmanual)
 	IX.		[Funkcje globalne](https://github.com/extrazi/pl_m4nfo/wiki/globalFunctions)  
 	X.		[Funkcje ogólne](https://github.com/extrazi/pl_m4nfo/wiki/generalFunctions)  
 	XI.		[Funkcje pomocnicze](https://github.com/extrazi/pl_m4nfo/wiki/auxFunctions)  
-XII.	[<span title='Features'>'Funkcje' niestandardowe](http://www.ttdpatch.de/grfspecs/m4nfoManual/CustomFeatures.html)  
+	XII.	[<span title='Features'>'Funkcje'</span> niestandardowe](http://www.ttdpatch.de/grfspecs/m4nfoManual/CustomFeatures.html)  
 	XIII.	[Funkcje <span title=internal >'wewnętrzne'</span> m4nfo](https://github.com/extrazi/pl_m4nfo/wiki/m4nfoInternalFunctions)  
 	XIV.	[m4nfo internal error messages](http://www.ttdpatch.de/grfspecs/m4nfoManual/m4nfoInternalErrors.html)  
 <!-- . . . . . . . . . . . . . . . . . Koleje . . . . . . . . . . . . . . -->
