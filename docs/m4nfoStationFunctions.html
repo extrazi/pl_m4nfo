@@ -1,0 +1,1087 @@
+
+<!-- saved from url=(0065)http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title _msttexthash="489385" _msthash="0">m4nfoStationFunctions</title>
+<link rel="StyleSheet" href="./m4nfoStationFunctions_files/manual.css" type="text/css">
+
+</head>
+<body><h4 _msttexthash="1468935" _msthash="1">Instrukcja obsługi m4nfo i raport techniczny</h4><div class="wikitext"><a name="StationFunctions"><h1 _msttexthash="313742" _msthash="2">Funkcje dla stacji</h1></a><font _mstmutation="1" _msttexthash="1353300" _msthash="3"> Korzystanie z funkcji dla stacji kolejowych </font><p>
+</p><div class="titlebar" _msttexthash="212407" _msthash="4">Zawartość</div>
+
+<p>
+</p><ul>
+<li _msttexthash="208000" _msthash="5">Wprowadzenie </li><li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#SpriteFunctions" _msttexthash="666185" _msthash="6">Definicja układu kafelków</a>
+<ul>
+<li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#SpriteFunctions" _msttexthash="77389" _msthash="7">Format</a>
+</li><li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#Description" _msttexthash="46072" _msthash="8">Opis</a>
+<ul>
+<li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#layout" _msttexthash="167414" _msthash="9">Funkcje M4NFO</a>
+</li><li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#advanced" _msttexthash="916123" _msthash="10">Zaawansowany układ kształtów</a>
+</li></ul>
+</li><li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#Examples" _msttexthash="172861" _msthash="11">Przykłady</a>
+<ul>
+<li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#Examples" _msttexthash="799370" _msthash="12">Prosta płytka stacji peronowej</a>
+</li><li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#Example2" _msttexthash="5149092" _msthash="13">Prosty kafelek stacji peronowej wykorzystujący duszki podrzędne (przezroczystość)</a>
+</li><li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#Example3" _msttexthash="986765" _msthash="14">Używanie wielu duszków naziemnych</a>
+</li><li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#Example4" _msttexthash="1503606" _msthash="15">Korzystanie z niestandardowych fundamentów</a>
+</li><li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#Example5" _msttexthash="916123" _msthash="16">Zaawansowany układ kształtów</a>
+</li></ul>
+</li><li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#copylayout" _msttexthash="718289" _msthash="17">Kopiowanie układu kafelków</a>
+</li><li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#patchlayout" _msttexthash="1385215" _msthash="18">Instalowanie poprawek do układu kafelków</a>
+</li></ul>
+
+</li><li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#PerformanceFunctions" _msttexthash="635128" _msthash="19">Funkcje wydajności stacji</a>
+<ul>
+<li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#Description2" _msttexthash="46072" _msthash="20">Opis</a>
+</li></ul>
+</li><li><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#AuxiliaryFunctions" _msttexthash="352066" _msthash="21">Funkcje pomocnicze</a>
+</li></ul>
+
+
+
+<p>
+</p><div class="titlebar" _msttexthash="208000" _msthash="22">Wprowadzenie</div>
+
+<p _msttexthash="1873209" _msthash="23"> W m4nfo stacje wykorzystują cztery rodzaje funkcji: </p><ul>
+<li _msttexthash="4425096" _msthash="24">funkcje do definiowania <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#SpriteFunctions" _istranslated="1">układu płytek</a> z duszków, współrzędnych i informacji 3D, </li><li _msttexthash="53113970" _msthash="25">funkcje do uzyskiwania informacji o bieżących (lub sąsiednich) właściwościach kafelka, takich jak liczba lub długość platform, typ terenu, nachylenie terenu itp., A także funkcje uzyskujące dostęp do zmiennych wewnętrznych gry, takich jak bieżąca data, klimat itp.
+Zobacz <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#PerformanceFunctions" _istranslated="1">funkcje wydajności stacji</a>,</li>
+<li _msttexthash="4379700" _msthash="26"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#AuxiliaryFunctions" _istranslated="1">funkcje pomocnicze</a>, które są wykorzystywane przez te dwa pierwsze rodzaje funkcji,</li>
+<li _msttexthash="4147546" _msthash="27">Funkcje globalne, które są ważne nie tylko dla stacji, ale dla wszystkich funkcji.</li>
+</ul>
+
+<p>
+<a name="SpriteFunctions"></a></p><h2><a name="SpriteFunctions" _msttexthash="1189916" _msthash="28">Funkcje definiowania układu kafelków</a></h2>
+<p>
+</p><div class="titlebar" _msttexthash="77389" _msthash="29">Format</div>
+
+<p _msttexthash="12760774" _msthash="30"> W przypadku kafelków stacji układ kafelków określa, jakie duszki powinny być wyświetlane, gdzie mają być wyświetlane i w jakiej kolejności. </p><p _msttexthash="101102391" _msthash="31"> Ponieważ w TTD układ kafelków dla stacji jest nieco inny niż dla budynków i obiektów, musi to być również odzwierciedlone przez m4nfo.
+Głównym powodem tej różnicy jest to, że dla stacji układ kafelków jest oddzielony od prawdziwych <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/SpriteLayout.html#stations" _istranslated="1">sprite'ów zdefiniowanych w spriteblock()</a> i dostępnych za pomocą funkcji <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/SpriteLayout.html#stations" _istranslated="1">spriteset(),</a> a w ten sposób układ może łatwo obsługiwać różne zestawy duszków o tej samej strukturze układu. </p><p>
+</p><div class="simplebox"><font _mstmutation="1" _msttexthash="17577209" _msthash="32"> layout(&lt;ID&gt;, {&lt;tile&gt;(<br _mstmutation="1" _istranslated="1"> [label,] &lt;groundsprite&gt; {&lt;buildingsprite&gt;(&lt;xoffset, yoffset, zoffset&gt; &lt;xextent, yextent, zextent&gt;) |<br _mstmutation="1" _istranslated="1"> &lt;buildingsprite&gt;(&lt;xpixeloffset,<br _mstmutation="1" _istranslated="1"> ypixeloffset&gt;)}</font><br>
+&nbsp;&nbsp;}<br>
+)
+</div>
+
+<p>
+<a name="Description"></a>
+</p><div class="titlebar" _msttexthash="46072" _msthash="33">Opis</div>
+
+<p _msttexthash="98807332" _msthash="34"> W przypadku płytek stacji istnieją dwa rodzaje duszków. Pierwszy typ ustanawia nową <a href="http://www.ttdpatch.de/grfspecs/PalettesAndCoordinates.html#Coordinates" class="nfospeclink" _istranslated="1">obwiednię 3D</a> do użycia przez sorter kształtów. Drugi typ współdzieli obwiednię 3D poprzedniego duszka. Nie może być większy od duszka, który ustanowił obwiednię, ani też żadna jego część nie może znajdować się poza tym polem. Dla uproszczenia może mieć dokładnie takie same wymiary jak ikonka, z którą dzieli obwiednię. </p><p _msttexthash="133545542" _msthash="35"> Obwiednia 3D jest używana przez sorter sprite'ów TTD do określenia kolejności rysowania duszków, a także do poinformowania go, które duszki mają zostać narysowane, ponieważ te, których obwiednia znajduje się poza aktualnie zaktualizowanym prostokątem ekranu, nie zostaną narysowane. Upewnij się, że obwiednia 3D jest wystarczająco duża, aby pomieścić całego duszka, ale nie tak duża, aby sorter kształtów nie mógł określić, które duszki powinny znajdować się z przodu. </p><p _msttexthash="28486822" _msthash="36"> Oznacza to, że kolejność, w jakiej duszki są określone, nie ma znaczenia. Sprite'y zawsze będą losowane od tyłu do przodu, w kolejności, którą sorter duszków uzna za poprawną, z ich obwiedni. Istnieją jednak dwa wyjątki: </p><ul>
+<li _msttexthash="4409587" _msthash="37"> Sprite'y dzielące tę samą obwiednię będą zawsze rysowane w podanej kolejności. </li><li _msttexthash="19523179" _msthash="38"> Okno budowy stacji nie korzysta z sortera kształtów. Kafelki, które mogą być wyświetlane w tym oknie, muszą być określone w odpowiedniej kolejności rysowania, od tyłu do przodu. </li></ul>
+
+<p _msttexthash="30712435" _msthash="39"> Podobnie jak w przypadku <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/HouseFunctions.html#spritelayout-functions" _istranslated="1">domów, płytek przemysłowych i obiektów</a>, m4nfo zapewnia te same funkcje pomocnicze, które mają być używane w definicjach układu płytek, ale z nieco inną składnią niż dla wyżej wymienionych funkcji: </p><p>
+<table class="wikitable">
+<tbody><tr>
+<td class="wikicell"><b _msttexthash="249522" _msthash="40">Termin układu</b></td>
+<td class="wikicell"><b _msttexthash="201682" _msthash="41">M4NFO, funkcja</b></td></tr>
+<tr><td class="wikicell" _msttexthash="131469" _msthash="42">&lt;płytka&gt;</td><td class="wikicell" _msttexthash="214656" _msthash="43"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#tile">tile()</a> | xtile()</td></tr>
+<tr><td class="wikicell" _msttexthash="249301" _msthash="44">&lt;Groundsprite&gt;</td><td class="wikicell" _msttexthash="275327" _msthash="45"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#ground" _istranslated="1">ziemia()</a> | NOSPRITE</td></tr>
+<tr><td class="wikicell" _msttexthash="126087" _msthash="46">&lt;budynki&gt;</td><td class="wikicell" _msttexthash="2281292" _msthash="47"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#normal" _istranslated="1">regular()</a> | <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#notransparency" _istranslated="1">notransparency()</a> | <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#glass" _istranslated="1">szkło()</a> | <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#recolour" _istranslated="1">recolour()</a> | NOSPRITE</td></tr>
+<tr><td class="wikicell" _msttexthash="620620" _msthash="48">&lt;xoffset, yoffset, zoffset&gt;</td><td class="wikicell"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#xyz" _msttexthash="48841" _msthash="49">xyz()</a></td></tr>
+<tr><td class="wikicell" _msttexthash="331422" _msthash="50">&lt;xoffset, yoffset&gt;</td><td class="wikicell" _msttexthash="33514" _msthash="51">xy()</td></tr>
+<tr><td class="wikicell" _msttexthash="633451" _msthash="52">&lt;xextent, yextent, zextent&gt;</td><td class="wikicell"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#dxdydz" _msttexthash="96564" _msthash="53">dxdydz()</a></td></tr>
+<tr><td class="wikicell" _msttexthash="724490" _msthash="54">&lt;xpixeloffset, ypixeloffset&gt;</td><td class="wikicell"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#xyoff" _msttexthash="77506" _msthash="55">xyoff()</a></td></tr>
+</tbody></table>
+<br>
+
+</p><p>
+<a name="layout"></a></p><h3><a name="layout" _msttexthash="215215" _msthash="56">Layout(&lt;blok&gt;)</a></h3>
+<p _msttexthash="224266016" _msthash="57"> Ta funkcja konfiguruje układ kafelków dla określonego identyfikatora stacji. Potrzebuje co najmniej dwóch wywołań funkcji tile() (lub jednego z xtile()): jednego dla kafelka w x- i drugiego dla kierunku y. Wywołania tile()/xtile() są kolejno numerowane wewnętrznie, tzn. pierwszy kafelek stacji otrzymuje numery 0/1 (kierunek x/y), drugi otrzymuje 2/3 i tak dalej. Są to numery kafelków, do których odwołuje się CB_LAYOUT wywołania zwrotnego z funkcji makestation() podczas rysowania wszystkich kafelków stacji we właściwy sposób. (Oczywiście możliwe jest użycie "etykiet" zamiast liczb podanych pośrednio, patrz następny akapit.) </p><p _msttexthash="7941869" _msthash="58"> Struktury układu mogą być używane wielokrotnie, odwołując się do różnych zestawów sprite'ów graficznych. </p><p>
+<a name="tile"></a></p><h3><a name="tile" _msttexthash="461266" _msthash="59">tile([&lt;label&gt;,] &lt;block&gt;)</a></h3>
+<p _msttexthash="28183298" _msthash="60"> Ta funkcja pobiera blok definicji sprite'ów, zarówno dla duszków naziemnych, jak i duszków budynków, patrz poniżej. Kafelek może być oznaczony etykietą, aby odwołać się do niego później, np. w łańcuchu CB_LAYOUT: </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="160576" _msthash="61"> Przykład:</font><br>
+<pre>layout(_ROOFS,
+	...
+	tile(__roofs,
+		ground(1011)
+		regular(21, xyz(0,0,0), dxdydz(5,16,12))
+		regular(24, xyz(0,0,0), dxdydz(16,16,35))
+   	)
+	...
+)
+
+...
+def(3) plt_num(
+	self(
+		reftile(__roofs) if(4)
+		reftile(__roofs+1) if(3)
+		reftile(__roofs+2) if(2)
+		reftile(__roofs+3) if(1)
+		reftile(0) else
+	)
+)
+</pre>
+</div>
+<br>
+
+<p _msttexthash="349153350" _msthash="62"> Funkcja xtile() może być używana do automatycznego generowania definicji ikonek dla kafelka w kierunku y, pochodzących z kafelka w x-direction. Użycie tej metody wymaga wielu dodatkowych wymagań i jest bardziej ograniczone niż użycie tile(): duszki budowlane muszą być uporządkowane w taki sposób, aby ich numery sprite'ów wynosiły +1 dla płytki w kierunku y, a dla sprite'ów naziemnych różnica musi wynosić -1 dla oryginalnych sprite'ów TTD i +1 dla niestandardowych duszków gruntowych. Współrzędne 3D zostaną odpowiednio zamienione. Sprite'y graficzne skojarzone z kierunkami x i y układu xtile() muszą być symetryczne, aby zapewnić poprawne obwiedni, a nie można użyć funkcji xyoff(), ponieważ współrzędne kształtów graficznych są całkowicie nieznane w układach kafelków. </p><p>
+<a name="ground"></a></p><h3><a name="ground" _msttexthash="518986" _msthash="63">ziemia(&lt;sprite&gt; [,CUSTOM])</a></h3>
+<p _msttexthash="55463941" _msthash="64"> Ta funkcja definiuje duszka ziemi, który ma być użyty dla danego kafelka. W bloku kafelka może istnieć tylko jeden duszek ziemi zdefiniowany przez metodę ground(). W przypadku wielu (ułożonych) płytek gruntowych muszą one być dostarczone za pomocą funkcji regular() przed zdefiniowaniem jakiejkolwiek obwiedni. </p><p _msttexthash="18644249" _msthash="65"> Można zdefiniować oryginalne duszki terenu TTD lub niestandardowe duszki gruntu zdefiniowane w spriteblock(). W takim przypadku potrzebny będzie drugi parametr ustawiony na CUSTOM. </p><p _msttexthash="24365341" _msthash="66"> Jeśli nie jest potrzebny sprite, należy użyć makro NOSPRITE zamiast wywoływania funkcji ground(). Może to być przydatne do wyświetlania grafiki ikon lub podczas rysowania niestandardowych fundamentów. </p><p>
+<a name="normal"></a></p><h3><a name="normal" _msttexthash="1950559" _msthash="67">regular(&lt;tile-id&gt;, (&lt;xyz()&gt;, &lt;dxdydz()&gt;) | &lt;xyoff()&gt; [,TTD])</a></h3>
+<p _msttexthash="145523612" _msthash="68"> Ta funkcja definiuje "normalnego" duszka budynku (lub dodatkowego duszka gruntowego). Pierwszy parametr to indeks do spriteblock powiązany z bieżącym układem, pozostałe parametry są albo przesunięte od północnego rogu płytki i rozmiaru sprite'a, albo przesunięcia względem poprzedniego sprite'a (patrz zdjęcia poniżej). W tym drugim przypadku ten duszek będzie dzielił swoją obwiednię z bieżącą obwiednią. 
+Ustawienie opcjonalnego parametru "TTD" umożliwia dostęp do oryginalnych duszków TTD. </p><p>
+<a name="notransparency"></a></p><h3><a name="notransparency" _msttexthash="2468596" _msthash="69">notransparency(&lt;tile-id&gt;, (&lt;xyz()&gt;, &lt;dxdydz()&gt;) | &lt;xyoff()&gt; [,TTD])</a></h3>
+<p _msttexthash="10390419" _msthash="70"> Ta funkcja działa tak samo jak regular(), tylko gdy jej duszek jest wyświetlany normalnie nawet w trybie "przezroczystych budynków". </p><p>
+<a name="compcol"></a></p><h3><a name="compcol" _msttexthash="2791555" _msthash="71">compcol(&lt;identyfikator-kafelków&gt;, (&lt;xyz()&gt;, &lt;dxdydz()&gt;) | &lt;xyoff()&gt;)</a></h3>
+<p _msttexthash="8319428" _msthash="72"> Ponownie to samo zachowanie co w przypadku regular(), ale tym razem przy użyciu domyślnej translacji kolorów firmy. </p><p>
+<a name="recolour"></a></p><h3><a name="recolour" _msttexthash="3148366" _msthash="73">recolour(&lt;tile-id&gt;, (&lt;xyz()&gt;, &lt;dxdydz()&gt;) |  &lt;xyoff()&gt;, &lt;recolour-sprite&gt;)</a></h3>
+<p _msttexthash="11709503" _msthash="74"> Znowu to samo zachowanie co regular(), ale tym razem z translacją kolorów zdefiniowaną przez <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/RecolourSprites.html" _istranslated="1">tabelę recolor</a> podaną przez ostatni parametr. </p><p>
+<a name="glass"></a></p><h3><a name="glass" _msttexthash="3062657" _msthash="75">Glass(&lt;tile-id&gt;, (&lt;xyz()&gt;, &lt;dxdydz()&gt;) | &lt;xyoff()&gt; [,&lt;recolour-sprite&gt;])</a></h3>
+<p _msttexthash="67241954" _msthash="76"> To samo zachowanie co w przypadku metody regular(), ale sprite jest rysowany w trybie 'transparent', albo przy użyciu domyślnego trybu 'glass', albo przy użyciu niestandardowego <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/RecolourSprites.html" _istranslated="1">przezroczystego kolorowania</a>, gdy podano dodatkowy parametr. Ten parametr musi być adresem mapy ponownego kolorowania, która ma być użyta do uzyskania efektu szkła. </p><p>
+<a name="xyz"></a></p><h3><a name="xyz" _msttexthash="515307" _msthash="77">xyz(&lt;bajt&gt;, &lt;bajt&gt;, &lt;bajt&gt;)</a></h3>
+<p _msttexthash="108258813" _msthash="78"> Ta funkcja definiuje przesunięcia x/y/z bieżącego duszka z północnego rogu kafelka.
+Zwróć uwagę, że współrzędne są współrzędnymi 3D, gdzie x biegnie od prawego górnego rogu do lewego dolnego rogu i y biegnie od lewego górnego do prawego dolnego rogu (patrz rysunek poniżej), przy czym wymiary kafelków wynoszą 16x16 px dla x i y oraz 8 px dla jednego poziomu wysokości. Oznacza to, że wartości x i y powinny zawsze mieścić się w granicach 0 .. 15. </p><p>
+<a name="dxdydz"></a></p><h3><a name="dxdydz" _msttexthash="629525" _msthash="79">dxdydz(&lt;bajt&gt;, &lt;bajt&gt;, &lt;bajt&gt;)</a></h3>
+<p _msttexthash="10016747" _msthash="80"> Ta funkcja definiuje rozmiar bieżącego duszka w kierunku x/y/z. Podane współrzędne są równe powyższym współrzędnym. </p><p>
+<a name="stat_dim"></a>
+<img src="./m4nfoStationFunctions_files/stat_dim.png">
+
+</p><p>
+<a name="xyoff"></a></p><h3><a name="xyoff" _msttexthash="362518" _msthash="81">xyoff(&lt;bajt&gt;, &lt;bajt&gt;)</a></h3>
+<p _msttexthash="28771639" _msthash="82"> Ta funkcja definiuje przesunięcia x/y duszka podrzędnego w stosunku do poprzedniego ustawienia kształtu obwiedni. Współrzędne odnoszą się do lewego górnego rogu poprzedniego sprite'a, tj. nie jest to współrzędna 3D. </p><p>
+<a name="stat_dim"></a>
+<img src="./m4nfoStationFunctions_files/stat_xyoff.png">
+
+<br>
+
+</p><p>
+<a name="advanced"></a></p><h3><a name="advanced" _msttexthash="916123" _msthash="83">Zaawansowany układ kształtów</a></h3>
+<p _msttexthash="17644276" _msthash="84"> W nowszych wersjach OpenTTD obsługiwany jest tak zwany "zaawansowany format układu duszków" (ASL), który umożliwia "dynamiczne" modyfikacje układu za pomocą rejestrów. </p><p _msttexthash="130398918" _msthash="85"> Formalna specyfikacja M4NFO dla tego formatu jest jak wyżej, z wyjątkiem dwóch dodatkowych parametrów w funkcjach M4NFO ground(), regular(), recolour() i glass(), a mianowicie &lt;flags&gt; (ustawiane przez funkcję aslflags()) i &lt;registers&gt; (ustawiane przez rejestry funkcji()). Np. ground(&lt;sprite&gt; [,CUSTOM]) otrzymuje ground(&lt;sprite&gt; [,CUSTOM], &lt;flags&gt;, &lt;registers&gt;) lub regular(&lt;tile-id&gt;, (&lt;xyz()&gt;, &lt;dxdydz()&gt;) | &lt;xyoff()&gt; [,TTD]) otrzymuje regular(&lt;tile-id&gt;, (&lt;xyz()&gt;, &lt;dxdydz()&gt;) | (&lt;xyoff()&gt; [,TTD]), &lt;flagi&gt;, &lt;rejestr&gt;.) </p><p _msttexthash="4385940" _msthash="86"> Funkcja <b _istranslated="1">aslflags</b>() przyjmuje jako parametr cytowaną listę następujących flag: </p><p>
+<table class="wikitable">
+<tbody><tr><td class="wikicell" colspan="5"><b _msttexthash="1564966" _msthash="87">Flagi w zaawansowanych układach kształtów</b></td></tr>
+<tr>
+<td class="wikicell"><b _msttexthash="160875" _msthash="88">Wartość</b></td>
+<td class="wikicell"><b _msttexthash="114439" _msthash="89">Etykieta</b></td>
+<td class="wikicell"><b _msttexthash="370279" _msthash="90">duszek macierzysty</b></td>
+<td class="wikicell"><b _msttexthash="681278" _msthash="91">duszek naziemny/podrzędny</b>
+</td><td class="wikicell"><b _msttexthash="150501" _msthash="92">rejestr(-y)</b></td>
+</tr>
+
+<tr><td class="wikicell" _msttexthash="4459" _msthash="93">1</td><td class="wikicell" _msttexthash="129987" _msthash="94">POMINĄĆ</td><td class="wikicell" _msttexthash="1234636" _msthash="95">Pomiń obwiednię w tym duszki podrzędne</td><td class="wikicell" _msttexthash="215345" _msthash="96">Pomiń duszka</td><td class="wikicell" _msttexthash="4459" _msthash="97">1</td></tr>
+
+<tr><td class="wikicell" _msttexthash="4550" _msthash="98">2</td><td class="wikicell" _msttexthash="173069" _msthash="99">OFFSET_SPRITE</td><td class="wikicell" colspan="2" _msttexthash="6988553" _msthash="100">Dodaj przesunięcie do numeru duszka, wyłącz domyślne użycie etapu budowy lub przesunięcia typu szyny</td><td class="wikicell" rowspan="2" _msttexthash="4459" _msthash="101">1</td></tr>
+
+<tr><td class="wikicell" _msttexthash="4732" _msthash="102">4</td><td class="wikicell" _msttexthash="213304" _msthash="103">OFFSET_RCSPRITE</td><td class="wikicell" colspan="2" _msttexthash="2605629" _msthash="104">Dodaj przesunięcie, aby ponownie pokolorować liczbę ikonek</td></tr>
+
+<tr><td class="wikicell" _msttexthash="5096" _msthash="105">8</td><td class="wikicell" _msttexthash="215761" _msthash="106">CUSTOM_RCSPRITE</td><td class="wikicell" colspan="2" _msttexthash="6337708" _msthash="107">Recolor sprite pochodzi z niestandardowego spriteblocka OFFSET_SPRITE może być również użyty</td><td class="wikicell" _msttexthash="23335" _msthash="108">N/a</td></tr>
+
+<tr><td class="wikicell" _msttexthash="10075" _msthash="109">16</td><td class="wikicell" _msttexthash="105846" _msthash="110">OFFSET_XY</td><td class="wikicell" _msttexthash="706017" _msthash="111">Dodaj przesunięcie 3D w &lt;x&gt; i &lt;y&gt;</td><td class="wikicell">&nbsp;</td><td class="wikicell" _msttexthash="4550" _msthash="112">2</td></tr>
+
+<tr><td class="wikicell" _msttexthash="9841" _msthash="113">32</td><td class="wikicell" _msttexthash="88855" _msthash="114">OFFSET_Z</td><td class="wikicell" _msttexthash="564681" _msthash="115">Dodaj przesunięcie 3D w &lt;z&gt;</td><td class="wikicell">&nbsp;</td><td class="wikicell" _msttexthash="4459" _msthash="116">1</td></tr>
+
+<tr><td class="wikicell" _msttexthash="10556" _msthash="117">48</td><td class="wikicell" _msttexthash="159367" _msthash="118">PIXOFFSET_XY</td><td class="wikicell">&nbsp;</td><td class="wikicell" _msttexthash="978120" _msthash="119">Dodaj przesunięcie pikseli w &lt;x&gt; i &lt;y&gt;</td><td class="wikicell" _msttexthash="4550" _msthash="120">2</td></tr>
+
+
+<tr><td></td></tr>
+
+<tr><td class="wikicell" _msttexthash="10322" _msthash="121">64</td><td class="wikicell" _msttexthash="194571" _msthash="122">RESOLVE_SPRITE</td><td class="wikicell" colspan="2" _msttexthash="4043481" _msthash="123">Rozpoznawanie sprite'a za pomocą metody spritetype() o określonej wartości</td><td class="wikicell" _msttexthash="4459" _msthash="124">1</td></tr>
+
+<tr><td class="wikicell" _msttexthash="16211" _msthash="125">128</td><td class="wikicell" _msttexthash="236743" _msthash="126">RESOLVE_RCSPRITE</td><td class="wikicell" colspan="2" _msttexthash="3971890" _msthash="127">Rozpoznawanie recolor sprite za pomocą spritetype() o określonej wartości</td><td class="wikicell" _msttexthash="4459" _msthash="128">1</td></tr>
+
+</tbody></table>
+
+</p><p _msttexthash="115818378" _msthash="129"> Potrzebne rejestry są ustawiane przez funkcję <b _istranslated="1">registers</b>(), również jako listę cytatów. Kolejność rejestrów musi być taka sama jak w przypadku podanych flag (patrz przykłady). W przypadku flag nieużywanych nie określono rejestru. Ponieważ przesunięcia dla &lt;x&gt; i &lt;y&gt; mogą być włączone tylko razem, potrzebne są dwa rejestry. Rejestr dla SKIP używa wartości "1" do narysowania duszka i "0" do pominięcia go. Flaga CUSTOM_RCSPRITE nie używa żadnego rejestru. </p><p _msttexthash="69357067" _msthash="130"> Dwie ostatnie flagi (RESOLVE_SPRITE, RESOLVE_RCSPRITE) są ważne tylko dla stacji.
+W przypadku stacji łańcuch sterowania jest rozwiązywany wiele razy, a sprite'y mogą być częścią różnych bloków duszków (duszki naziemne (0), sprite'y budynku (1), niestandardowe sprite'y fundamentowe (2)) już bez użycia formatu zaawansowanego układu sprite'ów. </p><p _msttexthash="46927348" _msthash="131"> W przeciwieństwie do pierwszych 6 flag, oba parametry flagi stacji w rejestrach funkcyjnych () nie są rejestrami, ale reprezentują wartość z zakresu 0 .. 7, do którego dostęp uzyskuje funkcja <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#spritetype" _istranslated="1">spritetype()</a> podczas przetwarzania łańcucha sterowania i rozpoznawania odpowiednich duszków. </p><p _msttexthash="55069534" _msthash="132"> Pamiętaj, że niektóre wartości mogą być już używane, np. "2" do rozwiązywania niestandardowych duszków fundamentowych. Nawet jeśli duszek nie pochodzi z bloku spriteblock, ale z oryginalnego duszka TTD, wartość nadal określa, który łańcuch kontroli definiuje wartości odniesienia dla funkcji registers(). </p><p _msttexthash="2486250" _msthash="133"> Aby uzyskać więcej informacji, zobacz <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#Example5" _istranslated="1">przykład 4</a> poniżej. </p><p>
+<a name="Examples"></a>
+</p><div class="titlebar" _msttexthash="172861" _msthash="134">Przykłady</div>
+
+<p _msttexthash="116693837" _msthash="135"> W TTD "normalne" płytki stacji (mogą istnieć egzotyczne płytki składające się tylko z duszka naziemnego lub dodatkowego duszka z pojedynczej platformy) są zwykle składane z trzech duszków: podstawy toru (ground sprite), duszka "background" i "pierwszego planu".
+Te duszki są ułożone tak, aby zbudować płytkę stacji w taki sposób, że pociągi biegną po tle, a duszki naziemne, podczas gdy duszek pierwszego planu pokrywa wszystko. Zobacz zdjęcie poniżej. </p><p>
+<a name="stat_layout"></a>
+<img src="./m4nfoStationFunctions_files/stat_layout.png">
+
+</p><p _msttexthash="13316706" _msthash="136"> W przypadku dodatkowego dachu stacji lub wiaduktu, te duszki zostaną dodane jako ostatnie lub mogą zostać zintegrowane z duszkiem na pierwszym planie. </p><p _msttexthash="7523490" _msthash="137"> Ponadto kafelki stacji zawsze muszą być zdefiniowane dwukrotnie (nawet dla ikon menu budynku), tj. w kierunku x i y. </p><p>
+<a name="Example1"></a>
+</p><h4 _msttexthash="267345" _msthash="138">Układ duszków</h4>
+
+<p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="3444896" _msthash="139"> Przykład 1 (prosty kafelek stacji 2-peronowej, patrz <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#stat_layout" _mstmutation="1" _istranslated="1">zdjęcie powyżej</a>):</font><br>
+<pre>layout(_ROOFS,
+  tile(
+    ground(1012) // track x
+    regular(1, xyz(0,0,0),dxdydz(16,5,8)) 
+    regular(3, xyz(0,11,0),dxdydz(16,5,8))
+  )
+  tile(
+    ground(1011) // track y
+    regular(2, xyz(0,0,0),dxdydz(5,16,8))
+    regular(4, xyz(11,0,0),dxdydz(5,16,8))
+  )
+  ...
+)
+</pre>
+</div>
+
+<p><font _mstmutation="1" _msttexthash="141289083" _msthash="140"> W m4nfo można uniknąć konieczności definiowania zarówno x-, jak i y-tile poprzez wymianę funkcji tile() z funkcją xtile(), która automatycznie wygeneruje płytki dla kierunku y, w przypadku, gdy płytki są lustrzanym odbiciem siebie nawzajem, pod względem graficznym.
+Oznacza to, że w powyższym przykładzie należy podać tylko pierwszy kafelek, a za pomocą xtile() automatycznie zostanie dodany drugi kafelek ze sprite'em #1011 i normalnymi sprite'ami #2 i #4, wraz z odpowiednią zamianą ich współrzędnych. </font><br>
+
+</p><p>
+<a name="Example2"></a>
+</p><h4 _msttexthash="412412" _msthash="141">przezroczystość</h4>
+
+<p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="3281655" _msthash="142"> Przykład 2 (prosty kafelek stacji 2-peronowej z duszkami podrzędnymi):</font><br>
+<pre>layout(_GLASS,
+// modern glass 'tinted green'
+  tile(
+    ground(1012)
+    compcol(502, xyz(0,0,0),dxdydz(16,5,11))
+    glass(538, xyoff(0,0), GREEN) 
+    compcol(504, xyz(0,11,0),dxdydz(16,5,11)) 
+    glass(540, xyoff(0,0), GREEN)
+  )
+  tile(
+    ground(1011)
+    compcol(503, xyz(0,0,0),dxdydz(5,16,11))
+    glass(539, xyoff(0,0), GREEN) 
+    compcol(505, xyz(11,0,0),dxdydz(5,16,11)) 
+    glass(541, xyoff(0,0), GREEN)
+  )
+
+  ...
+)
+</pre>
+</div>
+
+<p _msttexthash="83705284" _msthash="143"> Przykład 2 pokazuje układ kafelków platformy "nowoczesnego szkła" z <i _istranslated="1">NewStations</i>. Składa się z pięciu duszków: duszka ziemnego, dwóch duszków platformowych rysowanych w "kolorze firmy", każdy z przezroczystym duszkiem "szklanym", które są zdefiniowane jako "duszki potomne", tj. duszki dzielące swoje pole ograniczające z poprzednimi duszkami za pomocą obwiedni (duszki platformowe). </p><p>
+<a name="stat_layout2"></a>
+<img src="./m4nfoStationFunctions_files/stat_layout2.png">
+
+</p><p><font _mstmutation="1" _msttexthash="128408371" _msthash="144"> Detale, które mają być przedstawione w jednym z 8 dostępnych kolorów firmowych, muszą być narysowane specjalnym kolorem, spójrz <a href="http://www.ttdpatch.de/grfspecs/PalettesAndCoordinates.html" class="nfospeclink" _mstmutation="1" _istranslated="1">na palety TTD</a>.
+Jednak obszary reprezentujące efekt przezroczystego szkła mogą być narysowane w dowolnym kolorze (w tym przykładzie czerwonym). W tym przykładzie pokazano również, jak użyć "efektu szkła niestandardowego" (przyciemniane zielone szkło).
+Wymaga to skonfigurowania niestandardowej <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/RecolourSprites.html" _mstmutation="1" _istranslated="1">tabeli kolorów</a>, aby uzyskać pożądany efekt. </font><br>
+
+</p><p>
+<a name="Example3"></a>
+</p><h4 _msttexthash="572221" _msthash="145">Wiele duszków naziemnych</h4>
+
+<p _msttexthash="70915000" _msthash="146"> Przykład 3 pokazuje, jak używać wielu sprite'ów ziemi dla płytki. Jest to przydatne, jeśli chcesz użyć zwykłego duszka z szyny/trawy/betonu, ale nadal musisz dodać do niego funkcje bez użycia nowej obwiedni. W tym celu używana jest składnia duszków współużytkujących poprzednią obwiednię, ale przed zdefiniowaniem pierwszej definicji obwiedni. </p><p _msttexthash="10492742" _msthash="147"> Przykład definiuje dwa typy punktów trasy, pierwszy składa się wyłącznie z duszków naziemnych, a drugi z dodaną duszką budynku. </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="1580462" _msthash="148"> Przykład 3 (użycie wielu duszków gruntowych):</font><br>
+<pre>layout(_WAYP2,
+// w/o building
+  tile(
+      ground(1012) // track
+      regular(0, xyoff(0,0)) // overlay 
+  )
+  tile(
+      ground(1011) // track
+      regular(1, xyoff(0,0)) // overlay 
+  )
+
+// w building
+  tile(
+      ground(1012) // track
+      regular(0, xyoff(0,0)) // overlay 
+      regular(2, xyz(0,0,0),dxdydz(16,5,10)) // building
+  )
+  tile(
+      ground(1011) // track
+      regular(1, xyoff(0,0)) // overlay 
+      regular(3, xyz(0,0,0),dxdydz(5,16,10)) // building
+  )
+)
+</pre>
+</div>
+
+<p _msttexthash="62804755" _msthash="149"> Zauważ, że &lt;xpixeloffset&gt; i &lt;ypixeloffset&gt; w OpenTTD odnoszą się do zwykłego miejsca podłoży, ale są ignorowane w TTDPatch i ustawione na zero. Tak więc, w przypadku opracowywania nowego GRF, który musi być kompatybilny z obydwoma programami, należy zawsze zachować &lt;xpixeloffset&gt; i &lt;ypixeloffset&gt; zero, aby uzyskać ten sam efekt w obu. </p><p _msttexthash="104218153" _msthash="150"> Zauważ jednak, że ze względu na złą specyfikację w zwykłym nfo, obie implementacje nie uwzględniają ustawienia GROUNDSPRITES w flagach funkcji właściwości <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationProperties.html#flags" _istranslated="1">()</a>, stąd te "wielokrotne sprite'y gruntowe" muszą być zawsze częścią zestawu sprite'ów budowlanych i nie mogą być częścią innego zestawu sprite'ów dla sprite'ów gruntowych. W związku z tym nie można sprawdzić wielu sprite'ów gruntu za pomocą funkcji <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#spritetype" _istranslated="1">spritetype()</a>. </p><p>
+<a name="Example4"></a>
+</p><h4 _msttexthash="576654" _msthash="151">fundamenty na zamówienie</h4>
+
+<p _msttexthash="20969481" _msthash="152">W przeciwieństwie do niestandardowych fundamentów domów, płytek przemysłowych i obiektów, fundamenty dla stacji nie wymagają specjalnej obsługi wewnątrz definicji układu płytek. </p><p><font _mstmutation="1" _msttexthash="31589558" _msthash="153"> Zamiast tego potrzebne sprite'y są definiowane w specjalnym sprriteblock i dostępne wewnątrz łańcucha graficznego za pomocą funkcji <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#spritetype" _mstmutation="1" _istranslated="1">spritetype().</a> Należy pamiętać, że musi to ustawić flagę NOFOUNDATION w <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationProperties.html#flags" _mstmutation="1" _istranslated="1">property function flags()</a>. </font><br><br>
+
+
+</p><p>
+<a name="Example5"></a>
+</p><h4 _msttexthash="741923" _msthash="154">Zaawansowany układ duszków</h4>
+
+<p _msttexthash="144034488" _msthash="155"> Przykład 4 pokazuje, jak skorzystać z "zaawansowanego układu duszków" w przypadku powtarzających się układów stacji. Dobrym przykładem może być układ stacji z koniecznością powtarzania się, tylko dla różnych duszków ładunku, co można przedstawić poprzez ponowne zabarwienie przykładowego sprite'a ładunku. Zaawansowany układ sprite'ów dla stacji daje możliwość po prostu włączenia recolor sprite'ów do ich własnego bloku duszków i łatwego dostępu do nich za pomocą funkcji układu. </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="2674425" _msthash="156"> Przykład 4 (wykorzystanie rejestrów i zmiana koloru duszków):</font><br>
+<pre>asl_on()
+
+layout(ADVTEST,
+  tile(
+    ground(1012) 
+    recolour(0, xyz(8,8,0), dxdydz(8,8,8), 0, aslflags({OFFSET_RCSPRITE,
+	CUSTOM_RCSPRITE, RESOLVE_RCSPRITE}), registers({11,4}))
+  )
+  tile(
+    ...
+  )
+)
+
+// building sprites
+spriteblock(
+  set(
+    sprite(advtest.pcx 10 10 09 22 32 -14 -16)
+  )
+)
+
+def(0) spriteset(little(0))
+
+// recolour sprites - orange and blue
+spriteblock(
+  set(
+    colourtable(DOSMAP,
+      62 .. 67, C0 .. C5,
+    )
+    colourtable(DOSMAP,
+      62 .. 67, 92 .. 97,
+    )
+  )
+)
+
+def(1) spriteset(little(0))
+
+def(2) spritetype(
+	ref(1) if(4) // recolour sprites
+	ref(0) else  // building sprites
+)
+
+def(3) setregisters(11,1,ref(2)) // 2nd recolour entry: blue
+
+def(4) callback(
+	cbr(0) if(CB_LAYOUT)
+	ref(3) else // graphics
+)
+
+makestation(ADVTEST,
+	default(ref(4))
+)
+</pre>
+</div>
+
+<p _msttexthash="95575779" _msthash="157"> Należy pamiętać, że rejestry używane w zaawansowanym układzie kształtów muszą być ustawione wewnątrz łańcucha grafiki, a nie w łańcuchu wywołania zwrotnego. Odbywa się to w def(3), gdzie funkcja <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/GeneralFunctions.html#setregister" _istranslated="1">setregisters()</a> ustawia rejestr '11' na wartość '1', tj. drugi wpis recolor sprrite. W def(2) łańcuch grafiki jest podzielony na łańcuch dla duszków budynku, def(0), i dodatkowy łańcuch dla duszków rekolorowych, def(1). </p><p _msttexthash="103597676" _msthash="158"> W układzie duszek jest definiowany do ponownego kolorowania za pomocą funkcji recolour(), przy czym pierwszy parametr ustawia duszka budynku, a 4. parametr ustawia duszkę recolor, oba w tym przypadku "0". Parametr 5 określa flagi OFFSET_RCSPRITE, CUSTOM_RCSPRITE i RESOLVE_RCSPRITE, a parametr 6 określa rejestr, który ma być użyty do zdefiniowania przesunięcia duszka recolor oraz łańcuch grafiki do rozpoznawania sprite'ów recolor (4). </p><p>
+<a name="copylayout"></a></p><h3><a name="copylayout" _msttexthash="2335671" _msthash="159">copylayout(&lt;Station-ID&gt;, &lt;Station-ID&gt; | Zakres ::&lt;Station-ID&gt;)</a></h3>
+<p _msttexthash="57675683" _msthash="160"> Funkcja ta umożliwia skopiowanie definicji układu kafelków. Pierwszy argument to identyfikator stacji, dla którego zdefiniowano układ kafelków, pozostałe argumenty to identyfikatory stacji, do których należy skopiować układ kafelków. Te identyfikatory muszą być zakresem kolejnych identyfikatorów stacji. </p><p>
+<a name="copytilelayout"></a></p><h3><a name="copytilelayout" _msttexthash="2654717" _msthash="161">copytilelayout(&lt;Station-ID&gt;, &lt;Station-ID&gt; | Zakres ::&lt;Station-ID&gt;)</a></h3>
+<p _msttexthash="104212186" _msthash="162"> Tak samo jak powyżej, ale ta funkcja umożliwia skopiowanie niestandardowej definicji <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationProperties.html#tiletypelayout" _istranslated="1">układu kafelka</a> TTD. Pierwszy argument to identyfikator stacji, dla którego zdefiniowano niestandardowy układ kafelków TTD, pozostałe argumenty to identyfikatory stacji, do których należy skopiować niestandardowy układ kafelków. Tak jak poprzednio, identyfikatory te muszą być zakresem następujących po sobie identyfikatorów stacji. </p><p>
+
+</p><p>
+<a name="patchlayout"></a></p><h3><a name="patchlayout" _msttexthash="2511678" _msthash="163">patchlayout(&lt;parametr&gt;, &lt;liczba-kafelków&gt;, &lt;liczba-sprite&gt;)</a></h3>
+<p _msttexthash="144215968" _msthash="164"> Ta funkcja może być używana do modyfikowania dużych układów w odniesieniu do ponownego kolorowania. Odnosi się do górnych 2 bajtów numeru duszka, który zawiera jego translację recolor, patrz przykłady. W ten sposób można zastosować różne niestandardowe zmiany koloryzacji, w zależności od dostarczonego parametru. Ponadto możliwe byłoby przekształcenie duszka używającego koloru firmowego w duszka, który zostanie ponownie pokolorowany przez niestandardowe ponowne kolorowanie lub odwrotnie. </p><p _msttexthash="55182842" _msthash="165"> Pierwszy parametr musi być parametrem grf definiującym liczbę duszków recolor, która ma być użyta, z liczbą płytek do przetworzenia podaną przez parametr 2 i liczbą duszków budynków na płytkę podaną przez parametr 3. Funkcja patchlayout() musi bezpośrednio poprzedzać skojarzoną z nią funkcję layout(). </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="170885" _msthash="166"> Przykład 1:</font><br>
+<pre>define(_COLOUR,4)
+
+setparameter(_COLOUR, 0x314) // TTD recolour sprite
+...
+skipif(1, getowngrfparameter(0), BITSET, _COLOUR)
+patchlayout(_COLOUR, 90, 1)
+
+layout(LOW_BLOCK,
+// 0
+//	 F4 03 00 00  00 00 00 10 10 18 45 84 &lt;00 00&gt; 80
+  tile(
+	ground(1012)
+	compcol(24, xyz(0,0,0), dxdydz(16,16,24))
+  )
+...
+// 89
+//	 F3 03 00 00 00 00 00 10 10 18 51 84 &lt;00 00&gt; 80
+  tile(
+	ground(1011)
+	compcol(36, xyz(0,0,0), dxdydz(16,16,24))
+  )
+)
+</pre>
+</div>
+
+<p _msttexthash="4624620" _msthash="167"> Spowoduje to ustawienie numeru duszka recolor z parametru 4 dla 90 płytek tego układu. </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="171080" _msthash="168"> Przykład 2:</font><br>
+<pre>define(_COLOUR,4)
+
+setparameter(_COLOUR, 0x314) // TTD recolour sprite
+...
+skipif(1, getowngrfparameter(0), BITSET, _COLOUR)
+patchlayout(_COLOUR, 2, 2)
+
+layout(OPASS_LOW,
+// F4 03 00 00 00 00 00 05 05 08 2D 84 &lt;00 00&gt;
+//	     00 00 00 10 10 18 2E 84 &lt;00 00&gt; 80
+// F3 03 00 00 00 00 00 05 05 08 2F 84 &lt;00 00&gt;
+//	     00 00 00 10 10 18 30 84 &lt;00 00&gt; 80
+    tile(
+	ground(1012)
+	compcol(0, xyz(0,0,0), dxdydz(5,5,8))
+	compcol(1, xyz(0,0,0), dxdydz(16,16,24))
+    )
+    tile(
+	ground(1011)
+	compcol(2, xyz(0,0,0), dxdydz(5,5,8))
+	compcol(3, xyz(0,0,0), dxdydz(16,16,24))
+    )
+)
+</pre>
+</div>
+
+<p _msttexthash="7582003" _msthash="169"> Spowoduje to ustawienie numeru duszka recolor z parametru 4 dla 2 płytek tego układu z 2 duszkami budynku każda. </p><p _msttexthash="30491773" _msthash="170"> Zauważ, że nie jest możliwe przekolorowanie ani duszków naziemnych, ani duszków "potomnych" (tj. tych, które dzielą obwiednię z poprzedzającym ją duszkiem z własną obwiednią). Zobacz opis funkcji <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#Description" _istranslated="1"> regular(), compcol() i recolour()</a>. </p><p>
+<a name="PerformanceFunctions"></a></p><h2><a name="PerformanceFunctions" _msttexthash="635128" _msthash="171">Funkcje wydajności stacji</a></h2>
+<p _msttexthash="41233660" _msthash="172"> Funkcje te służą do oceny zmiennych wewnętrznych gry i udostępniania ich <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/Stations.html#makestation" _istranslated="1">funkcji aktywacji</a> stacji. Typowa aplikacja wykorzystuje wiele tych funkcji połączonych ze sobą w "łańcuch", łącząc sprite'y graficzne stacji z jej funkcją aktywacji. Zobacz <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/Stations.html#makestation" _istranslated="1">tutaj przykład</a>. </p><p>
+<table class="wikitable">
+<tbody><tr>
+<td class="wikicell"><b _msttexthash="92404" _msthash="173">Funkcja</b></td>
+<td class="wikicell"><b _msttexthash="46072" _msthash="174">Opis</b></td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#anim_frame" class="xyz" _msttexthash="1991795" _msthash="175">anim_frame([&lt;Współrzędne&gt; | ZAREJESTRUJ SIĘ,] &lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="601627" _msthash="176">Pobieranie klatki animacji</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#anim_trigger" class="xyz" _msttexthash="390988" _msthash="177">anim_trigger(&lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="1042509" _msthash="178">Pobierz bieżący wyzwalacz animacji</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#callback" class="xyz" _msttexthash="581490" _msthash="179">wywołanie zwrotne(&lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="580749" _msthash="180">Sprawdź typ oddzwaniania</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#cargo_hist" class="xyz" _msttexthash="1526226" _msthash="181">cargohist(&lt;Rodzaj ładunku&gt; | REJESTRACJA, &lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="651534" _msthash="182">Pobierz historię ładunku</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#cargo_trigger" class="xyz" _msttexthash="392379" _msthash="183">cargotrigger(&lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="1394055" _msthash="184">Uzyskaj typ ładunku dla wyzwalacza animacji</td></tr>
+
+<tr><td class="wikicell" _msttexthash="1725087" _msthash="185">cargowaiting(&lt;Rodzaj ładunku&gt; | REJESTRACJA, &lt;blok&gt;)</td><td class="wikicell" _msttexthash="755274" _msthash="186">Ilość ładunku oczekującego</td></tr>
+
+<tr><td class="wikicell" _msttexthash="96330" _msthash="187">inaczej</td><td class="wikicell" _msttexthash="798837" _msthash="188">To naprawdę puste stwierdzenie</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#exclusiverights" class="xyz" _msttexthash="544778" _msthash="189">exclusiverights(&lt;block&gt;)</a></td><td class="wikicell" _msttexthash="3158233" _msthash="190">Liczba miesięcy wyłączne prawa do transportu będą obowiązywać</td></tr>
+
+<tr><td class="wikicell" _msttexthash="364715" _msthash="191">iswaypoint(&lt;block&gt;)</td><td class="wikicell" _msttexthash="1793831" _msthash="192">Stacja punktu trasy nie otrzyma żadnego ładunku</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#pbsinfo" class="xyz" _msttexthash="240838" _msthash="193">pbsinfo(&lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="1662128" _msthash="194">Informacje o sygnalizacji opartej na ścieżce</td></tr>
+
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#plt" class="xyz" _msttexthash="205058698" _msthash="195">plt_axis([&lt;maska-przesunięcia&gt;,] &lt;blok&gt;) plt_edges(&lt;blok&gt;) plt_even_length(&lt;blok&gt;) plt_even_num(&lt;blok&gt;) plt_even_numrev(&lt;blok&gt;) plt_even_pos(&lt;blok&gt;) plt_even_posrev&lt;blok&gt;) plt_index(&lt;blok&gt;) plt_indexrev(&lt;blok&gt;)<br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"> plt_length([&lt;maska-przesunięcia&gt;, ] &lt;blok&gt;) plt_midnum([&lt;maska-przesunięcia&gt;,] &lt;blok&gt;) plt_midpos([&lt;maska-przesunięcia&gt;,] &lt;blok&gt;) plt_num([&lt;maska-przesunięcia&gt;,] &lt;blok&gt;) plt_numrev([&lt;maska-przesunięcia&gt;,] &lt;blok&gt;) plt_pos([&lt;maska-przesunięcia&gt;,] &lt;blok&gt;) plt_posrev([&lt;maska-przesunięcia&gt;,] &lt;blok&gt;) plt_size(&lt;blok&gt;) plt_tiletype(&lt;blok&gt;)<br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"> plt_total([&lt;maska-przesunięcia&gt;,] &lt;blok&gt;)</a></td>
+<td class="wikicell" _msttexthash="1453686" _msthash="196">Informacje o bieżących kafelkach platformy</td></tr>
+
+<tr><td class="wikicell" _msttexthash="351546" _msthash="197">RandomBits(&lt;block&gt;)</td><td class="wikicell" _msttexthash="441493" _msthash="198">Losowe bity z CB_ACONTROL</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#servicedbytype" class="xyz" _msttexthash="503724" _msthash="199">servicedbytype(&lt;block&gt;)</a></td><td class="wikicell" _msttexthash="2124096" _msthash="200">Typ(-y) pojazdu(-ów) obsługującego(-ych) tę stację</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#spritetype" class="xyz" _msttexthash="348140" _msthash="201">SpriteType(&lt;Block&gt;)</a></td><td class="wikicell" _msttexthash="376207" _msthash="202">Sprawdź typ duszka</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#stationage" class="xyz" _msttexthash="520208" _msthash="203">Stacjonarność (&lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="671502" _msthash="204">Wiek stacji w latach od 1920 roku</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#test_axis" class="xyz" _msttexthash="28486393" _msthash="205"> test_pos(&lt;blok&gt;) test_posrev(&lt;blok&gt;) test_num(&lt;blok&gt;) test_numrev(&lt;blok&gt;) test_length(&lt;blok&gt;) test_total(&lt;blok&gt;) test_axis(&lt;blok&gt;) test_position(&lt;blok&gt;) test_size(&lt;blok&gt;) test_tiletype([&lt;maska-przesunięcia&gt;,] &lt;blok&gt;)<br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"><br _istranslated="1"> </a></td>
+<td class="wikicell" _msttexthash="1062659" _msthash="206">Sprawdzanie typu kafelka dla CB_TILETYPE</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#test_plt" class="xyz" _msttexthash="4733521" _msthash="207">test_pltlength(&lt;blok&gt;) test_plttotal(&lt;blok&gt;) test_pltnum(&lt;blok&gt;) test_pltpos(&lt;blok&gt;)<br _istranslated="1"><br _istranslated="1"><br _istranslated="1"></a></td>
+<td class="wikicell" _msttexthash="1177761" _msthash="208">Sprawdzanie platformy pod kątem CB_SLOPE</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#test_slope" class="xyz" _msttexthash="329823" _msthash="209">test_slope(&lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="610389" _msthash="210">Kontrola nachylenia CB_SLOPE</td></tr>
+
+<tr><td class="wikicell" _msttexthash="1203137" _msthash="211">timesinceload/timesinceunload(&lt;block&gt;)</td><td class="wikicell" _msttexthash="7035795" _msthash="212">Czasy od ostatniej operacji załadunku ładunku miały miejsce na tej stacji, w 185 tickach (~ 2,5 dnia) jednostkach</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#tinfo_flatwater" class="xyz" _msttexthash="1916785" _msthash="213">tinfo_flatwater(&lt;Współrzędne&gt; | REJESTRACJA, &lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="2118129" _msthash="214">Sprawdź, czy płytka jest płaska/pełna płytka wodna</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#tinfo_grfid" class="xyz" _msttexthash="1625026" _msthash="215">tinfo_grfid(&lt;Współrzędne&gt; | REJESTRACJA, &lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="1567696" _msthash="216">Uzyskaj wysokość najniższego rogu płytki</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#tinfo_height" class="xyz" _msttexthash="2149303" _msthash="217">tinfo_height([&lt;Współrzędne&gt; | ZAREJESTRUJ SIĘ,] &lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="1259804" _msthash="218">Sprawdź identyfikator grf kafelka stacji</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#tinfo_lclass" class="xyz" _msttexthash="1697566" _msthash="219">tinfo_lclass(&lt;Współrzędne&gt; | REJESTRACJA, &lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="1311674" _msthash="220">Informacje o kafelku: klasa pozioma kafelka</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#tinfo_slope" class="xyz" _msttexthash="3253055" _msthash="221">tinfo_slope(&lt;Współrzędne&gt; | REJESTR, [&lt;maska-przesunięcia&gt;,] &lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="1255943" _msthash="222">Informacje o kafelku: nachylenie płytki</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#tinfo_statid" class="xyz" _msttexthash="3349242" _msthash="223">tinfo_statid(&lt;Współrzędne&gt; | REJESTR, [&lt;maska-przesunięcia&gt;,] &lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="2556385" _msthash="224">Informacje o kafelkach: identyfikator stacji i inne informacje</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#tinfo_terrain" class="xyz" _msttexthash="2230020" _msthash="225">tinfo_terrain([&lt;Współrzędna&gt; | ZAREJESTRUJ SIĘ,] &lt;blok&gt;)</a></td><td class="" _msttexthash="792129" _msthash="226">Informacje o kafelku: typ terenu</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#tinfo_trackconnect" class="xyz" _msttexthash="1953419" _msthash="227">tinfo_trackconnect([&lt;maska-przesunięcia&gt;,] &lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="2707328" _msthash="228">Informacje o kafelkach: sprawdzanie połączonych ścieżek</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#tinfo_trackexist" class="xyz" _msttexthash="1816022" _msthash="229">tinfo_trackexist([&lt;maska-przesunięcia&gt;,] &lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="2673151" _msthash="230">Informacje o kafelkach: sprawdzanie istniejących ścieżek</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#tinfo_tracktype" class="xyz" _msttexthash="503685" _msthash="231">tinfo_tracktype(&lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="1579162" _msthash="232">Informacje o kafelku: sprawdź typ ścieżki</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#tinfo_water" class="xyz" _msttexthash="1629628" _msthash="233">tinfo_water(&lt;Współrzędne&gt; | REJESTRACJA, &lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="1933334" _msthash="234">Sprawdź, czy kafelek jest kafelkiem wody/wybrzeża</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#tinfo_waterclass" class="xyz" _msttexthash="1992445" _msthash="235">tinfo_waterclass(&lt;Współrzędne&gt; | REJESTRACJA, &lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="367848" _msthash="236">Zwraca "klasę" wody</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#yearbuilt" class="xyz" _msttexthash="299858" _msthash="237">Rok budowy(&lt;blok&gt;)</a></td><td class="wikicell" _msttexthash="293540" _msthash="238">Rok budowy stacji</td></tr>
+
+<tr><td></td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#random" class="xyz" _msttexthash="1669915" _msthash="239">random(&lt;list::trigger&gt;, &lt;randombit&gt; &lt;list::ref()&gt;)</a></td><td class="wikicell" _msttexthash="573989" _msthash="240">Uzyskaj losowe referencje</td></tr>
+
+<tr><td class="wikicell_OK"><a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#re-randomisation" class="xyz" _msttexthash="5250895" _msthash="241">randomcb(&lt;label&gt;, &lt;list::trigger&gt;, &lt;randombit&gt;, &lt;list::reference&gt;)rerandom(&lt;label&gt;, &lt;block&gt;)<br _istranslated="1"></a></td><td class="wikicell" _msttexthash="2311751" _msthash="242">ponowna randomizacja w łańcuchach wywołań zwrotnych</td></tr>
+
+</tbody></table>
+<br>
+
+</p><p>
+<a name="Description2"></a>
+</p><div class="titlebar" _msttexthash="46072" _msthash="243">Opis</div>
+
+<p>
+<a name="anim_frame"></a></p><h3><a name="anim_frame" _msttexthash="1991795" _msthash="244">anim_frame([&lt;Współrzędne&gt; | ZAREJESTRUJ SIĘ,] &lt;blok&gt;)</a></h3>
+<p _msttexthash="40271270" _msthash="245"> Ta funkcja zwraca rzeczywistą wartość licznika animacji bieżącego kafelka, aby zdecydować, która klatka ma być wyświetlana. Wartość zwracana mieści się w przedziale od zera do liczby klatek animacji określonej we właściwości <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationProperties.html#anim_info" _istranslated="1">anim_info())</a> definicji stacji. </p><p _msttexthash="73452834" _msthash="246"> Jeśli podany jest dodatkowy parametr współrzędnych, zwracana jest rzeczywista wartość licznika animacji danego kafelka. Należy pamiętać, że współrzędne muszą być podane przez funkcję pomocniczą <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#pos" _istranslated="1">pos(&lt;x&gt;, &lt;y&gt;,)</a>.
+W przypadku REGISTER jako pierwszego parametru, współrzędna nie jest wyraźnie podana, ale przyjmuje się jako wynik poprzedniego obliczenia. </p><p>
+<a name="anim_trigger"></a></p><h3><a name="anim_trigger" _msttexthash="390988" _msthash="247">anim_trigger(&lt;blok&gt;)</a></h3>
+<p _msttexthash="4654377" _msthash="248"> Ta funkcja zwraca bieżący <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/Stationproperties.html#animationtriggers" _istranslated="1">wyzwalacz animacji</a> podczas wywołania zwrotnego <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationCallbacks.html#CB_ACONTROL" _istranslated="1">CB_ACONTROL</a>. </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="973128" _msthash="249"> Przykład (animacja stacji uchwytu):</font><br>
+<pre>def(8) anim_trigger(
+	animcontrol(0, SND_HORN) if(BUILT) // start animation on construction
+	ref(6) if(NEWCARGO)     // probably start of animation when cargo arrives 
+	animcontrol(A_NOP) else // do nothing
+)
+
+def(9)callback(
+	ref(8) if(CB_ACONTROL) // animation control
+	ref(7) if(CB_AFRAME)   // animation frames
+	ref(1) else	       // graphics
+)	
+</pre>
+</div>
+<br>
+
+<p>
+<a name="callback"></a></p><h3><a name="callback" _msttexthash="581490" _msthash="250">wywołanie zwrotne(&lt;blok&gt;)</a></h3>
+<p _msttexthash="10263773" _msthash="251"> Ta funkcja sprawdza <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationProperties.html#callbacks" _istranslated="1">występowanie wywołania</a> zwrotnego, a jeśli tak, zwraca typ wywołania zwrotnego. Zobacz przykład powyżej. </p><p>
+<a name="cargo_hist"></a></p><h3><a name="cargo_hist" _msttexthash="1526226" _msthash="252">cargohist(&lt;Rodzaj ładunku&gt; | REJESTRACJA, &lt;blok&gt;)</a></h3>
+<p _msttexthash="9500725" _msthash="253"> Ta funkcja zwraca 4-bitową wartość o historii danego <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/CargoTypes.html" _istranslated="1">typu ładunku</a>, który został zaakceptowany na stacji w przeszłości: </p><p>
+<table class="wikitable">
+<tbody><tr><td class="wikicell"><b _msttexthash="30498" _msthash="254">Bit</b></td><td class="wikicell"><b _msttexthash="160875" _msthash="255">Wartość</b></td><td class="wikicell"><b _msttexthash="46072" _msthash="256">Opis</b></td>
+</tr><tr><td class="wikicell" _msttexthash="23335" _msthash="257">N/a</td><td class="wikicell" _msttexthash="4368" _msthash="258">0</td><td class="wikicell" _msttexthash="1580670" _msthash="259">Ładunek nigdy nie był przyjmowany na tej stacji</td></tr>
+<tr><td class="wikicell" _msttexthash="4368" _msthash="260">0</td><td class="wikicell" _msttexthash="4459" _msthash="261">1</td><td class="wikicell" _msttexthash="1833598" _msthash="262">Ładunek był kiedykolwiek przyjmowany na tej stacji</td></tr>
+<tr><td class="wikicell" _msttexthash="4459" _msthash="263">1</td><td class="wikicell" _msttexthash="4550" _msthash="264">2</td><td class="wikicell" _msttexthash="1638793" _msthash="265">ładunek został przyjęty w zeszłym miesiącu</td></tr>
+<tr><td class="wikicell" _msttexthash="4550" _msthash="266">2</td><td class="wikicell" _msttexthash="4732" _msthash="267">4</td><td class="wikicell" _msttexthash="1297322" _msthash="268">ładunek został przyjęty w tym miesiącu</td></tr>
+<tr><td class="wikicell" _msttexthash="4641" _msthash="269">3</td><td class="wikicell" _msttexthash="5096" _msthash="270">8</td><td class="wikicell" _msttexthash="4303611" _msthash="271">ładunek został przyjęty od ostatniego okresowego przetwarzania (co 250 tyknięć)</td></tr>
+</tbody></table>
+
+
+</p><p>
+<a name="cargo_trigger"></a></p><h3><a name="cargo_trigger" _msttexthash="425178" _msthash="272">cargo_trigger(&lt;blok&gt;)</a></h3>
+<p _msttexthash="4373590" _msthash="273"> Ta funkcja zwraca <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/CargoTypes.html" _istranslated="1">typ ładunku</a> dla <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationProperties.html#anim_triggers" _istranslated="1">wyzwalaczy animacji</a> NEWCARGO lub NOCARGO w ustawieniu. </p><p _msttexthash="42996109" _msthash="274"> Jeśli newGRF zainstalował <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/TrainFunctions.html#cargotranslationtable" _istranslated="1">tabelę przeliczenia ładunku</a>, typ ładunku będzie indeksem do tej tabeli lub "255" (0xFF), jeśli ładunek nie jest uwzględniony w tabeli. Jeśli nie ma tabeli przeliczenia ładunku, typ ładunku będzie po prostu <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/CargoTypes.html" _istranslated="1">rodzajem ładunku</a> zależnym od klimatu. </p><p>
+<a name="exclusiverights"></a></p><h3><a name="exclusiverights" _msttexthash="544778" _msthash="275">exclusiverights(&lt;block&gt;)</a></h3>
+<p _msttexthash="24415924" _msthash="276"> Ta funkcja zwraca liczbę miesięcy, w których wyłączne prawa transportowe, które zostały zakupione w okolicy, będą nadal obowiązywać. Jeśli jest różny od zera, stacja nie otrzyma żadnego ładunku. </p><p>
+<a name="pbsinfo"></a></p><h3><a name="pbsinfo" _msttexthash="240838" _msthash="277">pbsinfo(&lt;blok&gt;)</a></h3>
+<p>
+<font _mstmutation="1" _msttexthash="28310204" _msthash="278"><a href="http://www.ttdpatch.de/grfspecs/PatchManual/PathBasedSignalling.html" class="patchlink" title="Allow multiple trains to share a junction" _mstmutation="1" _istranslated="1">Sygnalizacja oparta na trasie (PBS)</a> to funkcja, która umożliwia wielu pociągom współdzielenie bloku sygnałowego, o ile ich trasy nie kolidują. To znacznie poprawia wejścia i wyjścia ze stacji, a także skrzyżowań. </font></p><p _msttexthash="31258201" _msthash="279"> Gdy pociąg zbliża się do skrzyżowania opartego na trasie, zarezerwuje przez nie trasę. Jeśli pożądana trasa innego pociągu przecina trasę tego pociągu, czeka on na sygnał, aby zarezerwować trasę przed wjazdem na skrzyżowanie. </p><p _msttexthash="1476306" _msthash="280"> Ta funkcja zwraca następującą wartość: </p><p>
+<table class="wikitable">
+<tbody><tr><td class="wikicell" colspan="2"><b _msttexthash="160875" _msthash="281">Wartość</b></td><td class="wikicell"><b _msttexthash="114439" _msthash="282">Etykieta</b></td><td class="wikicell"><b _msttexthash="46072" _msthash="283">Opis</b></td>
+</tr><tr><td class="wikicell" _msttexthash="5005" _msthash="284">7</td><td class="wikicell" _msttexthash="15288" _msthash="285">111</td><td class="wikicell" _msttexthash="130065" _msthash="286">PBSRESERVED</td><td class="wikicell" _msttexthash="420979" _msthash="287">Utwór zarezerwowany</td></tr>
+<tr><td class="wikicell" _msttexthash="4732" _msthash="288">4</td><td class="wikicell" _msttexthash="15067" _msthash="289">100</td><td class="wikicell" _msttexthash="168077" _msthash="290">PBSUNRESERVED</td><td class="wikicell" _msttexthash="408356" _msthash="291">Utwór bez rezerwacji</td></tr>
+<tr><td class="wikicell" _msttexthash="4550" _msthash="292">2</td><td class="wikicell" _msttexthash="15080" _msthash="293">010</td><td class="wikicell" _msttexthash="69121" _msthash="294">PBSNONE</td><td class="wikicell" _msttexthash="81796" _msthash="295">brak PBS</td></tr>
+</tbody></table>
+
+</p><p _msttexthash="77256218" _msthash="296"> Bity są zdefiniowane w ten sposób, aby umożliwić łatwy powrót do przypadków innych niż PBS. Jeśli potrzebujesz grafiki do pokazania stanu "bez rezerwacji" w przypadkach innych niż PBS, użyj bitu 0, ale jeśli potrzebujesz stanu "zarezerwowany" w przypadkach innych niż PBS, użyj bitu 1. Aby jawnie sprawdzić, czy Usługa książek telefonicznych jest aktywna, użyj bitu 2. </p><p _msttexthash="2616159" _msthash="297"> Wszystkie inne bity są zarezerwowane i nie wolno ich używać. </p><p _msttexthash="27713777" _msthash="298"> W tej chwili włączanie / wyłączanie PBS odnosi się do ustawienia przełącznika, w przyszłej wersji alfa będzie faktycznie odnosić się do tego, czy przełącznik jest włączony, a bieżący blok faktycznie używa PBS. </p><p>
+<a name="plt"></a></p><h3><a name="plt" _msttexthash="179998" _msthash="299">plt_*(&lt;blok&gt;)</a></h3>
+<p _msttexthash="21362991" _msthash="300"> Ten zestaw funkcji zwraca informacje o bieżącym kafelku, platformie, na której się znajduje i jak daleko na platformie. Współrzędne są zdefiniowane tak, jak pokazano na poniższym rysunku: </p><p>
+<img src="./m4nfoStationFunctions_files/stat_coord.png">
+
+</p><p>
+</p><ul>
+<li _msttexthash="7312032" _msthash="301"><b _istranslated="1">Funkcja plt_axis()</b> zwraca kierunek bieżącego kafelka platformy ("0" dla kafelka w kierunku x lub "1" dla kierunku y</li>
+<li _msttexthash="8792277" _msthash="302"><b _istranslated="1">plt_edges()</b> sprawdza położenie bieżącego kafelka wewnątrz stacji w odniesieniu do krawędzi stacji, <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#plt_edges" _istranslated="1">patrz poniżej</a>. </li><li _msttexthash="3778268" _msthash="303"><b _istranslated="1">plt_even_length()</b> zwraca wartość "0" przy parzystej długości platformy</li>
+<li _msttexthash="2945189" _msthash="304"><b _istranslated="1">plt_even_num()</b> zwraca wartość "0" na parzystych numerach platform</li>
+<li _msttexthash="13222742" _msthash="305"><b _istranslated="1">Funkcja plt_even_numrev()<br _istranslated="1"></b> zwraca wartość "0" na parzystych numerach peronów, zaczynając od najbardziej wysuniętej na południe krawędzi stacji</li>
+<li _msttexthash="3131739" _msthash="306"><b _istranslated="1">plt_even_pos()</b> zwraca wartość "0" na parzystej pozycji na platformie</li>
+<li _msttexthash="12909949" _msthash="307"><b _istranslated="1">Funkcja plt_even_posrev()</b> zwraca wartość "0" w pozycji parzystej na peronie, zaczynając od najbardziej wysuniętej na południe krawędzi stacji </li>
+<li _msttexthash="27352130" _msthash="308"><b _istranslated="1">plt_index()</b> zwraca indeks (pozycja na peronie, numer peronu) do stacji, licząc od północnego narożnika (patrz lewy obrazek). Aby uzyskać dostęp do zwracanej wartości, należy użyć funkcji pomocniczej nibble(x,y) </li><li _msttexthash="6476925" _msthash="309"><b _istranslated="1">Funkcja plt_indexrev</b>() zwraca wartość indeksu zliczanego od południowego rogu (patrz prawy obrazek)</li>
+<li _msttexthash="13894257" _msthash="310"><b _istranslated="1">Funkcja plt_length</b>() zwraca długość peronu (rozpoczyna liczenie od północy — patrz lewy obrazek)</li>
+<li _msttexthash="5863195" _msthash="311"><b _istranslated="1">Funkcja plt_midnum()</b> zwraca liczbę aktualnie wylosowanych platform, zaczynając od środkowej</li>
+<li _msttexthash="4601948" _msthash="312"><b _istranslated="1">Funkcja plt_midpos()</b> zwraca pozycję wzdłuż tej platformy, zaczynając od środka</li>
+<li _msttexthash="4494672" _msthash="313"><b _istranslated="1">Funkcja plt_num</b>() zwraca aktualnie wylosowaną liczbę platform (patrz lewy obrazek)</li>
+<li _msttexthash="15141607" _msthash="314"><b _istranslated="1">Funkcja plt_numrev</b>() zwraca liczbę aktualnie wylosowanych peronów, zaczynając od najbardziej wysuniętej na południe krawędzi stacji (patrz prawy rysunek)</li>
+<li _msttexthash="3797911" _msthash="315"><b _istranslated="1">Funkcja plt_pos</b>() zwraca pozycję wzdłuż tej platformy (patrz lewy obrazek)</li>
+<li _msttexthash="13111670" _msthash="316"><b _istranslated="1">Funkcja plt_posrev</b>() zwraca pozycję wzdłuż tego peronu, zaczynając od najbardziej wysuniętej na południe krawędzi stacji (patrz prawy rysunek)</li>
+<li _msttexthash="5323799" _msthash="317"><b _istranslated="1">Funkcja plt_size</b>() zwraca rozmiar (numer peronu i długość peronu) całej stacji lub sekcji </li><li _msttexthash="3015441" _msthash="318"><b _istranslated="1">plt_tiletype()</b> zwraca <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationProperties.html#tiletypelayout" _istranslated="1">typ kafelka TTD</a> bieżącego kafelka platformy</li>
+<li _msttexthash="2031757" _msthash="319"><b _istranslated="1">Funkcja plt_total()</b> zwraca łączną liczbę platform</li>
+</ul>
+
+<p _msttexthash="32723561" _msthash="320"> W zależności od rodzaju stacji, powyższe funkcje uwzględniają różne sekcje danej stacji. W przypadku stacji regularnych oceniana jest cała stacja; a dla stacji nieregularnych liczona jest cała długość i wszystkie przyległe perony. </p><p _msttexthash="76338483" _msthash="321"> Termin "liczenie" odnosi się tutaj do rozpoczęcia od danego kafelka i liczenia płytek we wszystkich czterech kierunkach. Dwa kierunki wyrównane z kierunkiem stacji będą długością stacji, a pozostałe dwa kierunki podają liczbę peronów, patrz rysunek.
+Dla wszystkich powyższych funkcji liczenie zatrzymuje się na krawędzi stacji, tj. pierwszym kafelku niestacji. </p><p _msttexthash="250249519" _msthash="322"> Jak pokazano na powyższym rysunku, funkcje liczą się albo od najbardziej wysuniętej na północ krawędzi stacji, albo od jej najbardziej wysuniętej na południe krawędzi (plt_numrev(), plt_posrev()). Dla funkcji plt_midpos() i plt_midnum() ich format zwracany to pozycje <b _istranslated="1">liczone od środka</b>, tj. środkowy kafelek ma "numer platformy" = 0 i "pozycja wzdłuż platformy" = 0. Dla parzystych długości i liczby peronów środkowa płytka znajduje się w pozycji długość/2 lub liczba peronów/2, np. dla długości = 6, jest to płytka 3 (tj. czwarta płytka). Liczenie preferuje dodatkową liczbę ujemną dla liczby parzystej (ponieważ dostępnych jest 8 liczb ujemnych, ale tylko 7 dodatnich): </p><p>
+<table class="wikitable">
+<tbody><tr><td class="wikicell" <b="" _msttexthash="72644" _msthash="323">Hrabia</td><td class="wikicell"><b _msttexthash="78169" _msthash="324">Liczby</b></td>
+</tr><tr><td class="wikicell" _msttexthash="4459" _msthash="325">1</td><td class="wikicell align=center"><pre>          0</pre></td>
+</tr><tr><td class="wikicell" _msttexthash="4550" _msthash="326">2</td><td class="wikicell align=center"><pre>      -1  0</pre></td>
+</tr><tr><td class="wikicell" _msttexthash="4641" _msthash="327">3</td><td class="wikicell align=center"><pre>      -1  0  1</pre></td>
+</tr><tr><td class="wikicell" _msttexthash="4732" _msthash="328">4</td><td class="wikicell align=center"><pre>   -2 -1  0  1</pre></td>
+</tr><tr><td class="wikicell" _msttexthash="4823" _msthash="329">5</td><td class="wikicell align=center"><pre>   -2 -1  0  1  2</pre></td>
+</tr><tr><td class="wikicell" _msttexthash="4914" _msthash="330">6</td><td class="wikicell align=center"><pre>-3 -2 -1  0  1  2</pre></td>
+</tr></tbody></table>
+
+</p><p _msttexthash="6029738" _msthash="331"> Dostęp do liczb ujemnych uzyskuje się za pomocą funkcji aux signed() w funkcji if(). Zobacz przykład. </p><p _msttexthash="26768079" _msthash="332"> Aby odróżnić liczbę peronów od pozycji na peronach na całej stacji, lub tylko o odcinku kafelków stacji budowanych w połączeniu z bieżącym kafelkiem, m4nfo używa funkcji nawiasu self(). Zobacz przykład poniżej. </p><p _msttexthash="29030131" _msthash="333"> Niektóre z powyższych funkcji umożliwiają użycie funkcji shiftmask(). Ponieważ liczba i długość peronów stacji jest ograniczona do 15, parametr przesunięcia jest ograniczony do zakresu 0 .. 3, a parametr mask do zakresu 1 .. 15 (0x0F). </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="1673841" _msthash="334"> Przykład (sprawdź pozycję platformy i numery):</font><br>
+<pre>// single or multi tile?
+def(6) plt_total(
+	ref(24) if(1) // single
+	ref(5) else   // not single
+)
+
+// position at platform
+def(7) plt_pos(
+	ref(6) if(0) // edge back 
+	ref(3) else  // edge front or middle 
+)
+
+// index of station tiles
+def(8) plt_index(
+	self(
+		cbr(2) if(nibble(0,0)) // x=0, y=0
+		cbr(4) if(nibble(0,1))
+		cbr(6) if(nibble(0,2))
+		cbr(8) if(nibble(1,0))
+		cbr(10) if(nibble(1,1))
+		cbr(12) else
+ 	)
+)
+
+def(9) plt_midpos(
+	self(
+		ref(0x76) if(signed(-2))
+		ref(0xB0) if(signed(-1))
+		ref(0xB1) if(0)
+		ref(0x7A) if(1)
+		ref(0x79) else
+	)
+)
+</pre>
+</div>
+<br>
+
+<p>
+<font _mstmutation="1" _msttexthash="63530402" _msthash="335"><a name="plt_edges" _mstmutation="1" _istranslated="1"><b _istranslated="1">plt_edges()</b></a> sprawdza położenie bieżącego kafelka wewnątrz stacji w odniesieniu do krawędzi stacji. Funkcja zwraca nibble z bitami ustawionymi dla każdej krawędzi stacji skojarzonej z bieżącym kafelkiem. Zliczanie bitów odbywa się zgodnie z ruchem wskazówek zegara, zaczynając od północno-wschodniej krawędzi, patrz rysunek: </font></p><p>
+<img src="./m4nfoStationFunctions_files/plt_edges.png">
+
+</p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="2672813" _msthash="336"> Przykład (użycie plt_edges do lokalizowania kafelków stacji):</font><br>
+<pre>def(2) plt_edges(
+	cbr(0) if(0)
+	cbr(2) if(1)
+	cbr(4) if(2)
+	cbr(6) if(3)
+	cbr(8) if(4)
+	cbr(10) if(5)
+	cbr(12) if(6)
+	cbr(14) if(7)
+	cbr(16) if(8)
+	cbr(18) if(9)
+	cbr(20) if(10)
+	cbr(22) if(11)
+	cbr(24) if(12)
+	cbr(26) if(13)
+	cbr(28) if(14)
+	cbr(30) else
+)
+</pre>
+</div>
+
+<p>
+<img src="./m4nfoStationFunctions_files/plt_edges_2.png">
+
+</p><p>
+<a name="servicedbytype"></a></p><h3><a name="servicedbytype" _msttexthash="503724" _msthash="337">servicedbytype(&lt;block&gt;)</a></h3>
+<p _msttexthash="12418419" _msthash="338"> Ta funkcja zwraca typ(y) pojazdów, które odwiedziły tę stację w przeszłości, POCIĄG, AUTOBUS, CIĘŻARÓWKA, SAMOLOT, STATEK lub dowolna kombinacja: </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="1645462" _msthash="339"> Przykład (sprawdzić typy pojazdów po wizycie):</font><br>
+<pre>def(5) servicedbytype(
+	ref(4) if(BUS + TRUCK) // service by rvs
+	ref(3) else
+)
+</pre>
+</div>
+<br>
+ 
+
+<p>
+<a name="spritetype"></a></p><h3><a name="spritetype" _msttexthash="348140" _msthash="340">SpriteType(&lt;Block&gt;)</a></h3>
+<p _msttexthash="42070600" _msthash="341"> Ta funkcja zwraca informacje o bieżącym typie duszka, tj. czy jest to duszek gruntu (GROUNDSPRITE), niestandardowy sprite fundamentu (FOUNDATION) czy duszek budynku (BUILDING). Aby to zadziałało, odpowiednie flagi muszą być ustawione w funkcji <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationProperties.html#flags" _istranslated="1">właściwości flags()</a> stacji. </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="1213498" _msthash="342"> Przykład (sprawdź nachylenie budynku):</font><br>
+<pre>// ground sprite, foundation or building?
+def(8) spritetype(
+	ref(__groundsprites) if(GROUNDSPRITE) // ground sprite overlays
+	ref(__foundations) if(FOUNDATION)     // custom foundations
+	ref(__buildingsprites) else           // building sprites
+)
+
+def(9) callback(
+	ref(7) if(CB_LAYOUT)
+	ref(8) else
+)
+</pre>
+</div>
+
+<p _msttexthash="7681310" _msthash="343"> Podczas korzystania z funkcji <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#advanced" _istranslated="1">Advanced Sprite Layer</a> oprogramowania OpenTTD dozwolony zakres wartości wynosi 0. 7. </p><p>
+<a name="stationage"></a></p><h3><a name="stationage" _msttexthash="520208" _msthash="344">Stacjonarność (&lt;blok&gt;)</a></h3>
+<p _msttexthash="3635125" _msthash="345"> Ta funkcja zwraca wiek stacji w latach od 1920 roku. Wynik jest zwracany jako WORD: </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="847444" _msthash="346"> Przykład (sprawdź wiek stacji):</font><br>
+<pre>def(14) stationage(
+	ref(2) if(&lt;40)
+	ref(4) if(41 .. 59)
+	ref(6) if(60 .. 79)
+	ref(10) else
+)
+</pre>
+</div>
+<br>
+
+<p>
+<a name="test_axis"></a></p><h3><a name="test_axis" _msttexthash="30341272" _msthash="347"> test_pos(&lt;blok&gt;),
+test_posrev(&lt;blok&gt;),
+test_num(&lt;blok&gt;),
+test_numrev(&lt;blok&gt;),
+test_length(&lt;blok&gt;),
+test_total(&lt;blok&gt;),
+test_axis(&lt;blok&gt;),
+test_position(&lt;blok&gt;),
+test_size(&lt;blok&gt;),
+test_tiletype([&lt;maska-przesunięcia&gt;,] &lt;blok&gt;) </a></h3>
+<p _msttexthash="59923175" _msthash="348"> Funkcje te zwracają informacje o poszczególnych budowanych sekcjach stacji podczas <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationCallbacks.html#CB_TILETYPE" _istranslated="1">wywołania</a> zwrotnego CB_TILETYPE. Ten sam format co <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#plt" _istranslated="1">funkcje plt_* powyżej</a>, ale ponieważ funkcje te dotyczą tylko sekcji stacji, która nie została jeszcze zbudowana, nie byłoby potrzebne wywołanie self() dla "indywidualnie budowanych sekcji". </p><p>
+</p><ul>
+<li _msttexthash="6752889" _msthash="349"><b _istranslated="1">test_pos/posrev()</b> zwraca położenie kafelków stacji do zbudowania, albo z kierunku NE na SW, albo odwrotnie</li>
+<li _msttexthash="7605312" _msthash="350"><b _istranslated="1">Funkcja test_num/liczba.rev()</b> zwraca numer peronu kafelków stacji do zbudowania, z kierunku NW na SE lub odwrotnie</li>
+<li _msttexthash="4227431" _msthash="351"><b _istranslated="1">Funkcja test_length()</b> zwraca długość peronów, które mają zostać zbudowane.</li>
+<li _msttexthash="3072524" _msthash="352"><b _istranslated="1">Funkcja test_total()</b> zwraca łączną liczbę platform do zbudowania</li>
+<li _msttexthash="6766721" _msthash="353"><b _istranslated="1">Funkcja test_axis()</b> zwraca kierunek kafelków platformy do zbudowania ("0" dla kierunku x lub "1" dla kierunku y</li>
+<li _msttexthash="7510438" _msthash="354"><b _istranslated="1">test_position(</b>) ocenia położenie płytki, która ma zostać zbudowana (numer platformy i pozycja na platformie)</li>
+<li _msttexthash="6620263" _msthash="355"><b _istranslated="1">Funkcja test_size</b>() zwraca rozmiar (numer platformy i długość peronu) sekcji przeznaczonej do budowy</li>
+<li _msttexthash="2605590" _msthash="356"><b _istranslated="1">test_tiletype([&lt;shiftmask&gt;])</b> zwraca <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationProperties.html#tiletypelayout" _istranslated="1">typ kafelka</a> do zbudowania</li>
+</ul>
+
+<p _msttexthash="10943036" _msthash="357"> Funkcje test_position() i test_size() wymagają funkcji <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/ObjectFunctions.html#nibble" _istranslated="1">pomocniczej nibble()</a> w celu wyodrębnienia pojedynczych wartości zwracanych. </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="2575586" _msthash="358"> Przykład (kafelek uchwytu (0,0) jako kafelek nieścieżkowy):</font><br>
+<pre>definestation(
+	...
+	nontrack(TTD_ROOFBOTH) // TTD tile types 4/5 and 6/7
+)
+
+...
+
+def(3) test_position(
+	cbr(4) if(nibble(0,0)) // make tile x=0/y=0 non-track
+	cbfail() else
+)
+
+// menu
+def(13) callback(
+	cbr(18) if(CB_LAYOUT)
+	ref(3) if(CB_TILETYPE)
+	ref(ALL_ICON) else
+)
+</pre>
+</div>
+<br>
+
+
+
+<p>
+<a name="test_plt"></a></p><h3><a name="test_plt" _msttexthash="287456" _msthash="359">test_plt*(&lt;blok&gt;)</a></h3>
+<p _msttexthash="37350872" _msthash="360"> Funkcje te umożliwiają dostęp do informacji o peronie podczas <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationCallbacks.html#CB_SLOPE" _istranslated="1">wywołania</a> zwrotnego w CB_SLOPE, tj. przed zbudowaniem kafelka stacji. Wszystkie funkcje liczą numery peronów i długości od najbardziej wysuniętego na północ rogu stacji, jak pokazano <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#plt" _istranslated="1">tutaj</a>. </p><p>
+</p><ul>
+<li _msttexthash="2277093" _msthash="361"><b _istranslated="1">test_pltlength()</b> całkowita długość budowanej stacji </li><li _msttexthash="1168843" _msthash="362"><b _istranslated="1">test_pltnum()</b> aktualny numer platformy </li><li _msttexthash="2640248" _msthash="363"><b _istranslated="1">test_pltpos()</b> przesunięcie bieżącego kafelka na platformie </li><li _msttexthash="2103504" _msthash="364"><b _istranslated="1">test_plttotal()</b> całkowita liczba budowanych peronów </li>
+</ul>
+<br>
+
+<p>
+<a name="test_slope"></a></p><h3><a name="test_slope" _msttexthash="329823" _msthash="365">test_slope(&lt;blok&gt;)</a></h3>
+<p _msttexthash="28700425" _msthash="366"> Tak jak powyżej, ale ta funkcja ocenia nachylenie płytki, która ma zostać zbudowana, w połączeniu z wywołaniem zwrotnym "kontroli nachylenia terenu" (CB_SLOPE). Zwrócone wartości nachylenia są takie same jak w <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#tinfo_slope" _istranslated="1">tinfo_slope()</a>. </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="966043" _msthash="367"> Przykład (stacja budowy na stokach):</font><br>
+<pre>def(45) test_slope(
+	ref(44) if(NORTH+WEST, NORTH+EAST) // in x: back + front
+	ref(44) if(SOUTH+WEST, SOUTH+EAST) // in y: back + front
+	DISALLOW else
+)
+</pre>
+</div>
+<br>
+
+
+<p>
+<a name="tinfo_flatwater"></a></p><h3><a name="tinfo_flatwater" _msttexthash="1916785" _msthash="368">tinfo_flatwater(&lt;Współrzędne&gt; | REJESTRACJA, &lt;blok&gt;)</a></h3>
+<p _msttexthash="22452612" _msthash="369"> Ta funkcja zwraca wartość "32", jeśli płytka podana przez &lt;współrzędna&gt; jest płytką płaską/pełną wodą, w przeciwnym razie wartość nachylenia dla tego kafelka jest zwracana w dolnych 5 bitach. </p><p _msttexthash="195443495" _msthash="370"> Parametr współrzędnych określa przesunięcie względem bieżącego kafelka. Oba skubnięcia są uważane za podpisane. Przesunięcia ujemne przesuwają się odpowiednio na północ/zachód, dodatnie na południe/wschód.
+Parametr współrzędnych musi być określony przez funkcję pomocniczą <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#pos" _istranslated="1">pos(&lt;x&gt;, &lt;y&gt;,)</a>.
+
+W przypadku REGISTER jako pierwszego parametru, współrzędne nie są jawnie podawane, ale brane jako wynik poprzedniego obliczenia, patrz <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/GlobalFunctions.html#calculate" _istranslated="1">calculate()</a>.
+Oba wymagania wstępne dotyczą również funkcji tinfo_lclass(), tinfo_slope(), tinfo_statid(), tinfo_terrain(), tinfo_water() i tinfo_waterclass(). </p><p>
+<a name="tinfo_grfid"></a></p><h3><a name="tinfo_grfid" _msttexthash="1625026" _msthash="371">tinfo_grfid(&lt;Współrzędne&gt; | REJESTRACJA, &lt;blok&gt;)</a></h3>
+<p _msttexthash="56186845" _msthash="372"> Ta funkcja zwraca identyfikator grf kafelka stacji podany przez &lt;współrzędne&gt; lub "0", jeśli stacja kafelka jest stacją domyślną, lub "0xFFFFFFFF", jeśli wybrany kafelek nie jest kafelkiem stacji.
+
+Należy zauważyć, że wynik należy sprawdzić za pomocą funkcji <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/AuxFunctions.html#label" _istranslated="1">pomocniczej label()</a> w funkcji if(). Zobacz przykład. </p><p>
+<a name="tinfo_height"></a></p><h3><a name="tinfo_height" _msttexthash="2149303" _msthash="373">tinfo_height([&lt;Współrzędne&gt; | ZAREJESTRUJ SIĘ,] &lt;blok&gt;)</a></h3>
+<p _msttexthash="16687099" _msthash="374"> Ta funkcja zwraca wysokość najniższego rogu płytki na danej współrzędnej. Jeśli parametr współrzędnych zostanie pominięty, zostanie przyjęty kafelek curent. </p><p>
+<a name="tinfo_lclass"></a></p><h3><a name="tinfo_lclass" _msttexthash="1697566" _msthash="375">tinfo_lclass(&lt;Współrzędne&gt; | REJESTRACJA, &lt;blok&gt;)</a></h3>
+<p _msttexthash="3475771" _msthash="376"> Ta funkcja zwraca klasę poziomą kafelka na podanej współrzędnej (s.a.): </p><p>
+<table class="wikitable">
+<tbody><tr><td class="wikicell"><b _msttexthash="160875" _msthash="377">Wartość</b></td><td class="wikicell"><b _msttexthash="114439" _msthash="378">Etykieta</b></td><td class="wikicell"><b _msttexthash="46072" _msthash="379">Opis</b></td>
+</tr><tr><td class="wikicell" _msttexthash="4368" _msthash="380">0</td><td class="wikicell" _msttexthash="114725" _msthash="381">LC_TERRAIN</td><td class="wikicell" _msttexthash="798265" _msthash="382">goła ziemia, trawa, skały, pola</td></tr>
+<tr><td class="wikicell" _msttexthash="4459" _msthash="383">1</td><td class="wikicell" _msttexthash="69186" _msthash="384">LC_RAIL</td><td class="wikicell" _msttexthash="2372643" _msthash="385">tor kolejowy, z sygnalizacją i bez sygnalizacji, ogrodzenia</td></tr>
+<tr><td class="wikicell" _msttexthash="4550" _msthash="386">2</td><td class="wikicell" _msttexthash="68588" _msthash="387">LC_ROAD</td><td class="wikicell" _msttexthash="1030562" _msthash="388">drogi, przejazdy kolejowe, zajezdnie</td></tr>
+<tr><td class="wikicell" _msttexthash="4641" _msthash="389">3</td><td class="wikicell" _msttexthash="85501" _msthash="390">LC_HOUSE</td><td class="wikicell" _msttexthash="291642" _msthash="391">budynki miejskie</td></tr>
+<tr><td class="wikicell" _msttexthash="4732" _msthash="392">4</td><td class="wikicell" _msttexthash="85176" _msthash="393">LC_TREES</td><td class="wikicell" _msttexthash="598845" _msthash="394">drzewa zależne od klimatu</td></tr>
+<tr><td class="wikicell" _msttexthash="4823" _msthash="395">5</td><td class="wikicell" _msttexthash="189410" _msthash="396">LC_STATIONTILE</td><td class="wikicell" _msttexthash="3952780" _msthash="397">dworzec kolejowy, lotnisko, dworzec samochodowy i autobusowy, dok dla statków</td></tr>
+<tr><td class="wikicell" _msttexthash="4914" _msthash="398">6</td><td class="wikicell" _msttexthash="85293" _msthash="399">LC_WATER</td><td class="wikicell" _msttexthash="1531361" _msthash="400">woda, wybrzeże, brzeg rzeki, magazyn statków</td></tr>
+<tr><td class="wikicell" _msttexthash="5005" _msthash="401">7</td><td class="wikicell" _msttexthash="70356" _msthash="402">LC_VOID</td><td class="wikicell" _msttexthash="1716143" _msthash="403">Niewidoczne obramowanie u dolnych krawędzi mapy</td></tr>
+<tr><td class="wikicell" _msttexthash="5096" _msthash="404">8</td><td class="wikicell" _msttexthash="215111" _msthash="405">LC_INDUSTRYTILE</td><td class="wikicell" _msttexthash="575861" _msthash="406">Typy płytek branżowych</td></tr>
+<tr><td class="wikicell" _msttexthash="5187" _msthash="407">9</td><td class="wikicell" _msttexthash="203827" _msthash="408">LC_TUNNELBRIDGE</td><td class="wikicell" _msttexthash="803452" _msthash="409">tunel kolejowy lub drogowy, most</td></tr>
+<tr><td class="wikicell" _msttexthash="9451" _msthash="410">10</td><td class="wikicell" _msttexthash="96486" _msthash="411">LC_OBJECT</td><td class="wikicell" _msttexthash="4048421" _msthash="412">nadajnik, latarnia morska, posąg, teren należący do firmy, siedziba główna</td></tr>
+</tbody></table>
+<br>
+
+
+</p><p>
+<a name="tinfo_slope"></a></p><h3><a name="tinfo_slope" _msttexthash="3253055" _msthash="413">tinfo_slope(&lt;Współrzędne&gt; | REJESTR, [&lt;maska-przesunięcia&gt;,] &lt;blok&gt;)</a></h3>
+<p _msttexthash="34148595" _msthash="414"> Ta funkcja zwraca informacje o nachyleniu wypełnionym bajtami dla kafelka danej stacji.
+Podana informacja jest w odniesieniu do najniższego rogu płytki, tj. ZACHÓD oznacza, że zachodni narożnik znajduje się powyżej najniższego rogu itp. </p><p _msttexthash="5732506" _msthash="415"> Ten rysunek ilustruje, jaki rodzaj nachylenia należy do których podniesionych narożników: </p><p>
+<img src="./m4nfoStationFunctions_files/slopes.png">
+
+</p><p _msttexthash="41393846" _msthash="416"> Równie dobrze możesz sprawdzić tak zwane "strome zbocza" (tj. narożnik przeciwny do najniższego jest o dwie jednostki wyższy), używając wartości STEEP wraz z dowolnymi trzema innymi narożnikami, ale pamiętaj, że stacje nie mogą być umieszczone na stromym zboczu. </p><p _msttexthash="85844421" _msthash="417"> Dodatkowy parametr &lt;shift-mask&gt; może zostać zastosowany w celu dalszego udoskonalenia wyniku funkcji. Aby to zadziałało, pierwszy parametr funkcji <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#shiftmask" _istranslated="1">shiftmask()</a> (parametr &lt;shift&gt;) musi być ustawiony na zero (0), tj. w ogóle nie ma przesunięcia.
+Parametr &lt;mask&gt; powinien być ustawiony na rozsądną wartość, w zależności od celu, jaki ma zostać osiągnięty za pomocą maskowania wyników. </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="1548677" _msthash="418"> Przykład (sprawdź nachylenie kafelka stacji):</font><br>
+<pre>def(11) tinfo_slope(pos(0,0), shiftmask(0, NORTH+WEST+SOUTH+EAST),
+	cbr(10) if(0)	// flat: ticket machine left
+	cbr(12) if(NORTH+WEST, NORTH+WEST+EAST, NORTH+WEST+SOUTH) // ticket machine left
+	cbr(10) if(SOUTH+EAST, SOUTH+EAST+WEST, SOUTH+EAST+NORTH) // fence left
+	cbr(40) else	// fence left and right
+)
+</pre>
+</div>
+
+<p _msttexthash="18775354" _msthash="419"> W tym przykładzie zbocza do sprawdzenia są ograniczone do dowolnej kombinacji PÓŁNOC, ZACHÓD, POŁUDNIE i WSCHÓD, tj. STROME zbocza zostaną automatycznie wykluczone z gałęzi "inne". </p><p>
+<a name="tinfo_statid"></a></p><h3><a name="tinfo_statid" _msttexthash="3349242" _msthash="420">tinfo_statid(&lt;Współrzędne&gt; | REJESTR, [&lt;maska-przesunięcia&gt;,] &lt;blok&gt;)</a></h3>
+<p _msttexthash="20669194" _msthash="421"> Ta funkcja zwraca identyfikator stacji na danej współrzędnej kafelka w stosunku do bieżącego kafelka stacji w jej dolnym Bajtie. Ponadto zwraca dodatkowe informacje w swoim wysokim Byte (s.a.): </p><p>
+<table class="wikitable">
+<tbody><tr><td class="wikicell"><b _msttexthash="30498" _msthash="422">Bit</b></td><td class="wikicell" colspan="2" align="center"><b _msttexthash="160875" _msthash="423">Wartość</b></td><td class="wikicell"><b _msttexthash="134446" _msthash="424">Znaczenie</b></td></tr>
+
+<tr><td class="wikicell"><nobr _msttexthash="20904" _msthash="425">0 .. 1</nobr></td><td class="wikicell" _msttexthash="103311" _msthash="426">0x100 / 0x200</td><td class="wikicell" _msttexthash="275652" _msthash="427">_THISGRF / _OTHERGRF</td>
+<td class="wikicell" _msttexthash="6917534" _msthash="428">Członkostwo w kafelkach (0: oryginalny TTD, 1: zdefiniowany w bieżącym newGRF, 2: zdefiniowany w obcym newGRF)</td></tr>
+
+<tr><td class="wikicell" _msttexthash="4550" _msthash="429">2</td><td class="wikicell" _msttexthash="36036" _msthash="430">0x400</td><td class="wikicell" _msttexthash="102518" _msthash="431">_THISSTAT</td>
+<td class="wikicell" _msttexthash="2580370" _msthash="432">Kafelek należy do bieżącej stacji, jeśli jest ustawiony bit</td></tr>
+
+<tr><td class="wikicell" _msttexthash="4641" _msthash="433">3</td><td class="wikicell" _msttexthash="36504" _msthash="434">0x800</td><td class="wikicell" _msttexthash="208299" _msthash="435">_PROSTOPADŁY</td>
+<td class="wikicell" _msttexthash="3883867" _msthash="436">Kafelek jest równoległy (bit clear) lub prostopadły (bit set) do bieżącego</td></tr>
+
+<tr><td class="wikicell"><nobr _msttexthash="21788" _msthash="437">4 .. 5</nobr></td><td class="wikicell"><nobr _msttexthash="249041" _msthash="438">0x1000 / 0x2000 / 0x3000</nobr></td>
+<td class="wikicell"><nobr _msttexthash="696761" _msthash="439">_TILETYPE2 / _TILETYPE4 / _TILETYPE6</nobr></td>
+<td class="wikicell" _msttexthash="11675170" _msthash="440">Informacje o peronie typu TTD (0: platforma gładka; 1: platforma z budynkiem; 2: platforma z dachem, lewa strona; 3: platforma z dachem, prawa strona)</td></tr>
+<tr><td class="wikicell"><nobr _msttexthash="22230" _msthash="441">6 .. 7</nobr></td><td class="wikicell" colspan="2">&nbsp;</td>
+<td class="wikicell" _msttexthash="657033" _msthash="442">Zarezerwowane, nie używaj</td></tr>
+</tbody></table>
+
+</p><p _msttexthash="70006378" _msthash="443"> Należy użyć pomocniczej funkcji <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#shiftmask" _istranslated="1">shiftmask(),</a> aby uzyskać dostęp do potrzebnych bitów. Np. sprawdzając ID kafelka, należy zawsze sprawdzić, czy został on zdefiniowany w bieżącym newGRF, stąd trzeba by sprawdzić nie tylko sam identyfikator, ale także wartość <span class="blue" _istranslated="1">_THISGRF + ID.</span>
+Jeśli chcesz sprawdzić zagraniczny nowy GRF, powinieneś użyć <span class="blue" _istranslated="1">_OTHERGRF + ID.</span> </p><p _msttexthash="7345455" _msthash="444"> Jeśli kafelek w ogóle nie jest kafelkiem stacji, zwracana wartość będzie 0xFFFF, tj. wszystkie bity ustawione. </p><p><font _mstmutation="1" _msttexthash="7371754" _msthash="445"> Należy pamiętać, że pierwszy parametr tej funkcji musi być określony przez funkcję pomocniczą <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#pos" _mstmutation="1" _istranslated="1">pos(&lt;x&gt;, &lt;y&gt;)</a></font>
+</p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="1447303" _msthash="446"> Przykład (sprawdź płytki "dachowe" stacji):</font><br>
+<pre>define(ROOFS,0x0E)
+
+def(1) tinfo_statid(pos(0,-1), shiftmask(0,_THISGRF+ROOFS),
+	cbr(1) if(_THISGRF+ROOFS) // station-ID is 0x0E
+	cbr(2) if(0xFFFF)         // not station
+	cbr(0) else		  // other station-ID
+)
+</pre>
+</div>
+
+<p _msttexthash="13958854" _msthash="447"> Czasami konieczne jest również sprawdzenie "typu kafelka" kafelka stacji (ponieważ identyfikatory mogą być takie same). Można to również zrobić: </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="1934101" _msthash="448"> Przykład (sprawdź również typy kafelków stacji):</font><br>
+<pre>define(_THISGRF_TT, 0x3100) // mask "tiletype" and "defined in this GRF"
+
+def(17) tinfo_statid(pos(1,0), shiftmask(0,_THISGRF_TT+0xFF),
+	cbr(2) if(0x2100+PTRACK_OPASS) // tiletype for overpass is "4" (2)
+	cbr(6) if(0x3100+PTRACK_OPASS) // tiletype for overpass is "6" (3)
+	cbfail() else
+)
+</pre>
+</div>
+
+<p>
+<a name="tinfo_terrain"></a></p><h3><a name="tinfo_terrain" _msttexthash="2230020" _msthash="449">tinfo_terrain([&lt;Współrzędna&gt; | ZAREJESTRUJ SIĘ,] &lt;blok&gt;)</a></h3>
+<p _msttexthash="12339704" _msthash="450"> Ta funkcja zwraca typ terenu dla bieżącego kafelka stacji (s.a.). Zwracane wartości to NORMAL, DESERT, RAINFOREST i SNOW (na lub powyżej linii śniegu). </p><p><font _mstmutation="1" _msttexthash="21253050" _msthash="451"> Jeśli podany jest dodatkowy parametr współrzędnych, zwracany jest typ terenu danego kafelka. Należy pamiętać, że współrzędne muszą być podane przez funkcję pomocniczą <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#pos" _mstmutation="1" _istranslated="1">pos(&lt;x&gt;, &lt;y&gt;,)</a></font>
+
+
+</p><p>
+<a name="tinfo_trackconnect"></a></p><h3><a name="tinfo_trackconnect" _msttexthash="1953419" _msthash="452">tinfo_trackconnect([&lt;maska-przesunięcia&gt;,] &lt;blok&gt;)</a></h3>
+<p _msttexthash="10889502" _msthash="453"> Ta funkcja zwraca informacje kodowane bitowo, czy tory kolejowe są kontynuowane na ośmiu kafelkach sąsiadujących z kafelkiem stacji. </p><p>
+<table class="wikitable"><tbody><tr><td class="wikicell"><b _msttexthash="30498" _msthash="454">Bit</b></td><td class="wikicell"><b _msttexthash="160875" _msthash="455">Wartość</b></td><td class="wikicell"><b _msttexthash="1362361" _msthash="456">Ustaw, jeśli szyna biegnie dalej w kierunku:</b>
+</td></tr><tr><td class="wikicell" _msttexthash="4368" _msthash="457">0</td><td class="wikicell" _msttexthash="28834" _msthash="458">0x01</td><td class="wikicell" _msttexthash="202423" _msthash="459">+Długość </td></tr><tr><td class="wikicell" _msttexthash="4459" _msthash="460">1</td><td class="wikicell" _msttexthash="28964" _msthash="461">0x02</td><td class="wikicell" _msttexthash="202605" _msthash="462">-Długość </td></tr><tr><td class="wikicell" _msttexthash="4550" _msthash="463">2</td><td class="wikicell" _msttexthash="29224" _msthash="464">0x04</td><td class="wikicell" _msttexthash="155909" _msthash="465">+Platformy </td></tr><tr><td class="wikicell" _msttexthash="4641" _msthash="466">3</td><td class="wikicell" _msttexthash="29744" _msthash="467">0x08</td><td class="wikicell" _msttexthash="156091" _msthash="468">-Platformy </td></tr><tr><td class="wikicell" _msttexthash="4732" _msthash="469">4</td><td class="wikicell" _msttexthash="28821" _msthash="470">0x10</td><td class="wikicell" _msttexthash="484029" _msthash="471">+Długość, +Platformy </td></tr><tr><td class="wikicell" _msttexthash="4823" _msthash="472">5</td><td class="wikicell" _msttexthash="28938" _msthash="473">0x20</td><td class="wikicell" _msttexthash="484211" _msthash="474">-Długość, +Platformy </td></tr><tr><td class="wikicell" _msttexthash="4914" _msthash="475">6</td><td class="wikicell" _msttexthash="29172" _msthash="476">0x40</td><td class="wikicell" _msttexthash="484445" _msthash="477">+Długość, -Platformy </td></tr><tr><td class="wikicell" _msttexthash="5005" _msthash="478">7</td><td class="wikicell" _msttexthash="29640" _msthash="479">0x80</td><td class="wikicell" _msttexthash="484627" _msthash="480">-Długość, -Platformy</td></tr></tbody></table>
+
+</p><p _msttexthash="7257029" _msthash="481"> Na poniższej ilustracji pokazano, które bity reprezentują kafelek dla dwóch możliwych orientacji stacji: </p><p>
+<img src="./m4nfoStationFunctions_files/directions.png">
+
+</p><p _msttexthash="70348512" _msthash="482"> Bity od 0 do 3 są ustawiane, jeśli na danym kafelku znajduje się ścieżka i ma ona połączenie z kafelkiem stacji. Dla bitów 2, 3 stacja oczywiście nie ma połączenia z tymi płytkami, ale nie ma to znaczenia dla tej zmiennej. Bity od 4 do 7 sprawdzają połączenia z sąsiednim kafelkiem platformy, tj. bity 4 i 5 lub 6 i 7 wskazują połączenie z tego kafelka z kafelkiem 2 lub 3. </p><p _msttexthash="89443835" _msthash="483"> Dodatkowy parametr &lt;shift-mask&gt; może zostać zastosowany w celu dalszego udoskonalenia bitów wynikowych funkcji. Aby to zadziałało, pierwszy parametr funkcji shiftmask() (parametr &lt;shift&gt;) musi być ustawiony na zero (0), tj. w ogóle nie ma przesunięcia. Parametr &lt;mask&gt; powinien być ustawiony na rozsądną wartość, w zależności od celu, jaki ma zostać osiągnięty za pomocą maskowania bitów. </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="1195324" _msthash="484"> Przykład (określenie kierunku bufora):</font><br>
+<pre>def(24) tinfo_trackconnect(
+	ref(21) if(1)   // top
+	ref(22) if(2)   // bottom
+	ref(25) if(4,8) // sideways - only on (false) slope
+	ref(23) else    // double buffer
+)
+</pre>
+</div>
+<br>
+
+
+<p>
+<a name="tinfo_trackexist"></a></p><h3><a name="tinfo_trackexist" _msttexthash="1816022" _msthash="485">tinfo_trackexist([&lt;maska-przesunięcia&gt;,] &lt;blok&gt;)</a></h3>
+<p _msttexthash="35847045" _msthash="486"> Ta funkcja zwraca bitowo zakodowaną informację, czy na kafelku znajdują się tory szynowe, i pomija to, czy tor jest podłączony do stacji, czy nie całkowicie. Wyniki kodowane bitowo są obsługiwane w taki sam sposób, jak w przypadku tinfo_trackconnect(). </p><p>
+<a name="tinfo_tracktype"></a></p><h3><a name="tinfo_tracktype" _msttexthash="503685" _msthash="487">tinfo_tracktype(&lt;blok&gt;)</a></h3>
+<p _msttexthash="17382326" _msthash="488"> Ta funkcja zwraca typ toru kolejowego, gdzie 0 = szyna regularna, 1 = szyna zelektryfikowana, 2 = szyna jednoszynowa, 3 = maglev i każda dodatkowa szyna zgodnie z <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/RailtypeProperties.html" _istranslated="1">numerem szczeliny</a>. </p><p>
+<a name="tinfo_water"></a></p><h3><a name="tinfo_water" _msttexthash="1629628" _msthash="489">tinfo_water(&lt;Współrzędne&gt; | REJESTRACJA, &lt;blok&gt;)</a></h3>
+<p><font _mstmutation="1" _msttexthash="38152179" _msthash="490"> Ta funkcja zwraca wartość "1", jeśli kafelek podany przez &lt;współrzędna&gt; jest kafelkiem pełnej wody lub wybrzeża, w przeciwnym razie zwracana jest wartość "0". Ponownie, parametr współrzędnych musi być określony przez funkcję pomocniczą <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#pos" _mstmutation="1" _istranslated="1">pos(&lt;x&gt;, &lt;y&gt;,)</a></font>
+</p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="1448993" _msthash="491"> Przykład (sprawdź wodę w pobliżu stacji):</font><br>
+<pre>def(47) tinfo_water(pos(-1,0), // back
+	ref(2) if(1)           // is water
+	ref(46) else
+)
+</pre>
+</div>
+<br>
+
+
+<p>
+<a name="tinfo_waterclass"></a></p><h3><a name="tinfo_waterclass" _msttexthash="1992445" _msthash="492">tinfo_waterclass(&lt;Współrzędne&gt; | REJESTRACJA, &lt;blok&gt;)</a></h3>
+<p _msttexthash="7434583" _msthash="493"> Ta funkcja zwraca "klasę wody" płytki podaną przez &lt;współrzędne&gt;.
+Wartości klasy wody są następujące: </p><p>
+<table class="wikitable">
+<tbody><tr><td class="wikicell" colspan="2"><b _msttexthash="160875" _msthash="494">Wartość</b></td><td class="wikicell"><b _msttexthash="134446" _msthash="495">Znaczenie</b></td></tr>
+
+<tr><td class="wikicell" _msttexthash="4368" _msthash="496">0</td><td class="wikicell" _msttexthash="68835" _msthash="497">WC_LAND</td><td class="wikicell" _msttexthash="393887" _msthash="498">Nieokreślony / ląd</td></tr>
+<tr><td class="wikicell" _msttexthash="4459" _msthash="499">1</td><td class="wikicell" _msttexthash="56797" _msthash="500">WC_SEA</td><td class="wikicell" _msttexthash="170014" _msthash="501">Morze, ocean</td></tr>
+<tr><td class="wikicell" _msttexthash="4550" _msthash="502">2</td><td class="wikicell" _msttexthash="80990" _msthash="503">WC_CANAL</td><td class="wikicell" _msttexthash="88439" _msthash="504">Kanał</td></tr>
+<tr><td class="wikicell" _msttexthash="4641" _msthash="505">3</td><td class="wikicell" _msttexthash="87100" _msthash="506">WC_RIVER</td><td class="wikicell" rowspan="2" _msttexthash="59748" _msthash="507">Rzeka</td></tr>
+</tbody></table>
+
+</p><p _msttexthash="27282593" _msthash="508"> W przeciwieństwie do klasy krajobrazu "woda", "klasa wodna" nie zmienia się, gdy dachówka wodna jest zabudowana, np. przez obiekt przedstawiający statek. Użycie tinfo_waterclass() może się w tym przypadku przydać. </p><p><font _mstmutation="1" _msttexthash="5613530" _msthash="509"> Ponownie, parametr współrzędnych musi być określony przez funkcję pomocniczą <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#pos" _mstmutation="1" _istranslated="1">pos(&lt;x&gt;, &lt;y&gt;)</a></font>
+<br>
+
+</p><p>
+<a name="yearbuilt"></a></p><h3><a name="yearbuilt" _msttexthash="299858" _msthash="510">Rok budowy(&lt;blok&gt;)</a></h3>
+<p _msttexthash="2208869" _msthash="511"> Ta funkcja zwraca rok budowy stacji. Rokiem bazowym jest 1920. </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="1614301" _msthash="512"> Przykład (sprawdź lata budowy punktów trasy):</font><br>
+<pre>def(4) yearbuilt(
+	cbr(2) if(&lt;1940)
+	cbr(4) if(1940 .. 1959)
+	cbr(6) if(1960 .. 1979)
+	cbr(8) if(1980 .. 1999)
+	cbr(10) else
+)
+</pre>
+</div>
+<br>
+
+
+
+<p>
+<a name="random"></a></p><h3><a name="random" _msttexthash="2101294" _msthash="513">random(&lt;list::trigger&gt;, &lt;randombit&gt;, &lt;list::reference&gt;)</a></h3>
+<p _msttexthash="36539451" _msthash="514"> W przeciwieństwie do powyższych funkcji wydajnościowych, których wyniki są zawsze określane przez przewidywalną decyzję, można również użyć funkcji losowych, aby wybrać jeden z kilku zestawów graficznych lub wyników wywołania zwrotnego. </p><div class="titlebar" _msttexthash="46072" _msthash="515">Opis</div>
+<p>
+
+</p><h3 _msttexthash="262925" _msthash="516">&lt;list::trigger&gt;</h3>
+<p>
+
+<table class="wikitable">
+<tbody><tr>
+<td class="wikicell"><b _msttexthash="64428" _msthash="517">Spust</b></td>
+<td class="wikicell"><b _msttexthash="134446" _msthash="518">Znaczenie</b></td>
+</tr>
+<tr>
+<td class="wikicell" _msttexthash="101244" _msthash="519">ZBUDOWANY</td>
+<td class="wikicell" _msttexthash="921141" _msthash="520">po skonstruowaniu (bez wyzwalacza)</td></tr>
+<tr>
+<td class="wikicell" _msttexthash="81627" _msthash="521">NEWCARGO</td>
+<td class="wikicell" _msttexthash="353197" _msthash="522">nowy ładunek czeka</td></tr>
+<tr>
+<td class="wikicell" _msttexthash="67756" _msthash="523">NOCARGO</td>
+<td class="wikicell" _msttexthash="357786" _msthash="524">Koniec z ładunkiem</td></tr>
+<tr>
+<td class="wikicell" _msttexthash="105508" _msthash="525">PRZYBYĆ</td>
+<td class="wikicell" _msttexthash="2331355" _msthash="526">przyjeżdża pociąg (rozpoczyna rozładunek/załadunek)</td></tr>
+<tr>
+<td class="wikicell" _msttexthash="137696" _msthash="527">OPUSZCZAĆ</td>
+<td class="wikicell" _msttexthash="1479881" _msthash="528">odjazdy pociągów (rozładunek i załadunek)</td></tr>
+<tr>
+<td class="wikicell" _msttexthash="115921" _msthash="529">ŁADOWANIA</td>
+<td class="wikicell" _msttexthash="1277523" _msthash="530">pociąg ładuje lub rozładowuje ładunek</td></tr>
+<tr>
+<td class="wikicell" _msttexthash="159003" _msthash="531">Rezerwa PBSP</td>
+<td class="wikicell" _msttexthash="1244347" _msthash="532">peron rezerw pociągów (przy użyciu PBS)</td></tr>
+<tr>
+<td class="wikicell" _msttexthash="310128" _msthash="533">WSZYSTKIE WYZWALACZE</td>
+<td class="wikicell" _msttexthash="3354377" _msthash="534">Ponownie randomizuj tylko wtedy, gdy wystąpiły wszystkie wyzwalacze</td></tr>
+</tbody></table>
+
+</p><p _msttexthash="156955838" _msthash="535"> Należy również zauważyć, że żaden z powyższych wyzwalaczy nie zostanie faktycznie wywołany, chyba że funkcja właściwości <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationProperties.html#setcargotriggers" _istranslated="1">setcargotriggers()</a> ma co najmniej jeden zestaw wyzwalaczy. NEWCARGO zostanie uruchomiony dla dowolnego typu ładunku ustawionego w setcargotriggers(), ale NOCARGO zostanie uruchomiony tylko wtedy, gdy wszystkie te typy ładunków nie będą już oczekiwać. Wyzwalacze ARRIVE, LEAVE i PBSRESERVE są uruchamiane bez względu na rodzaj ładunku przewożonego przez pociąg, o ile ustawiono co najmniej jeden wyzwalacz. </p><p _msttexthash="12275978" _msthash="536"> Wyzwalacze ARRIVE, LEAVE, LOADING i PBSRESERVE wpływają tylko na peron, na którym występują, a także na losowe bity stacji, ale nie na inne perony. </p><p _msttexthash="23319751" _msthash="537"> Ponieważ już zaistniałe wyzwalacze są przechowywane tylko raz na stację (bez rozróżniania płytek lub typów ładunków), dodawanie ALLTRIGGERS do losowych wyzwalaczy nie ma większego sensu dla stacji. </p><h3 _msttexthash="109187" _msthash="538">&lt;bitowy&gt;</h3>
+<p _msttexthash="26029679" _msthash="539"> Stacje mają 16 losowych bitów (bity 0 .. 15) wspólnych dla całej stacji i 4 losowe bity (bity 16 .. 19) na kafelek stacji. TTDPatch faktycznie implementuje tylko 8 współdzielonych losowych bitów, tj. bity 8 .. 15 to zawsze zero. </p><p _msttexthash="83480293" _msthash="540"> Ustawienie randombit określa pierwszy bit do ponownego losowania, a także opiera losową grafikę. Tylko te bity, które faktycznie zostaną uruchomione, zostaną ponownie losowe. Umożliwi to posiadanie niezależnych zestawów bitów dla niezależnych wyzwalaczy.
+Całkowita liczba użytych bitów jest 2-logarytmem liczby użytych odwołań, np. dla 16 odwołań używane są 4 bity. </p><p _msttexthash="16221062" _msthash="541"> Aby uzyskać losowość opartą na kafelkach, należy użyć randombit = 16 i liczby odwołań nie większej niż 16 (ponieważ tylko 4 losowe bity są dostępne na płytkę). </p><h3 _msttexthash="318019" _msthash="542">&lt;list::reference&gt;</h3>
+<p _msttexthash="1836978" _msthash="543"> Liczba zbiorów do wyboru musi wynosić 2, tj. 2, 4, 8, 16 itd. </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="989664" _msthash="544"> Przykład (4 różne stany ładunku):</font><br>
+<pre>def(13) random(ARRIVE,16,ref(1),ref(2),ref(2),ref(3))
+
+def(13) random({ARRIVE, LEAVE},16,ref(1),ref(2),ref(2),ref(3))
+</pre>
+</div>
+<br>
+
+<a name="re-randomisation"></a>
+<h3 _msttexthash="419692" _msthash="545">ponowna randomizacja</h3>
+<p _msttexthash="101843885" _msthash="546"> Należy pamiętać, że ponowna randomizacja, zarówno w TTDPatch, jak i w OpenTTD, odbywa się tylko w łańcuchu graficznym, ale nie w przypadku wywołań zwrotnych. Oznacza to, że jeśli losowa akcja jest używana wewnątrz łańcucha wywołań zwrotnych i powinna ponownie randomizować bity wyzwalające, należy również dodać "fikcyjną" losową akcję do łańcucha graficznego, wyłącznie w celu ponownego losowania bitów. </p><p _msttexthash="8182525" _msthash="547"> Dlatego też, aby używać funkcji losowych w łańcuchach wywołań zwrotnych, m4nfo dostarcza dwie specjalne funkcje: </p><h4 _msttexthash="2862405" _msthash="548">randomcb(&lt;label&gt;, &lt;list::trigger&gt;, &lt;randombit&gt;, &lt;list::reference&gt;)</h4>
+<p _msttexthash="35356022" _msthash="549"> Ta funkcja jest używana w łańcuchach wywołań zwrotnych, podobnie jak normalna funkcja random() jest używana w łańcuchu graficznym, z tym wyjątkiem, że nigdy nie losowo losuje określonych wyzwalaczy. Zamiast tego odbywa się to za pomocą funkcji </p><h4 _msttexthash="537550" _msthash="550">rerandom(&lt;label&gt;, &lt;block&gt;)</h4>
+<p _msttexthash="13744198" _msthash="551"> który musi być umieszczony w łańcuchu graficznym. Określając różne etykiety, można równolegle stosować różne randomizacje. Zobacz przykład. </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="1273519" _msthash="552"> Przykład (2 różne ponowne randomizacje):</font><br>
+<pre>// top platform
+def(6) randomcb(_TOP, ARRIVE, 16, ref(1), ref(2), ref(2), ref(3))
+
+// bottom platform
+def(7) randomcb(_BOTTOM, {ARRIVE, NOCARGO}, 16, ref(1), ref(2))
+
+def(8) plt_num(
+	self(
+		ref(6) if(0) // top platform
+		ref(7) else  // bottom
+	)
+)
+
+[...]
+
+def(9) rerandom(_TOP,
+	ref(0) // graphics
+)
+
+def(10) rerandom(_BOTTOM,
+	ref(0) // graphics
+)
+
+def(11) plt_num(
+	self(
+		ref(9) if(0) // top platform
+		ref(10) else // bottom
+	)
+)
+
+// check callbacks
+def(12) callback(
+	ref(8) if(CB_LAYOUT) // callback
+	ref(11) else	     // graphics/re-randomisation
+)
+</pre>
+</div>
+<br>
+
+<p>
+<a name="AuxiliaryFunctions"></a></p><h2><a name="AuxiliaryFunctions" _msttexthash="352066" _msthash="553">Funkcje pomocnicze</a></h2>
+<p _msttexthash="27359163" _msthash="554"> Funkcje pomocnicze są używane w kontekście niektórych z powyższych funkcji. W związku z tym nie otrzymują def() ani ref() niczego innego. Są one używane głównie do oceny specjalnych parametrów funkcji wydajności. </p><p>
+<a name="addmodulo"></a></p><h3><a name="addmodulo" _msttexthash="546884" _msthash="555">addmodulo(&lt;add&gt;,&lt;modulo&gt;)</a></h3>
+<p _msttexthash="46327515" _msthash="556"> Ta funkcja dostosowuje wynik funkcji wydajności do bardziej użytecznego zakresu. 
+Pierwszy parametr definiuje wartość, którą należy dodać do wyniku, a drugi parametr określa modulo (pozostałą część dzielenia przez) na sumie wyniku funkcji wydajności i pierwszego parametru. </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="1095549" _msthash="557"> Przykład (sprawdzanie numeru peronu):</font><br>
+<pre>def(10) plt_midnum(addmodulo(1,2),
+    self(
+	ref(5) if(1)
+	ref(6) else
+    )
+)   
+</pre>
+</div>
+<br>
+
+<p>
+<a name="nibble"></a></p><h3><a name="nibble" _msttexthash="571753" _msthash="558">nibble(&lt;Współrzędne&gt;)</a></h3>
+<p _msttexthash="28950584" _msthash="559"> Ta funkcja służy do sprawdzania zwróconej wartości współrzędnych wypełnionych bajtami w zwykłej postaci (&lt;x&gt;, &lt;y&gt;). Zakres parametrów wynosi [-8 ... +7], zarówno dla przesunięć x, jak i y. Przykład można znaleźć <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#" _istranslated="1">tutaj</a>. </p><p>
+<a name="pos"></a></p><h3><a name="pos" _msttexthash="456118" _msthash="560">pos(&lt;Współrzędne&gt;)</a></h3>
+<p _msttexthash="43737577" _msthash="561"> Ta funkcja dostarcza podane współrzędne w postaci wypełnionej bajtami do innej funkcji. Zakres parametrów wynosi [-8 ... +7], zarówno dla współrzędnych x, jak i y. Należy pamiętać, że współrzędna (0,0) odnosi się do bieżącego kafelka. Przykład znajduje się poniżej. </p><p>
+<a name="self"></a></p><h3><a name="self" _msttexthash="183274" _msthash="562">self(&lt;Block&gt;)</a></h3>
+<p _msttexthash="29847727" _msthash="563"> Ta funkcja definiuje poziom hierarchii. Zamiast całej stacji, tylko sekcja kafelków stacji budowanych w powiązaniu z bieżącym kafelkiem jest adresowana przez odpowiednią funkcję wydajności, <a href="http://www.ttdpatch.de/grfspecs/m4nfoManual/StationFunctions.html#plt" _istranslated="1">patrz tutaj</a> dla przykładów. </p><p>
+<a name="shiftmask"></a></p><h3><a name="shiftmask" _msttexthash="585832" _msthash="564">shiftmask(&lt;shift&gt;,&lt;maska&gt;)</a></h3>
+<p _msttexthash="28880293" _msthash="565"> Ta funkcja dostosowuje wynik funkcji wydajności do bardziej użytecznego zakresu. 
+Pierwszy parametr definiuje wartość do przesunięcia w prawo wyniku, a drugi parametr podaje wartość, z którą AND wynik po przesunięciu. </p><p _msttexthash="4292600" _msthash="566"> Należy pamiętać, że parametr &lt;maska&gt; może mieć rozmiar WORD w danym kontekście. </p><p>
+</p><div class="noteblock"><font _mstmutation="1" _msttexthash="2048293" _msthash="567"> Przykład (sprawdzanie własnego nachylenia płytki):</font><br>
+<pre>//  (middle)
+def(8) tinfo_slope(pos(0,0),shiftmask(0,NORTH+SOUTH),
+	ref(5) if(NORTH)
+	ref(6) if(SOUTH)
+	ref(7) else
+)   
+</pre>
+</div>
+<br>
+
+</div></body></html>
